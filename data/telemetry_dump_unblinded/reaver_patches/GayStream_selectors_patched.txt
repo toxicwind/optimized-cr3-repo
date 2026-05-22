@@ -1,0 +1,127 @@
+# SELECTOR HARDENING - Fallbacks & Validation
+SELECTOR_VALIDATION = True
+SELECTOR_FALLBACK_CHAIN = []
+SELECTOR_ATTRIBUTE_CACHE = {}
+
+--
+,$i$a$-firstOrNull-ListMirror$getUrl$script$2
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$1
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$2
+$i$a$-let-GayStream$loadLinks$2
+$i$a$-let-GayStream$loadLinks$3
+$i$a$-let-VoeExtractor$getUrl$2
+!$i$a$-let-VoeExtractor$getUrl$2$1
+!$i$a$-map-dsio$getUrl$randomStr$1
++$i$a$-mapNotNull-ListMirror$getUrl$script$1
+.$i$a$-takeIf-GayStream$loadLinks$videoUrls$1$1
+0$i$a$-mapNotNull-GayStream$loadLinks$videoUrls$1
+0$i$a$-mapNotNull-GayStream$loadLinks$videoUrls$2
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+2Lcom/lagradost/cloudstream3/extractors/StreamTape;
+3Lcom/GayStream/GayStream$$ExternalSyntheticLambda0;
+3Lcom/GayStream/GayStream$$ExternalSyntheticLambda1;
+4Lcom/GayStream/ListMirror$$ExternalSyntheticLambda0;
+4Lcom/GayStream/ListMirror$$ExternalSyntheticLambda1;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+7Lcom/lagradost/cloudstream3/extractors/DoodLaExtractor;
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+a.video-download[href]
+        @com.fasterxml.jackson.annotation.JsonProperty("video_height")
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+com.GayStream.Bigwarp$getUrl$2
+com/GayStream/dsio
+com.GayStream.dsio$getUrl$2
+com/GayStream/FilemoonV2
+com/GayStream/GayStream
+#com.GayStream.GayStream$loadLinks$4
+com/GayStream/ListMirror
+com/GayStream/VoeExtractor
+ const\s+sources\s*=\s*(\{.*?\});
+div.grid-item
+div.grid-wrap
+div.tabs-wrap button[onclick]
+getUrl
+getUrl$lambda$2
+getUrl$lambda$3
+getUrl$suspendImpl
+GLcom/GayStream/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;
+        int I$0;
+        int I$1;
+    /* JADX INFO: compiled from: Extractors.kt */
+    /* JADX INFO: renamed from: com.GayStream.Bigwarp$getUrl$1 */
+    /* JADX INFO: renamed from: com.GayStream.ListMirror$getUrl$1 */
+        java.lang.Object L$0;
+        java.lang.Object L$1;
+                java.lang.Object r0 = com.GayStream.Bigwarp.getUrl$suspendImpl(r1, r2, r3, r4, r5, r6)
+                java.lang.Object r0 = r0.getUrl(r1, r1, r2)
+                java.lang.String r0 = r1.url
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GayStream.Bigwarp", f = "Extractors.kt", i = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}, l = {163, 164, 171}, m = "getUrl$suspendImpl", n = {"$this", "url", "referer", "subtitleCallback", "callback", "$this", "url", "referer", "subtitleCallback", "callback", "link", "$this", "url", "referer", "subtitleCallback", "callback", "link", "source", "regex", "matchResult", "match"}, nl = {164, 165, 170}, s = {"L$0", "L$1", "L$2", "L$3", "L$4", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9"}, v = 2)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GayStream.ListMirror", f = "Extractors.kt", i = {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, l = {29, 46}, m = "getUrl", n = {"url", "referer", "links", "url", "referer", "links", "doc", "script", "regex", "match", "json", "arr", "obj", "mirrorUrl", "i"}, nl = {32, 42}, s = {"L$0", "L$1", "L$2", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "I$0"}, v = 2)
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nExtractors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Extractors.kt\ncom/GayStream/ListMirror\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,301:1\n1642#2,10:302\n1915#2:312\n1916#2:314\n1652#2:315\n296#2,2:316\n1#3:313\n*S KotlinDebug\n*F\n+ 1 Extractors.kt\ncom/GayStream/ListMirror\n*L\n32#1:302,10\n32#1:312\n32#1:314\n32#1:315\n33#1:316,2\n32#1:313\n*E\n"})
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nExtractors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Extractors.kt\ncom/GayStream/VoeExtractor\n+ 2 AppUtils.kt\ncom/lagradost/cloudstream3/utils/AppUtils\n+ 3 Extensions.kt\ncom/fasterxml/jackson/module/kotlin/ExtensionsKt\n*L\n1#1,301:1\n23#2,2:302\n15#2:304\n25#2,2:307\n50#3:305\n43#3:306\n*S KotlinDebug\n*F\n+ 1 Extractors.kt\ncom/GayStream/VoeExtractor\n*L\n79#1:302,2\n79#1:304\n79#1:307,2\n79#1:305\n79#1:306\n*E\n"})
+@kotlin.Metadata(d1 = {"\u00006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0016\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003JH\u0010\u0011\u001a\u00020\u00122\u0006\u0010\u0013\u001a\u00020\u00052\b\u0010\u0014\u001a\u0004\u0018\u00010\u00052\u0012\u0010\u0015\u001a\u000e\u0012\u0004\u0012\u00020\u0017\u0012\u0004\u0012\u00020\u00120\u00162\u0012\u0010\u0018\u001a\u000e\u0012\u0004\u0012\u00020\u0019\u0012\u0004\u0012\u00020\u00120\u0016H\u0096@\u00a2\u0006\u0002\u0010\u001aR\u001a\u0010\u0004\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\u0007\"\u0004\b\f\u0010\tR\u0014\u0010\r\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010\u00a8\u0006\u001b"}, d2 = {"Lcom/GayStream/Bigwarp;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "<init>", "()V", "name", "", "getName", "()Ljava/lang/String;", "setName", "(Ljava/lang/String;)V", "mainUrl", "getMainUrl", "setMainUrl", "requiresReferer", "", "getRequiresReferer", "()Z", "getUrl", "", "url", "referer", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GayStream"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\b\n\u0002\b\f\n\u0002\u0010\u000b\n\u0002\b\u0004\b\u0082\b\u0018\u00002\u00020\u0001B\u001f\u0012\n\b\u0001\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\n\b\u0001\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0004\b\u0006\u0010\u0007J\u000b\u0010\r\u001a\u0004\u0018\u00010\u0003H\u00c6\u0003J\u0010\u0010\u000e\u001a\u0004\u0018\u00010\u0005H\u00c6\u0003\u00a2\u0006\u0002\u0010\u000bJ&\u0010\u000f\u001a\u00020\u00002\n\b\u0003\u0010\u0002\u001a\u0004\u0018\u00010\u00032\n\b\u0003\u0010\u0004\u001a\u0004\u0018\u00010\u0005H\u00c6\u0001\u00a2\u0006\u0002\u0010\u0010J\u0014\u0010\u0011\u001a\u00020\u00122\b\u0010\u0013\u001a\u0004\u0018\u00010\u0001H\u00d6\u0083\u0004J\n\u0010\u0014\u001a\u00020\u0005H\u00d6\u0081\u0004J\n\u0010\u0015\u001a\u00020\u0003H\u00d6\u0081\u0004R\u0018\u0010\u0002\u001a\u0004\u0018\u00010\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u001a\u0010\u0004\u001a\u0004\u0018\u00010\u00058\u0006X\u0087\u0004\u00a2\u0006\n\n\u0002\u0010\f\u001a\u0004\b\n\u0010\u000b\u00a8\u0006\u0016"}, d2 = {"Lcom/GayStream/VoeExtractor$VideoSource;", "", "url", "", "height", "", "<init>", "(Ljava/lang/String;Ljava/lang/Integer;)V", "getUrl", "()Ljava/lang/String;", "getHeight", "()Ljava/lang/Integer;", "Ljava/lang/Integer;", "component1", "component2", "copy", "(Ljava/lang/String;Ljava/lang/Integer;)Lcom/GayStream/VoeExtractor$VideoSource;", "equals", "", "other", "hashCode", "toString", "GayStream"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@kotlin.Metadata(d1 = {"\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0004\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J&\u0010\u000e\u001a\b\u0012\u0004\u0012\u00020\u00100\u000f2\u0006\u0010\u0011\u001a\u00020\u00052\b\u0010\u0012\u001a\u0004\u0018\u00010\u0005H\u0096@\u00a2\u0006\u0002\u0010\u0013R\u0014\u0010\u0004\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0006\u0010\u0007R\u0014\u0010\b\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\t\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000bX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\r\u00a8\u0006\u0014"}, d2 = {"Lcom/GayStream/ListMirror;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "<init>", "()V", "name", "", "getName", "()Ljava/lang/String;", "mainUrl", "getMainUrl", "requiresReferer", "", "getRequiresReferer", "()Z", "getUrl", "", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "url", "referer", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GayStream"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@kotlin.Metadata(d1 = {"\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0016\u0018\u00002\u00020\u0001:\u0001\u0014B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J&\u0010\u000e\u001a\b\u0012\u0004\u0012\u00020\u00100\u000f2\u0006\u0010\u0011\u001a\u00020\u00052\b\u0010\u0012\u001a\u0004\u0018\u00010\u0005H\u0096@\u00a2\u0006\u0002\u0010\u0013R\u0014\u0010\u0004\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0006\u0010\u0007R\u0014\u0010\b\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\t\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000bX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\r\u00a8\u0006\u0015"}, d2 = {"Lcom/GayStream/VoeExtractor;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "<init>", "()V", "name", "", "getName", "()Ljava/lang/String;", "mainUrl", "getMainUrl", "requiresReferer", "", "getRequiresReferer", "()Z", "getUrl", "", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "url", "referer", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "VideoSource", "GayStream"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+Lcom/GayStream/Bgwp;
+~~~{"Lcom/GayStream/Bgwp;":"f2d7f101","Lcom/GayStream/Bigwarp$getUrl$1;":"ee7c0e2","Lcom/GayStream/Bigwarp$getUrl$2;":"7890d6d5","Lcom/GayStream/Bigwarp;":"a3ab3fbe","Lcom/GayStream/Bigwarpcc;":"ada7750c","Lcom/GayStream/DoodstreamCom;":"b960f457","Lcom/GayStream/FileMoon;":"868aacb4","Lcom/GayStream/FileMoonSx;":"18e9b292","Lcom/GayStream/FilemoonV2$getUrl$1;":"62e1bc68","Lcom/GayStream/FilemoonV2;":"f80264e5","Lcom/GayStream/GayStream$$ExternalSyntheticLambda0;":"-6022b0961","Lcom/GayStream/GayStream$$ExternalSyntheticLambda1;":"765e60c8","Lcom/GayStream/GayStream$getMainPage$1;":"7fdff3f9","Lcom/GayStream/GayStream$load$1;":"ad3300a4","Lcom/GayStream/GayStream$load$2;":"5ca6cf2b","Lcom/GayStream/GayStream$loadLinks$1;":"bf59ccf0","Lcom/GayStream/GayStream$loadLinks$4$$ExternalSyntheticLambda0;":"-59c8fbb4b","Lcom/GayStream/GayStream$loadLinks$4;":"dc786c18","Lcom/GayStream/GayStream$search$1;":"fcf90f61","Lcom/GayStream/GayStream;":"3b846253","Lcom/GayStream/GayStreamProvider;":"14071347","Lcom/GayStream/ListMirror$$ExternalSyntheticLambda0;":"1a9f502fd","Lcom/GayStream/ListMirror$$ExternalSyntheticLambda1;":"76651a441","Lcom/GayStream/ListMirror$getUrl$1;":"46be7471","Lcom/GayStream/ListMirror;":"bc05cd35","Lcom/GayStream/Space;":"d0729a52","Lcom/GayStream/VoeExtractor$VideoSource;":"601b15e7","Lcom/GayStream/VoeExtractor$getUrl$1;":"6e57c3e8","Lcom/GayStream/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;":"1ef1a84b","Lcom/GayStream/VoeExtractor;":"d41d2e17","Lcom/GayStream/byseqekaho;":"aed25650","Lcom/GayStream/dsio$getUrl$1;":"20c1e846","Lcom/GayStream/dsio$getUrl$2;":"b73f32a","Lcom/GayStream/dsio;":"c85fc0c6","Lcom/GayStream/tapepops;":"1f3f1c02","Lcom/GayStream/vide0;":"22431954"}
+Lcom/GayStream/Bigwarp;
+ Lcom/GayStream/Bigwarp$getUrl$1;
+ Lcom/GayStream/Bigwarp$getUrl$2;
+Lcom/GayStream/Bigwarpcc;
+Lcom/GayStream/byseqekaho;
+Lcom/GayStream/DoodstreamCom;
+Lcom/GayStream/dsio;
+Lcom/GayStream/dsio$getUrl$1;
+Lcom/GayStream/dsio$getUrl$2;
+Lcom/GayStream/FileMoon;
+Lcom/GayStream/FileMoonSx;
+Lcom/GayStream/FilemoonV2;
+#Lcom/GayStream/FilemoonV2$getUrl$1;
+Lcom/GayStream/GayStream;
+'Lcom/GayStream/GayStream$getMainPage$1;
+ Lcom/GayStream/GayStream$load$1;
+ Lcom/GayStream/GayStream$load$2;
+%Lcom/GayStream/GayStream$loadLinks$1;
+%Lcom/GayStream/GayStream$loadLinks$4;
+?Lcom/GayStream/GayStream$loadLinks$4$$ExternalSyntheticLambda0;
+"Lcom/GayStream/GayStream$search$1;
+!Lcom/GayStream/GayStreamProvider;
+Lcom/GayStream/ListMirror;
+#Lcom/GayStream/ListMirror$getUrl$1;
+Lcom/GayStream/Space;
+Lcom/GayStream/tapepops;
+Lcom/GayStream/vide0;
+Lcom/GayStream/VoeExtractor;
+%Lcom/GayStream/VoeExtractor$getUrl$1;
+(Lcom/GayStream/VoeExtractor$VideoSource;
+Lcom/lagradost/api/Log;
+Lkotlin/text/Regex;
+Lkotlin/text/RegexOption;
+	loadLinks
+Lorg/jsoup/select/Elements;
+(m3u8|master\.txt)
+O(Ljava/lang/String;Ljava/lang/Integer;)Lcom/GayStream/VoeExtractor$VideoSource;
+    @org.jetbrains.annotations.NotNull
+    private static final class VideoSource {
+public class Bigwarp extends com.lagradost.cloudstream3.utils.ExtractorApi {
+public class VoeExtractor extends com.lagradost.cloudstream3.utils.ExtractorApi {
+public final class ListMirror extends com.lagradost.cloudstream3.utils.ExtractorApi {
+        public final java.lang.String getUrl() {
+                r1 = this;
+                return r0
+source
+sources
+sources:\[\{file:"(.*?)"
+sources\s*=\s*(\[.*?]);
+    static final class C00001 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+    static final class C00091 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+videoUrl
+	videoUrls

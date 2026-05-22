@@ -1,0 +1,94 @@
+# SELECTOR HARDENING - Fallbacks & Validation
+SELECTOR_VALIDATION = True
+SELECTOR_FALLBACK_CHAIN = []
+SELECTOR_ATTRIBUTE_CACHE = {}
+--
+/$i$a$-filter-Justthegays$loadLinks$candidates$2
+,$i$a$-forEachIndexed-Justthegays$loadLinks$7
+%$i$a$-forEach-Justthegays$loadLinks$2
+'$i$a$-forEach-Justthegays$loadLinks$2$1
+%$i$a$-forEach-Justthegays$loadLinks$3
+%$i$a$-forEach-Justthegays$loadLinks$5
+'$i$a$-forEach-Justthegays$loadLinks$5$1
+'$i$a$-forEach-Justthegays$loadLinks$5$2
+%$i$a$-forEach-Justthegays$loadLinks$6
+)$i$a$-ifEmpty-Justthegays$loadLinks$3$v$1
++$i$a$-ifEmpty-Justthegays$loadLinks$5$2$v$1
+,$i$a$-map-Justthegays$loadLinks$candidates$1
+($i$a$-mapNotNull-Justthegays$loadLinks$4
+&$i$a$-takeIf-Justthegays$loadLinks$4$1
+$Lcom/Justthegays/Justthegays$load$1;
+$Lcom/Justthegays/Justthegays$load$2;
+$Lcom/lagradost/cloudstream3/MainAPI;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+4https?://[^\s'"]+?\.(?:mp4|m3u8|webm)(\?[^'"\s<>]*)?
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
+7Lcom/Justthegays/Justthegays$$ExternalSyntheticLambda0;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+com/Justthegays/Justthegays
+)com.Justthegays.Justthegays$loadLinks$7$1
+            com.Justthegays.Justthegays$loadLinks$7$1 r0 = new com.Justthegays.Justthegays$loadLinks$7$1
+div.col-xl-4
+@div.col-xl-4.col-lg-4.col-md-6.col-6.item.responsive-height.post
+div.item-img a
+div.item-img img
+final class Justthegays$loadLinks$7$1 extends kotlin.coroutines.jvm.internal.SuspendLambda implements kotlin.jvm.functions.Function2<com.lagradost.cloudstream3.utils.ExtractorLink, kotlin.coroutines.Continuation<? super kotlin.Unit>, java.lang.Object> {
+    final /* synthetic */ java.lang.String $data;
+    final /* synthetic */ java.util.Map<java.lang.String, java.lang.String> $headers;
+        int I$0;
+        int I$1;
+    /* JADX INFO: compiled from: Justthegays.kt */
+    /* JADX INFO: renamed from: com.Justthegays.Justthegays$loadLinks$1 */
+                java.lang.Object r0 = r1.loadLinks(r2, r3, r4, r5, r6)
+            java.lang.String r1 = r3.$data
+            java.util.Map<java.lang.String, java.lang.String> r2 = r3.$headers
+    Justthegays$loadLinks$7$1(java.lang.String r2, java.util.Map<java.lang.String, java.lang.String> r3, kotlin.coroutines.Continuation<? super com.Justthegays.Justthegays$loadLinks$7$1> r4) {
+@kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.Justthegays.Justthegays$loadLinks$7$1", f = "Justthegays.kt", i = {}, l = {}, m = "invokeSuspend", n = {}, nl = {}, s = {}, v = 2)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.Justthegays.Justthegays", f = "Justthegays.kt", i = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}, l = {122, 142, 174}, m = "loadLinks", n = {"data", "subtitleCallback", "callback", "headers", "isCasting", "data", "subtitleCallback", "callback", "headers", "res", "doc", "urlRegex", "found", "$this$forEach$iv", "element$iv", "iframeUrl", "isCasting", "$i$f$forEach", "$i$a$-forEach-Justthegays$loadLinks$5", "data", "subtitleCallback", "callback", "headers", "res", "doc", "urlRegex", "found", "candidates", "$this$forEachIndexed$iv", "item$iv", "url", "friendlyName", "isCasting", "$i$f$forEachIndexed", "index$iv", "i", "$i$a$-forEachIndexed-Justthegays$loadLinks$7"}, nl = {123, 143, 173}, s = {"L$0", "L$1", "L$2", "L$3", "Z$0", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$10", "L$11", "Z$0", "I$0", "I$1", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$11", "L$12", "L$13", "Z$0", "I$0", "I$1", "I$2", "I$3"}, v = 2)
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nJustthegays.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Justthegays.kt\ncom/Justthegays/Justthegays\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,189:1\n1642#2,10:190\n1915#2:200\n1916#2:202\n1652#2:203\n1642#2,10:204\n1915#2:214\n1916#2:216\n1652#2:217\n1642#2,10:218\n1915#2:228\n1916#2:230\n1652#2:231\n1915#2:232\n1916#2:235\n1915#2:236\n1916#2:238\n1642#2,10:239\n1915#2:249\n1916#2:251\n1652#2:252\n1915#2:253\n1915#2,2:256\n1916#2:258\n1586#2:261\n1661#2,3:262\n777#2:265\n873#2,2:266\n1924#2,3:268\n1#3:201\n1#3:215\n1#3:229\n1#3:237\n1#3:250\n1342#4,2:233\n1342#4,2:254\n1342#4,2:259\n*S KotlinDebug\n*F\n+ 1 Justthegays.kt\ncom/Justthegays/Justthegays\n*L\n57#1:190,10\n57#1:200\n57#1:202\n57#1:203\n93#1:204,10\n93#1:214\n93#1:216\n93#1:217\n106#1:218,10\n106#1:228\n106#1:230\n106#1:231\n129#1:232\n129#1:235\n134#1:236\n134#1:238\n140#1:239,10\n140#1:249\n140#1:251\n140#1:252\n140#1:253\n144#1:256,2\n140#1:258\n157#1:261\n157#1:262,3\n158#1:265\n158#1:266,2\n167#1:268,3\n57#1:201\n93#1:215\n106#1:229\n140#1:250\n130#1:233,2\n143#1:254,2\n154#1:259,2\n*E\n"})
+@kotlin.Metadata(d1 = {"\u0000z\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J\u001e\u0010\u001f\u001a\u00020!2\u0006\u0010\"\u001a\u00020#2\u0006\u0010$\u001a\u00020%H\u0096@\u00a2\u0006\u0002\u0010&J\u000e\u0010'\u001a\u0004\u0018\u00010(*\u00020)H\u0002J\u000e\u0010*\u001a\u0004\u0018\u00010(*\u00020)H\u0002J\u001c\u0010+\u001a\b\u0012\u0004\u0012\u00020(0\u001d2\u0006\u0010,\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u0010-J\u0016\u0010.\u001a\u00020/2\u0006\u00100\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u0010-JF\u00101\u001a\u00020\u000e2\u0006\u00102\u001a\u00020\u00052\u0006\u00103\u001a\u00020\u000e2\u0012\u00104\u001a\u000e\u0012\u0004\u0012\u000206\u0012\u0004\u0012\u000207052\u0012\u00108\u001a\u000e\u0012\u0004\u0012\u000209\u0012\u0004\u0012\u00020705H\u0096@\u00a2\u0006\u0002\u0010:R\u001a\u0010\u0004\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\u0007\"\u0004\b\f\u0010\tR\u0014\u0010\r\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010R\u0014\u0010\u0011\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0012\u0010\u0010R\u0014\u0010\u0013\u001a\u00020\u0014X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0015\u0010\u0016R\u001a\u0010\u0017\u001a\b\u0012\u0004\u0012\u00020\u00190\u0018X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001a\u0010\u001bR\u001a\u0010\u001c\u001a\b\u0012\u0004\u0012\u00020\u001e0\u001dX\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001f\u0010 \u00a8\u0006;"}, d2 = {"Lcom/Justthegays/Justthegays;", "Lcom/lagradost/cloudstream3/MainAPI;", "<init>", "()V", "mainUrl", "", "getMainUrl", "()Ljava/lang/String;", "setMainUrl", "(Ljava/lang/String;)V", "name", "getName", "setName", "hasMainPage", "", "getHasMainPage", "()Z", "hasDownloadSupport", "getHasDownloadSupport", "vpnStatus", "Lcom/lagradost/cloudstream3/VPNStatus;", "getVpnStatus", "()Lcom/lagradost/cloudstream3/VPNStatus;", "supportedTypes", "", "Lcom/lagradost/cloudstream3/TvType;", "getSupportedTypes", "()Ljava/util/Set;", "mainPage", "", "Lcom/lagradost/cloudstream3/MainPageData;", "getMainPage", "()Ljava/util/List;", "Lcom/lagradost/cloudstream3/HomePageResponse;", "page", "", "request", "Lcom/lagradost/cloudstream3/MainPageRequest;", "(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "toSearchResult", "Lcom/lagradost/cloudstream3/SearchResponse;", "Lorg/jsoup/nodes/Element;", "toRecommendResult", "search", "query", "(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "load", "Lcom/lagradost/cloudstream3/LoadResponse;", "url", "loadLinks", "data", "isCasting", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "Justthegays"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+Lcom/Justthegays/Justthegays;
+~~~{"Lcom/Justthegays/Justthegays$$ExternalSyntheticLambda0;":"1a83da056","Lcom/Justthegays/Justthegays$getMainPage$1;":"da9006c0","Lcom/Justthegays/Justthegays$load$1;":"950f22e","Lcom/Justthegays/Justthegays$load$2;":"228ff817","Lcom/Justthegays/Justthegays$loadLinks$1;":"6286d618","Lcom/Justthegays/Justthegays$loadLinks$7$1;":"2006aacf","Lcom/Justthegays/Justthegays$search$1;":"13022856","Lcom/Justthegays/Justthegays;":"67a23761","Lcom/Justthegays/JustthegaysProvider;":"423908ad"}
++Lcom/Justthegays/Justthegays$getMainPage$1;
+)Lcom/Justthegays/Justthegays$loadLinks$1;
++Lcom/Justthegays/Justthegays$loadLinks$7$1;
+&Lcom/Justthegays/Justthegays$search$1;
+%Lcom/Justthegays/JustthegaysProvider;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+&Lcom/lagradost/cloudstream3/VPNStatus;
+(()Lcom/lagradost/cloudstream3/VPNStatus;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+Lkotlin/text/Regex;
+Lkotlin/text/RegexOption;
+	loadLinks
+Lorg/jsoup/select/Elements;
+Ovideo[src], video > source[src], source[src], video[data-src], source[data-src]
+    private final boolean hasDownloadSupport;
+    private /* synthetic */ java.lang.Object L$0;
+public final class Justthegays extends com.lagradost.cloudstream3.MainAPI {
+            r0.<init>(r1, r2, r5)
+            r1.$data = r2
+            r1.$headers = r3
+            r1 = this;
+                return r0
+    static final class C00031 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+urlRegex
+video[src], source[src]

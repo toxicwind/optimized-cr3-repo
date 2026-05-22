@@ -1,0 +1,36 @@
+# PATTERN ENHANCEMENTS - Caching & Timeout
+PATTERN_CACHE = {}
+PATTERN_TIMEOUT = 30
+PATTERN_RETRY_ATTEMPTS = 3
+select\(
+Regex|Pattern
+div\.|\.video|article|class=
+player|embed|source|m3u8|\.mp4
+loadLinks|getUrl|videoUrl
+Jsoup\.select|Elements
+https?://[^'"\s]+?\.(mp4|m3u8)
+com/android/tools/r8/annotations/SynthesizedClassV2
+com/fasterxml/jackson/annotation/JsonProperty
+com/fasterxml/jackson/core/type/TypeReference
+com/fasterxml/jackson/databind/json/JsonMapper
+com/fasterxml/jackson/databind/ObjectMapper
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/GayStream/Bgwp
+com/GayStream/Bigwarp
+com/GayStream/Bigwarpcc
+com/GayStream/byseqekaho
+com/GayStream/DoodstreamCom
+com/GayStream/dsio
+com/GayStream/FileMoon
+com/GayStream/FileMoonSx
+com/GayStream/FilemoonV2
+com/GayStream/GayStream
+com/GayStream/GayStreamProvider
+com/GayStream/ListMirror
+com/GayStream/Space
+com/GayStream/tapepops
+com/GayStream/vide0
+com/GayStream/VoeExtractor
+com/lagradost/api/Log
+com/lagradost/cloudstream3/extractors/DoodLaExtractor
+com/lagradost/cloudstream3/extractors/StreamTape

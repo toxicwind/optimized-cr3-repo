@@ -1,0 +1,98 @@
+
+--
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$1
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$2
+"$i$a$-let-GayKinkyPorn$loadLinks$2
+$i$a$-let-VoeExtractor$getUrl$2
+!$i$a$-let-VoeExtractor$getUrl$2$1
+!$i$a$-map-dsio$getUrl$randomStr$1
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+1$i$a$-takeIf-GayKinkyPorn$loadLinks$videoUrls$1$1
+3$i$a$-mapNotNull-GayKinkyPorn$loadLinks$videoUrls$1
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+9Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda0;
+9Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda1;
+9Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda2;
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+article.loop-video
+article.loop-video.thumb-block
+        @com.fasterxml.jackson.annotation.JsonProperty("video_height")
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+!com.GayKinkyPorn.Bigwarp$getUrl$2
+com/GayKinkyPorn/dsio
+com.GayKinkyPorn.dsio$getUrl$2
+com/GayKinkyPorn/FilemoonV2
+com/GayKinkyPorn/GayKinkyPorn
+ const\s+sources\s*=\s*(\{.*?\});
+div.responsive-player iframe
+getUrl
+getUrl$suspendImpl
+img.video-main-thumb
+    /* JADX INFO: compiled from: Extractors.kt */
+    /* JADX INFO: renamed from: com.GayKinkyPorn.Bigwarp$getUrl$1 */
+        java.lang.Object L$0;
+        java.lang.Object L$1;
+                java.lang.Object r0 = com.GayKinkyPorn.Bigwarp.getUrl$suspendImpl(r1, r2, r3, r4, r5, r6)
+                java.lang.String r0 = r1.url
+JLcom/GayKinkyPorn/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GayKinkyPorn.Bigwarp", f = "Extractors.kt", i = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}, l = {154, 155, 162}, m = "getUrl$suspendImpl", n = {"$this", "url", "referer", "subtitleCallback", "callback", "$this", "url", "referer", "subtitleCallback", "callback", "link", "$this", "url", "referer", "subtitleCallback", "callback", "link", "source", "regex", "matchResult", "match"}, nl = {155, 156, 161}, s = {"L$0", "L$1", "L$2", "L$3", "L$4", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9"}, v = 2)
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nExtractors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Extractors.kt\ncom/GayKinkyPorn/VoeExtractor\n+ 2 AppUtils.kt\ncom/lagradost/cloudstream3/utils/AppUtils\n+ 3 Extensions.kt\ncom/fasterxml/jackson/module/kotlin/ExtensionsKt\n*L\n1#1,283:1\n23#2,2:284\n15#2:286\n25#2,2:289\n50#3:287\n43#3:288\n*S KotlinDebug\n*F\n+ 1 Extractors.kt\ncom/GayKinkyPorn/VoeExtractor\n*L\n42#1:284,2\n42#1:286\n42#1:289,2\n42#1:287\n42#1:288\n*E\n"})
+@kotlin.Metadata(d1 = {"\u00006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0016\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003JH\u0010\u0011\u001a\u00020\u00122\u0006\u0010\u0013\u001a\u00020\u00052\b\u0010\u0014\u001a\u0004\u0018\u00010\u00052\u0012\u0010\u0015\u001a\u000e\u0012\u0004\u0012\u00020\u0017\u0012\u0004\u0012\u00020\u00120\u00162\u0012\u0010\u0018\u001a\u000e\u0012\u0004\u0012\u00020\u0019\u0012\u0004\u0012\u00020\u00120\u0016H\u0096@\u00a2\u0006\u0002\u0010\u001aR\u001a\u0010\u0004\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\u0007\"\u0004\b\f\u0010\tR\u0014\u0010\r\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010\u00a8\u0006\u001b"}, d2 = {"Lcom/GayKinkyPorn/Bigwarp;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "<init>", "()V", "name", "", "getName", "()Ljava/lang/String;", "setName", "(Ljava/lang/String;)V", "mainUrl", "getMainUrl", "setMainUrl", "requiresReferer", "", "getRequiresReferer", "()Z", "getUrl", "", "url", "referer", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GayKinkyPorn"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\b\n\u0002\b\f\n\u0002\u0010\u000b\n\u0002\b\u0004\b\u0082\b\u0018\u00002\u00020\u0001B\u001f\u0012\n\b\u0001\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\n\b\u0001\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0004\b\u0006\u0010\u0007J\u000b\u0010\r\u001a\u0004\u0018\u00010\u0003H\u00c6\u0003J\u0010\u0010\u000e\u001a\u0004\u0018\u00010\u0005H\u00c6\u0003\u00a2\u0006\u0002\u0010\u000bJ&\u0010\u000f\u001a\u00020\u00002\n\b\u0003\u0010\u0002\u001a\u0004\u0018\u00010\u00032\n\b\u0003\u0010\u0004\u001a\u0004\u0018\u00010\u0005H\u00c6\u0001\u00a2\u0006\u0002\u0010\u0010J\u0014\u0010\u0011\u001a\u00020\u00122\b\u0010\u0013\u001a\u0004\u0018\u00010\u0001H\u00d6\u0083\u0004J\n\u0010\u0014\u001a\u00020\u0005H\u00d6\u0081\u0004J\n\u0010\u0015\u001a\u00020\u0003H\u00d6\u0081\u0004R\u0018\u0010\u0002\u001a\u0004\u0018\u00010\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u001a\u0010\u0004\u001a\u0004\u0018\u00010\u00058\u0006X\u0087\u0004\u00a2\u0006\n\n\u0002\u0010\f\u001a\u0004\b\n\u0010\u000b\u00a8\u0006\u0016"}, d2 = {"Lcom/GayKinkyPorn/VoeExtractor$VideoSource;", "", "url", "", "height", "", "<init>", "(Ljava/lang/String;Ljava/lang/Integer;)V", "getUrl", "()Ljava/lang/String;", "getHeight", "()Ljava/lang/Integer;", "Ljava/lang/Integer;", "component1", "component2", "copy", "(Ljava/lang/String;Ljava/lang/Integer;)Lcom/GayKinkyPorn/VoeExtractor$VideoSource;", "equals", "", "other", "hashCode", "toString", "GayKinkyPorn"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@kotlin.Metadata(d1 = {"\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0016\u0018\u00002\u00020\u0001:\u0001\u0014B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J&\u0010\u000e\u001a\b\u0012\u0004\u0012\u00020\u00100\u000f2\u0006\u0010\u0011\u001a\u00020\u00052\b\u0010\u0012\u001a\u0004\u0018\u00010\u0005H\u0096@\u00a2\u0006\u0002\u0010\u0013R\u0014\u0010\u0004\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0006\u0010\u0007R\u0014\u0010\b\u001a\u00020\u0005X\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\t\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000bX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\r\u00a8\u0006\u0015"}, d2 = {"Lcom/GayKinkyPorn/VoeExtractor;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "<init>", "()V", "name", "", "getName", "()Ljava/lang/String;", "mainUrl", "getMainUrl", "requiresReferer", "", "getRequiresReferer", "()Z", "getUrl", "", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "url", "referer", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "VideoSource", "GayKinkyPorn"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+Lcom/GayKinkyPorn/Bgwp;
+~~~{"Lcom/GayKinkyPorn/Bgwp;":"c70945ea","Lcom/GayKinkyPorn/Bigwarp$getUrl$1;":"85d3553f","Lcom/GayKinkyPorn/Bigwarp$getUrl$2;":"1e298c1f","Lcom/GayKinkyPorn/Bigwarp;":"2af7db90","Lcom/GayKinkyPorn/Bigwarpcc;":"8a6dd96","Lcom/GayKinkyPorn/Doodpm;":"4401d640","Lcom/GayKinkyPorn/Doodre;":"fed6945b","Lcom/GayKinkyPorn/Doodspro;":"b77c456d","Lcom/GayKinkyPorn/DoodstreamCom;":"2bd380e9","Lcom/GayKinkyPorn/Doodyt;":"c1ed0a0c","Lcom/GayKinkyPorn/Doply;":"ffd0a143","Lcom/GayKinkyPorn/Dsvplay;":"528bba1d","Lcom/GayKinkyPorn/FileMoon;":"3fa0ae3","Lcom/GayKinkyPorn/FileMoonSx;":"a981479b","Lcom/GayKinkyPorn/FilemoonV2$getUrl$1;":"75e440bb","Lcom/GayKinkyPorn/FilemoonV2;":"7de424a9","Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda0;":"-39f2071b3","Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda1;":"-76231e38c","Lcom/GayKinkyPorn/GayKinkyPorn$$ExternalSyntheticLambda2;":"37beb3e23","Lcom/GayKinkyPorn/GayKinkyPorn$getMainPage$1;":"f4dd8e22","Lcom/GayKinkyPorn/GayKinkyPorn$load$1;":"6b5a3ae6","Lcom/GayKinkyPorn/GayKinkyPorn$load$2;":"79440135","Lcom/GayKinkyPorn/GayKinkyPorn$loadLinks$1;":"c5aa9aec","Lcom/GayKinkyPorn/GayKinkyPorn$search$1;":"a7ef1293","Lcom/GayKinkyPorn/GayKinkyPorn;":"2dd77b1d","Lcom/GayKinkyPorn/GayKinkyPornProvider;":"e4b96a1f","Lcom/GayKinkyPorn/Vidply;":"83d27a95","Lcom/GayKinkyPorn/VoeExtractor$VideoSource;":"220bb8d8","Lcom/GayKinkyPorn/VoeExtractor$getUrl$1;":"19c14a9e","Lcom/GayKinkyPorn/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;":"9a8ae097","Lcom/GayKinkyPorn/VoeExtractor;":"bdd1b528","Lcom/GayKinkyPorn/dsio$getUrl$1;":"ea6cd42","Lcom/GayKinkyPorn/dsio$getUrl$2;":"93bd9344","Lcom/GayKinkyPorn/dsio;":"408bcff3","Lcom/GayKinkyPorn/tapepops;":"5d4629ac","Lcom/GayKinkyPorn/vide0;":"1848a186"}
+Lcom/GayKinkyPorn/Bigwarp;
+#Lcom/GayKinkyPorn/Bigwarp$getUrl$1;
+#Lcom/GayKinkyPorn/Bigwarp$getUrl$2;
+Lcom/GayKinkyPorn/Bigwarpcc;
+Lcom/GayKinkyPorn/Doodpm;
+Lcom/GayKinkyPorn/Doodre;
+Lcom/GayKinkyPorn/Doodspro;
+ Lcom/GayKinkyPorn/DoodstreamCom;
+Lcom/GayKinkyPorn/Doodyt;
+Lcom/GayKinkyPorn/Doply;
+Lcom/GayKinkyPorn/dsio;
+ Lcom/GayKinkyPorn/dsio$getUrl$1;
+ Lcom/GayKinkyPorn/dsio$getUrl$2;
+Lcom/GayKinkyPorn/Dsvplay;
+Lcom/GayKinkyPorn/FileMoon;
+Lcom/GayKinkyPorn/FileMoonSx;
+Lcom/GayKinkyPorn/FilemoonV2;
+&Lcom/GayKinkyPorn/FilemoonV2$getUrl$1;
+Lcom/GayKinkyPorn/GayKinkyPorn;
+-Lcom/GayKinkyPorn/GayKinkyPorn$getMainPage$1;
+&Lcom/GayKinkyPorn/GayKinkyPorn$load$1;
+&Lcom/GayKinkyPorn/GayKinkyPorn$load$2;
++Lcom/GayKinkyPorn/GayKinkyPorn$loadLinks$1;
+(Lcom/GayKinkyPorn/GayKinkyPorn$search$1;
+'Lcom/GayKinkyPorn/GayKinkyPornProvider;
+Lcom/GayKinkyPorn/tapepops;
+Lcom/GayKinkyPorn/vide0;
+Lcom/GayKinkyPorn/Vidply;
+(Lcom/GayKinkyPorn/VoeExtractor$getUrl$1;
+Lkotlin/text/Regex;
+	loadLinks
+loadLinks$lambda$2
+Lorg/jsoup/select/Elements;
+(m3u8|master\.txt)
+    @org.jetbrains.annotations.NotNull
+    private static final class VideoSource {
+public class Bigwarp extends com.lagradost.cloudstream3.utils.ExtractorApi {
+public class VoeExtractor extends com.lagradost.cloudstream3.utils.ExtractorApi {
+        public final java.lang.String getUrl() {
+                r1 = this;
+                return r0
+source
+sources:\[\{file:"(.*?)"
+    static final class C00001 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+%.under-video-block article.loop-video
+videoUrl
+	videoUrls

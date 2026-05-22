@@ -1,0 +1,36 @@
+# PATTERN ENHANCEMENTS - Caching & Timeout
+PATTERN_CACHE = {}
+PATTERN_TIMEOUT = 30
+PATTERN_RETRY_ATTEMPTS = 3
+select\(
+Regex|Pattern
+div\.|\.video|article|class=
+player|embed|source|m3u8|\.mp4
+loadLinks|getUrl|videoUrl
+Jsoup\.select|Elements
+https?://[^'"\s]+?\.(mp4|m3u8)
+com/android/tools/r8/annotations/SynthesizedClassV2
+com/fasterxml/jackson/annotation/JsonProperty
+com/fasterxml/jackson/core/type/TypeReference
+com/fasterxml/jackson/databind/json/JsonMapper
+com/fasterxml/jackson/databind/ObjectMapper
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/lagradost/api/Log
+com/lagradost/cloudstream3/extractors/DoodLaExtractor
+com/lagradost/cloudstream3/extractors/FilemoonV2
+com/lagradost/cloudstream3/extractors/MixDrop
+com/lagradost/cloudstream3/extractors/StreamTape
+com/lagradost/cloudstream3/extractors/VinovoTo
+com/lagradost/cloudstream3/extractors/Voe
+com/lagradost/cloudstream3/HomePageList
+com/lagradost/cloudstream3/HomePageResponse
+com/lagradost/cloudstream3/LoadResponse
+com/lagradost/cloudstream3/MainActivityKt
+com/lagradost/cloudstream3/MainAPI
+com/lagradost/cloudstream3/MainAPIKt
+com/lagradost/cloudstream3/MainPageData
+com/lagradost/cloudstream3/MainPageRequest
+com/lagradost/cloudstream3/MovieLoadResponse
+com/lagradost/cloudstream3/MovieSearchResponse
+com/lagradost/cloudstream3/ParCollectionsKt
+com/lagradost/cloudstream3/plugins/CloudstreamPlugin

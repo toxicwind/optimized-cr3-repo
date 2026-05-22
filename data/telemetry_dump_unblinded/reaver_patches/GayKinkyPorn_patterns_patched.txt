@@ -1,0 +1,36 @@
+# PATTERN ENHANCEMENTS - Caching & Timeout
+PATTERN_CACHE = {}
+PATTERN_TIMEOUT = 30
+PATTERN_RETRY_ATTEMPTS = 3
+select\(
+Regex|Pattern
+div\.|\.video|article|class=
+player|embed|source|m3u8|\.mp4
+loadLinks|getUrl|videoUrl
+Jsoup\.select|Elements
+https?://[^'"\s]+?\.(mp4|m3u8)
+com/android/tools/r8/annotations/SynthesizedClassV2
+com/fasterxml/jackson/annotation/JsonProperty
+com/fasterxml/jackson/core/type/TypeReference
+com/fasterxml/jackson/databind/json/JsonMapper
+com/fasterxml/jackson/databind/ObjectMapper
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/GayKinkyPorn/Bgwp
+com/GayKinkyPorn/Bigwarp
+com/GayKinkyPorn/Bigwarpcc
+com/GayKinkyPorn/Doodpm
+com/GayKinkyPorn/Doodre
+com/GayKinkyPorn/Doodspro
+com/GayKinkyPorn/DoodstreamCom
+com/GayKinkyPorn/Doodyt
+com/GayKinkyPorn/Doply
+com/GayKinkyPorn/dsio
+com/GayKinkyPorn/Dsvplay
+com/GayKinkyPorn/FileMoon
+com/GayKinkyPorn/FileMoonSx
+com/GayKinkyPorn/FilemoonV2
+com/GayKinkyPorn/GayKinkyPorn
+com/GayKinkyPorn/GayKinkyPornProvider
+com/GayKinkyPorn/tapepops
+com/GayKinkyPorn/vide0
+com/GayKinkyPorn/Vidply

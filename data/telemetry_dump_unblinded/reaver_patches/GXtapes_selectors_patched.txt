@@ -1,0 +1,109 @@
+# SELECTOR HARDENING - Fallbacks & Validation
+SELECTOR_VALIDATION = True
+SELECTOR_FALLBACK_CHAIN = []
+SELECTOR_ATTRIBUTE_CACHE = {}
+
+--
+%$i$a$-find-GXtapes74k$getUrl$script$1
+!$i$a$-forEach-GXtapes74k$getUrl$2
+!$i$a$-forEach-GXtapes88z$getUrl$2
+$i$a$-let-GXtapes$loadLinks$2
+.$i$a$-mapNotNull-GXtapes$loadLinks$videoUrls$1
+,$i$a$-takeIf-GXtapes$loadLinks$videoUrls$1$1
+$Lcom/lagradost/cloudstream3/MainAPI;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
+2Lcom/GXtapes/GXtapes88z$$ExternalSyntheticLambda0;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
+7Lcom/lagradost/cloudstream3/extractors/DoodLaExtractor;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+com/GXtapes/GXtapes
+com.GXtapes.GXtapes$loadLinks$3
+com/GXtapes/GXtapes74k
+com/GXtapes/GXtapes88z
+!com.GXtapes.GXtapes88z$getUrl$2$1
+            com.GXtapes.GXtapes88z$getUrl$2$1 r0 = new com.GXtapes.GXtapes88z$getUrl$2$1
+            com.GXtapes.GXtapes88z r1 = r2.this$0
+final class GXtapes88z$getUrl$2$1 extends kotlin.coroutines.jvm.internal.SuspendLambda implements kotlin.jvm.functions.Function2<com.lagradost.cloudstream3.utils.ExtractorLink, kotlin.coroutines.Continuation<? super kotlin.Unit>, java.lang.Object> {
+    final /* synthetic */ com.GXtapes.GXtapes88z this$0;
+Found m3u8: 
+getUrl
+getUrl$lambda$0
+    GXtapes88z$getUrl$2$1(com.GXtapes.GXtapes88z r2, kotlin.coroutines.Continuation<? super com.GXtapes.GXtapes88z$getUrl$2$1> r3) {
+#https?://[^\s"'<>]+\.m3u8[^\s"'<>]*
+        int I$0;
+        int I$1;
+    int label;
+    /* JADX INFO: compiled from: Extractor.kt */
+    /* JADX INFO: compiled from: GXtapes.kt */
+    /* JADX INFO: renamed from: com.GXtapes.GXtapes$loadLinks$1 */
+    /* JADX INFO: renamed from: com.GXtapes.GXtapes74k$getUrl$1 */
+    /* JADX INFO: renamed from: com.GXtapes.GXtapes88z$getUrl$1 */
+        java.lang.Object L$0;
+        java.lang.Object L$1;
+                java.lang.Object r0 = r1.getUrl(r2, r3, r4, r5, r6)
+                java.lang.Object r0 = r1.loadLinks(r2, r3, r4, r5, r6)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GXtapes.GXtapes74k", f = "Extractor.kt", i = {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, l = {54, 63}, m = "getUrl", n = {"url", "referer", "subtitleCallback", "callback", "url", "referer", "subtitleCallback", "callback", "response", "script", "unpackedScript", "links", "obj", "$this$forEach$iv", "element$iv", "it", "finalUrl", "$i$f$forEach", "$i$a$-forEach-GXtapes74k$getUrl$2"}, nl = {55, 62}, s = {"L$0", "L$1", "L$2", "L$3", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$11", "L$12", "L$13", "I$0", "I$1"}, v = 2)
+@kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GXtapes.GXtapes88z$getUrl$2$1", f = "Extractor.kt", i = {}, l = {}, m = "invokeSuspend", n = {}, nl = {}, s = {}, v = 2)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GXtapes.GXtapes88z", f = "Extractor.kt", i = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, l = {96, 118}, m = "getUrl", n = {"url", "referer", "subtitleCallback", "callback", "id", "apiUrl", "url", "referer", "subtitleCallback", "callback", "id", "apiUrl", "apiRes", "decodedBytes", "decodedText", "m3u8Regex", "matches", "$this$forEach$iv", "element$iv", "link", "$i$f$forEach", "$i$a$-forEach-GXtapes88z$getUrl$2"}, nl = {99, 117}, s = {"L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$10", "L$11", "L$13", "L$14", "I$0", "I$1"}, v = 2)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.GXtapes.GXtapes", f = "GXtapes.kt", i = {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1}, l = {143, 158}, m = "loadLinks", n = {"data", "subtitleCallback", "callback", "isCasting", "data", "subtitleCallback", "callback", "document", "found", "videoUrls", "isCasting"}, nl = {144, 167}, s = {"L$0", "L$1", "L$2", "Z$0", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "Z$0"}, v = 2)
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nExtractor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Extractor.kt\ncom/GXtapes/GXtapes74k\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 Iterators.kt\nkotlin/collections/CollectionsKt__IteratorsKt\n*L\n1#1,138:1\n1#2:139\n32#3,2:140\n*S KotlinDebug\n*F\n+ 1 Extractor.kt\ncom/GXtapes/GXtapes74k\n*L\n59#1:140,2\n*E\n"})
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nExtractor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Extractor.kt\ncom/GXtapes/GXtapes88z\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,138:1\n1915#2,2:139\n*S KotlinDebug\n*F\n+ 1 Extractor.kt\ncom/GXtapes/GXtapes88z\n*L\n114#1:139,2\n*E\n"})
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nGXtapes.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GXtapes.kt\ncom/GXtapes/GXtapes\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,169:1\n1642#2,10:170\n1915#2:180\n1916#2:182\n1652#2:183\n1642#2,10:184\n1915#2:194\n1916#2:196\n1652#2:197\n1642#2,10:198\n1915#2:208\n1916#2:210\n1652#2:211\n1642#2,10:212\n1915#2:222\n1916#2:225\n1652#2:226\n1#3:181\n1#3:195\n1#3:209\n1#3:223\n1#3:224\n*S KotlinDebug\n*F\n+ 1 GXtapes.kt\ncom/GXtapes/GXtapes\n*L\n65#1:170,10\n65#1:180\n65#1:182\n65#1:183\n104#1:184,10\n104#1:194\n104#1:196\n104#1:197\n126#1:198,10\n126#1:208\n126#1:210\n126#1:211\n148#1:212,10\n148#1:222\n148#1:225\n148#1:226\n65#1:181\n104#1:195\n126#1:209\n148#1:224\n*E\n"})
+@kotlin.Metadata(d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\b\n\u0002\u0010\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u0001B%\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\u0004\b\u0007\u0010\bJH\u0010\u000e\u001a\u00020\u000f2\u0006\u0010\u0010\u001a\u00020\u00032\b\u0010\u0011\u001a\u0004\u0018\u00010\u00032\u0012\u0010\u0012\u001a\u000e\u0012\u0004\u0012\u00020\u0014\u0012\u0004\u0012\u00020\u000f0\u00132\u0012\u0010\u0015\u001a\u000e\u0012\u0004\u0012\u00020\u0016\u0012\u0004\u0012\u00020\u000f0\u0013H\u0096@\u00a2\u0006\u0002\u0010\u0017R\u0014\u0010\u0002\u001a\u00020\u0003X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\t\u0010\nR\u0014\u0010\u0004\u001a\u00020\u0003X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\nR\u0014\u0010\u0005\u001a\u00020\u0006X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\r\u00a8\u0006\u0018"}, d2 = {"Lcom/GXtapes/GXtapes74k;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "name", "", "mainUrl", "requiresReferer", "", "<init>", "(Ljava/lang/String;Ljava/lang/String;Z)V", "getName", "()Ljava/lang/String;", "getMainUrl", "getRequiresReferer", "()Z", "getUrl", "", "url", "referer", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GXtapes"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@kotlin.Metadata(d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\b\n\u0002\u0010\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u0001B%\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\u0004\b\u0007\u0010\bJH\u0010\u000e\u001a\u00020\u000f2\u0006\u0010\u0010\u001a\u00020\u00032\b\u0010\u0011\u001a\u0004\u0018\u00010\u00032\u0012\u0010\u0012\u001a\u000e\u0012\u0004\u0012\u00020\u0014\u0012\u0004\u0012\u00020\u000f0\u00132\u0012\u0010\u0015\u001a\u000e\u0012\u0004\u0012\u00020\u0016\u0012\u0004\u0012\u00020\u000f0\u0013H\u0096@\u00a2\u0006\u0002\u0010\u0017R\u0014\u0010\u0002\u001a\u00020\u0003X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\t\u0010\nR\u0014\u0010\u0004\u001a\u00020\u0003X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\nR\u0014\u0010\u0005\u001a\u00020\u0006X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\r\u00a8\u0006\u0018"}, d2 = {"Lcom/GXtapes/GXtapes88z;", "Lcom/lagradost/cloudstream3/utils/ExtractorApi;", "name", "", "mainUrl", "requiresReferer", "", "<init>", "(Ljava/lang/String;Ljava/lang/String;Z)V", "getName", "()Ljava/lang/String;", "getMainUrl", "getRequiresReferer", "()Z", "getUrl", "", "url", "referer", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GXtapes"}, k = 1, mv = {2, 3, 0}, xi = 48)
+@kotlin.Metadata(d1 = {"\u0000z\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\f\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J\u001e\u0010&\u001a\u00020(2\u0006\u0010)\u001a\u00020*2\u0006\u0010+\u001a\u00020,H\u0096@\u00a2\u0006\u0002\u0010-J\f\u0010.\u001a\u00020/*\u000200H\u0002J\f\u00101\u001a\u00020/*\u000200H\u0002J\u001c\u00102\u001a\b\u0012\u0004\u0012\u00020/0$2\u0006\u00103\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u00104J\u0016\u00105\u001a\u0002062\u0006\u00107\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u00104JF\u00108\u001a\u00020\u000e2\u0006\u00109\u001a\u00020\u00052\u0006\u0010:\u001a\u00020\u000e2\u0012\u0010;\u001a\u000e\u0012\u0004\u0012\u00020=\u0012\u0004\u0012\u00020>0<2\u0012\u0010?\u001a\u000e\u0012\u0004\u0012\u00020@\u0012\u0004\u0012\u00020>0<H\u0096@\u00a2\u0006\u0002\u0010AR\u001a\u0010\u0004\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\u0007\"\u0004\b\f\u0010\tR\u0014\u0010\r\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010R\u001a\u0010\u0011\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0012\u0010\u0007\"\u0004\b\u0013\u0010\tR\u0014\u0010\u0014\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0015\u0010\u0010R\u0014\u0010\u0016\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0017\u0010\u0010R\u0014\u0010\u0018\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0019\u0010\u0010R\u001a\u0010\u001a\u001a\b\u0012\u0004\u0012\u00020\u001c0\u001bX\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001d\u0010\u001eR\u0014\u0010\u001f\u001a\u00020 X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b!\u0010\"R\u001a\u0010#\u001a\b\u0012\u0004\u0012\u00020%0$X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b&\u0010'\u00a8\u0006B"}, d2 = {"Lcom/GXtapes/GXtapes;", "Lcom/lagradost/cloudstream3/MainAPI;", "<init>", "()V", "mainUrl", "", "getMainUrl", "()Ljava/lang/String;", "setMainUrl", "(Ljava/lang/String;)V", "name", "getName", "setName", "hasMainPage", "", "getHasMainPage", "()Z", "lang", "getLang", "setLang", "hasQuickSearch", "getHasQuickSearch", "hasChromecastSupport", "getHasChromecastSupport", "hasDownloadSupport", "getHasDownloadSupport", "supportedTypes", "", "Lcom/lagradost/cloudstream3/TvType;", "getSupportedTypes", "()Ljava/util/Set;", "vpnStatus", "Lcom/lagradost/cloudstream3/VPNStatus;", "getVpnStatus", "()Lcom/lagradost/cloudstream3/VPNStatus;", "mainPage", "", "Lcom/lagradost/cloudstream3/MainPageData;", "getMainPage", "()Ljava/util/List;", "Lcom/lagradost/cloudstream3/HomePageResponse;", "page", "", "request", "Lcom/lagradost/cloudstream3/MainPageRequest;", "(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "toSearchResult", "Lcom/lagradost/cloudstream3/SearchResponse;", "Lorg/jsoup/nodes/Element;", "toRecommendResult", "search", "query", "(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "load", "Lcom/lagradost/cloudstream3/LoadResponse;", "url", "loadLinks", "data", "isCasting", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "GXtapes"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+Lcom/GXtapes/GXtapes;
+/Lcom/GXtapes/GXtapes$$ExternalSyntheticLambda0;
+~~~{"Lcom/GXtapes/GXtapes$$ExternalSyntheticLambda0;":"-4057b0167","Lcom/GXtapes/GXtapes$$ExternalSyntheticLambda1;":"84b93372e","Lcom/GXtapes/GXtapes$getMainPage$1;":"345866aa","Lcom/GXtapes/GXtapes$load$1;":"79970bcc","Lcom/GXtapes/GXtapes$load$2;":"bfc5be93","Lcom/GXtapes/GXtapes$loadLinks$1;":"c486fffa","Lcom/GXtapes/GXtapes$loadLinks$3$$ExternalSyntheticLambda0;":"4940c4df9","Lcom/GXtapes/GXtapes$loadLinks$3;":"468365ef","Lcom/GXtapes/GXtapes$search$1;":"f57c4dd1","Lcom/GXtapes/GXtapes74k$getUrl$1;":"231d913f","Lcom/GXtapes/GXtapes74k;":"e94499d7","Lcom/GXtapes/GXtapes88z$$ExternalSyntheticLambda0;":"-2162a334a","Lcom/GXtapes/GXtapes88z$getUrl$1;":"af39f3b2","Lcom/GXtapes/GXtapes88z$getUrl$2$1;":"f3fe94a","Lcom/GXtapes/GXtapes88z;":"5d3b96a4","Lcom/GXtapes/GXtapes;":"657516db","Lcom/GXtapes/GXtapesProvider;":"58d5e5fa","Lcom/GXtapes/Stream44x;":"f61656c4","Lcom/GXtapes/Stream88z;":"2350bfe","Lcom/GXtapes/Stream;":"6ccea6de"}
+/Lcom/GXtapes/GXtapes$$ExternalSyntheticLambda1;
+#Lcom/GXtapes/GXtapes$getMainPage$1;
+Lcom/GXtapes/GXtapes$load$1;
+Lcom/GXtapes/GXtapes$load$2;
+!Lcom/GXtapes/GXtapes$loadLinks$1;
+!Lcom/GXtapes/GXtapes$loadLinks$3;
+;Lcom/GXtapes/GXtapes$loadLinks$3$$ExternalSyntheticLambda0;
+Lcom/GXtapes/GXtapes$search$1;
+Lcom/GXtapes/GXtapes74k;
+!Lcom/GXtapes/GXtapes74k$getUrl$1;
+Lcom/GXtapes/GXtapes88z;
+!Lcom/GXtapes/GXtapes88z$getUrl$1;
+#Lcom/GXtapes/GXtapes88z$getUrl$2$1;
+Lcom/GXtapes/GXtapesProvider;
+Lcom/GXtapes/Stream;
+Lcom/GXtapes/Stream44x;
+Lcom/GXtapes/Stream88z;
+Lcom/lagradost/api/Log;
+/Lcom/lagradost/cloudstream3/extractors/Filesim;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+-Lcom/lagradost/cloudstream3/ParCollectionsKt;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/SearchResponse;
+Lkotlin/text/Regex;
+	loadLinks
+Lorg/jsoup/select/Elements;
+	m3u8Regex
+*No m3u8 link found in decoded payload for 
+    private final boolean hasChromecastSupport;
+    private /* synthetic */ java.lang.Object L$0;
+public final class GXtapes74k extends com.lagradost.cloudstream3.utils.ExtractorApi {
+public final class GXtapes88z extends com.lagradost.cloudstream3.utils.ExtractorApi {
+public final class GXtapes extends com.lagradost.cloudstream3.MainAPI {
+            r0 = 2
+            r0.<init>(r1, r4)
+            r0.L$0 = r3
+            r1 = this;
+            r1.this$0 = r2
+                return r0
+    static final class C00031 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+    static final class C00061 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+    static final class C00071 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+	videoUrls

@@ -1,0 +1,91 @@
+
+--
+'$i$a$-forEach-BestHDgayporn$loadLinks$2
+)$i$a$-forEach-BestHDgayporn$loadLinks$2$1
+'$i$a$-forEach-BestHDgayporn$loadLinks$3
+'$i$a$-forEach-BestHDgayporn$loadLinks$5
+)$i$a$-forEach-BestHDgayporn$loadLinks$5$1
+)$i$a$-forEach-BestHDgayporn$loadLinks$5$2
+'$i$a$-forEach-BestHDgayporn$loadLinks$6
+.$i$a$-forEachIndexed-BestHDgayporn$loadLinks$7
++$i$a$-ifEmpty-BestHDgayporn$loadLinks$3$v$1
+-$i$a$-ifEmpty-BestHDgayporn$loadLinks$5$2$v$1
+.$i$a$-map-BestHDgayporn$loadLinks$candidates$1
+*$i$a$-mapNotNull-BestHDgayporn$loadLinks$4
+($i$a$-takeIf-BestHDgayporn$loadLinks$4$1
+$Lcom/lagradost/cloudstream3/MainAPI;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+1$i$a$-filter-BestHDgayporn$loadLinks$candidates$2
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+3Lcom/lagradost/cloudstream3/LoadResponse$Companion;
+4https?://[^\s'"]+?\.(?:mp4|m3u8|webm)(\?[^'"\s<>]*)?
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    BestHDgayporn$loadLinks$7$1(java.lang.String r2, java.util.Map<java.lang.String, java.lang.String> r3, kotlin.coroutines.Continuation<? super com.BestHDgayporn.BestHDgayporn$loadLinks$7$1> r4) {
+com/BestHDgayporn/BestHDgayporn
+-com.BestHDgayporn.BestHDgayporn$loadLinks$7$1
+            com.BestHDgayporn.BestHDgayporn$loadLinks$7$1 r0 = new com.BestHDgayporn.BestHDgayporn$loadLinks$7$1
+#div.aiovg-item-tag a.aiovg-link-tag
+div.aiovg-item-video
+*div.video-item, article.post, .aiovg-video
+final class BestHDgayporn$loadLinks$7$1 extends kotlin.coroutines.jvm.internal.SuspendLambda implements kotlin.jvm.functions.Function2<com.lagradost.cloudstream3.utils.ExtractorLink, kotlin.coroutines.Continuation<? super kotlin.Unit>, java.lang.Object> {
+    final /* synthetic */ java.lang.String $data;
+    final /* synthetic */ java.util.Map<java.lang.String, java.lang.String> $headers;
+        int I$0;
+        int I$1;
+    /* JADX INFO: compiled from: BestHDgayporn.kt */
+    /* JADX INFO: renamed from: com.BestHDgayporn.BestHDgayporn$loadLinks$1 */
+                java.lang.Object r0 = r1.loadLinks(r2, r3, r4, r5, r6)
+            java.lang.String r1 = r3.$data
+            java.util.Map<java.lang.String, java.lang.String> r2 = r3.$headers
+@kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.BestHDgayporn.BestHDgayporn$loadLinks$7$1", f = "BestHDgayporn.kt", i = {}, l = {}, m = "invokeSuspend", n = {}, nl = {}, s = {}, v = 2)
+    @kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.BestHDgayporn.BestHDgayporn", f = "BestHDgayporn.kt", i = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}, l = {143, 163, 195}, m = "loadLinks", n = {"data", "subtitleCallback", "callback", "headers", "isCasting", "data", "subtitleCallback", "callback", "headers", "res", "doc", "urlRegex", "found", "$this$forEach$iv", "element$iv", "iframeUrl", "isCasting", "$i$f$forEach", "$i$a$-forEach-BestHDgayporn$loadLinks$5", "data", "subtitleCallback", "callback", "headers", "res", "doc", "urlRegex", "found", "candidates", "$this$forEachIndexed$iv", "item$iv", "url", "friendlyName", "isCasting", "$i$f$forEachIndexed", "index$iv", "i", "$i$a$-forEachIndexed-BestHDgayporn$loadLinks$7"}, nl = {144, 164, 194}, s = {"L$0", "L$1", "L$2", "L$3", "Z$0", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$10", "L$11", "Z$0", "I$0", "I$1", "L$0", "L$1", "L$2", "L$3", "L$4", "L$5", "L$6", "L$7", "L$8", "L$9", "L$11", "L$12", "L$13", "Z$0", "I$0", "I$1", "I$2", "I$3"}, v = 2)
+@kotlin.jvm.internal.SourceDebugExtension({"SMAP\nBestHDgayporn.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BestHDgayporn.kt\ncom/BestHDgayporn/BestHDgayporn\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,211:1\n1642#2,10:212\n1915#2:222\n1916#2:224\n1652#2:225\n1642#2,10:226\n1915#2:236\n1916#2:238\n1652#2:239\n1586#2:240\n1661#2,3:241\n777#2:244\n873#2,2:245\n1642#2,10:247\n1915#2:257\n1642#2,10:259\n1915#2:269\n1916#2:271\n1652#2:272\n1916#2:274\n1652#2:275\n1915#2:276\n1916#2:279\n1915#2:280\n1916#2:282\n1642#2,10:283\n1915#2:293\n1916#2:295\n1652#2:296\n1915#2:297\n1915#2,2:300\n1916#2:302\n1586#2:305\n1661#2,3:306\n777#2:309\n873#2,2:310\n1924#2,3:312\n1#3:223\n1#3:237\n1#3:258\n1#3:270\n1#3:273\n1#3:281\n1#3:294\n1342#4,2:277\n1342#4,2:298\n1342#4,2:303\n*S KotlinDebug\n*F\n+ 1 BestHDgayporn.kt\ncom/BestHDgayporn/BestHDgayporn\n*L\n54#1:212,10\n54#1:222\n54#1:224\n54#1:225\n92#1:226,10\n92#1:236\n92#1:238\n92#1:239\n105#1:240\n105#1:241,3\n106#1:244\n106#1:245,2\n110#1:247,10\n110#1:257\n119#1:259,10\n119#1:269\n119#1:271\n119#1:272\n110#1:274\n110#1:275\n150#1:276\n150#1:279\n155#1:280\n155#1:282\n161#1:283,10\n161#1:293\n161#1:295\n161#1:296\n161#1:297\n165#1:300,2\n161#1:302\n178#1:305\n178#1:306,3\n179#1:309\n179#1:310,2\n188#1:312,3\n54#1:223\n92#1:237\n119#1:270\n110#1:273\n161#1:294\n151#1:277,2\n164#1:298,2\n175#1:303,2\n*E\n"})
+@kotlin.Metadata(d1 = {"\u0000~\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\u0007\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010$\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\b\u0002\u0010\u0003J\u001e\u0010!\u001a\u00020%2\u0006\u0010&\u001a\u00020'2\u0006\u0010(\u001a\u00020)H\u0096@\u00a2\u0006\u0002\u0010*J\u000e\u0010+\u001a\u0004\u0018\u00010,*\u00020-H\u0002J\u000e\u0010.\u001a\u0004\u0018\u00010,*\u00020-H\u0002J\u001c\u0010/\u001a\b\u0012\u0004\u0012\u00020,0\u001f2\u0006\u00100\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u00101J\u0016\u00102\u001a\u0002032\u0006\u00104\u001a\u00020\u0005H\u0096@\u00a2\u0006\u0002\u00101JF\u00105\u001a\u00020\u000e2\u0006\u00106\u001a\u00020\u00052\u0006\u00107\u001a\u00020\u000e2\u0012\u00108\u001a\u000e\u0012\u0004\u0012\u00020:\u0012\u0004\u0012\u00020;092\u0012\u0010<\u001a\u000e\u0012\u0004\u0012\u00020=\u0012\u0004\u0012\u00020;09H\u0096@\u00a2\u0006\u0002\u0010>R\u001a\u0010\u0004\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0096\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\u0007\"\u0004\b\f\u0010\tR\u0014\u0010\r\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010R\u0014\u0010\u0011\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0012\u0010\u0010R\u0014\u0010\u0013\u001a\u00020\u000eX\u0096D\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0014\u0010\u0010R\u0014\u0010\u0015\u001a\u00020\u0016X\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0017\u0010\u0018R\u001a\u0010\u0019\u001a\b\u0012\u0004\u0012\u00020\u001b0\u001aX\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001c\u0010\u001dR\u001a\u0010\u001e\u001a\b\u0012\u0004\u0012\u00020 0\u001fX\u0096\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b!\u0010\"R\u001a\u0010#\u001a\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050$X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006?"}, d2 = {"Lcom/BestHDgayporn/BestHDgayporn;", "Lcom/lagradost/cloudstream3/MainAPI;", "<init>", "()V", "mainUrl", "", "getMainUrl", "()Ljava/lang/String;", "setMainUrl", "(Ljava/lang/String;)V", "name", "getName", "setName", "hasMainPage", "", "getHasMainPage", "()Z", "hasDownloadSupport", "getHasDownloadSupport", "hasQuickSearch", "getHasQuickSearch", "vpnStatus", "Lcom/lagradost/cloudstream3/VPNStatus;", "getVpnStatus", "()Lcom/lagradost/cloudstream3/VPNStatus;", "supportedTypes", "", "Lcom/lagradost/cloudstream3/TvType;", "getSupportedTypes", "()Ljava/util/Set;", "mainPage", "", "Lcom/lagradost/cloudstream3/MainPageData;", "getMainPage", "()Ljava/util/List;", "cookies", "", "Lcom/lagradost/cloudstream3/HomePageResponse;", "page", "", "request", "Lcom/lagradost/cloudstream3/MainPageRequest;", "(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "toSearchResult", "Lcom/lagradost/cloudstream3/SearchResponse;", "Lorg/jsoup/nodes/Element;", "toRecommendResult", "search", "query", "(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "load", "Lcom/lagradost/cloudstream3/LoadResponse;", "url", "loadLinks", "data", "isCasting", "subtitleCallback", "Lkotlin/Function1;", "Lcom/lagradost/cloudstream3/SubtitleFile;", "", "callback", "Lcom/lagradost/cloudstream3/utils/ExtractorLink;", "(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "BestHDgayporn"}, k = 1, mv = {2, 3, 0}, xi = 48)
+    @kotlin.Metadata(k = 3, mv = {2, 3, 0}, xi = 48)
+!Lcom/BestHDgayporn/BestHDgayporn;
+;Lcom/BestHDgayporn/BestHDgayporn$$ExternalSyntheticLambda0;
+~~~{"Lcom/BestHDgayporn/BestHDgayporn$$ExternalSyntheticLambda0;":"386c34d39","Lcom/BestHDgayporn/BestHDgayporn$$ExternalSyntheticLambda1;":"-411789aaa","Lcom/BestHDgayporn/BestHDgayporn$getMainPage$1;":"80c64f81","Lcom/BestHDgayporn/BestHDgayporn$load$1;":"71c51eed","Lcom/BestHDgayporn/BestHDgayporn$load$2;":"4dbee64e","Lcom/BestHDgayporn/BestHDgayporn$loadLinks$1;":"3e3ec2ea","Lcom/BestHDgayporn/BestHDgayporn$loadLinks$7$1;":"d6e11515","Lcom/BestHDgayporn/BestHDgayporn$search$1;":"eff0300e","Lcom/BestHDgayporn/BestHDgayporn;":"6e8f6dc5","Lcom/BestHDgayporn/BestHDgaypornProvider;":"c5dba05f"}
+;Lcom/BestHDgayporn/BestHDgayporn$$ExternalSyntheticLambda1;
+/Lcom/BestHDgayporn/BestHDgayporn$getMainPage$1;
+(Lcom/BestHDgayporn/BestHDgayporn$load$1;
+(Lcom/BestHDgayporn/BestHDgayporn$load$2;
+-Lcom/BestHDgayporn/BestHDgayporn$loadLinks$1;
+/Lcom/BestHDgayporn/BestHDgayporn$loadLinks$7$1;
+*Lcom/BestHDgayporn/BestHDgayporn$search$1;
+)Lcom/BestHDgayporn/BestHDgaypornProvider;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+&Lcom/lagradost/cloudstream3/VPNStatus;
+(()Lcom/lagradost/cloudstream3/VPNStatus;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+Lkotlin/text/Regex;
+Lkotlin/text/RegexOption;
+	loadLinks
+Lorg/jsoup/select/Elements;
+Ovideo[src], video > source[src], source[src], video[data-src], source[data-src]
+    private /* synthetic */ java.lang.Object L$0;
+public final class BestHDgayporn extends com.lagradost.cloudstream3.MainAPI {
+            r0.<init>(r1, r2, r5)
+            r1.$data = r2
+            r1.$headers = r3
+            r1 = this;
+                return r0
+    static final class C00031 extends kotlin.coroutines.jvm.internal.ContinuationImpl {
+urlRegex
+video[src], source[src]

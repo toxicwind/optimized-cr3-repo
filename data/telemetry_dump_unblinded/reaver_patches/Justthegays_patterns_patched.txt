@@ -1,0 +1,36 @@
+# PATTERN ENHANCEMENTS - Caching & Timeout
+PATTERN_CACHE = {}
+PATTERN_TIMEOUT = 30
+PATTERN_RETRY_ATTEMPTS = 3
+select\(
+Regex|Pattern
+div\.|\.video|article|class=
+player|embed|source|m3u8|\.mp4
+loadLinks|getUrl|videoUrl
+Jsoup\.select|Elements
+https?://[^'"\s]+?\.(mp4|m3u8)
+com/android/tools/r8/annotations/SynthesizedClassV2
+com/Justthegays/Justthegays
+com/Justthegays/JustthegaysProvider
+com/lagradost/cloudstream3/HomePageList
+com/lagradost/cloudstream3/HomePageResponse
+com/lagradost/cloudstream3/LoadResponse
+com/lagradost/cloudstream3/MainActivityKt
+com/lagradost/cloudstream3/MainAPI
+com/lagradost/cloudstream3/MainAPIKt
+com/lagradost/cloudstream3/MainPageData
+com/lagradost/cloudstream3/MainPageRequest
+com/lagradost/cloudstream3/MovieLoadResponse
+com/lagradost/cloudstream3/MovieSearchResponse
+com/lagradost/cloudstream3/plugins/CloudstreamPlugin
+com/lagradost/cloudstream3/plugins/Plugin
+com/lagradost/cloudstream3/SearchResponse
+com/lagradost/cloudstream3/SubtitleFile
+com/lagradost/cloudstream3/TvType
+com/lagradost/cloudstream3/utils/ExtractorApiKt
+com/lagradost/cloudstream3/utils/ExtractorLink
+com/lagradost/cloudstream3/utils/ExtractorLinkType
+com/lagradost/cloudstream3/utils/Qualities
+com/lagradost/cloudstream3/VPNStatus
+com/lagradost/nicehttp/NiceResponse
+com/lagradost/nicehttp/Requests

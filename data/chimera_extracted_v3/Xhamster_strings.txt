@@ -1,0 +1,709 @@
+1pPR
+ p0U
+ p0U
+ p0U
+	n D
+	n D
+	n D
+eYE6
+	n D
+ 8 	
+ YpS
+	[yK
+	[yP
+	[yQ
+	[yD
+9YyS
+	n F
+	n F
+	[I^
+	8	|
+	8	v
+	n D
+=---..
+<--)
+<--)
+<--)
+<--)
+	LK&
+=KK<K
+04022
+0402H
+ HLS
+ MP4 
+ items from HTML fallback.
+ items from JSON.
+ items using 
+ logic.
+& recommendations using HTML selector '
+- recommendations using broader HTML selector.
+ results for query '
+$completion
+$continuation
+$data
+$fixedPoster
+$i$a$-filter-Xhamster$load$5
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+$$i$a$-forEach-Xhamster$loadLinks$2$1
+"$i$a$-forEach-Xhamster$loadLinks$3
+"$i$a$-forEach-Xhamster$loadLinks$4
+$i$a$-ifEmpty-Xhamster$load$3
+$i$a$-ifEmpty-Xhamster$load$6
+"$i$a$-ifEmpty-Xhamster$load$tags$3
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+$i$a$-let-Xhamster$loadLinks$2
+/$i$a$-let-Xhamster$parseVideoItem$fixedPoster$1
+'$i$a$-mapNotNull-Xhamster$getMainPage$2
+'$i$a$-mapNotNull-Xhamster$getMainPage$3
+ $i$a$-mapNotNull-Xhamster$load$2
+ $i$a$-mapNotNull-Xhamster$load$4
+%$i$a$-mapNotNull-Xhamster$load$tags$1
+%$i$a$-mapNotNull-Xhamster$load$tags$2
+"$i$a$-mapNotNull-Xhamster$search$2
+"$i$a$-mapNotNull-Xhamster$search$3
+$i$a$-run-Xhamster$load$title$1
+*$i$a$-run-Xhamster$loadLinks$initialData$1
+$i$f$filter
+$i$f$filterTo
+$i$f$forEach
+$i$f$jacksonTypeRef
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$parseJson
+$i$f$readValue
+$plot
+$poster
+$quality
+&$r8$lambda$MC4cmcWAUKpS7qWDmfdtntMpsTk
+&$r8$lambda$y89NVWtsYgNdF1YatngICLrlPIw
+$recommendations
+$result
+$tags
+$this$filter$iv
+$this$filterTo$iv$iv
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$loadLinks_u24lambda_u240
+$this$load_u24lambda_u240
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$newMovieSearchResponse
+$this$readValue$iv$iv
+' at URL: 
+()LXhamster/HlsSource;
+()LXhamster/HlsSources;
+()LXhamster/LayoutPage;
+()LXhamster/Poster;
+()LXhamster/RelatedVideos;
+()LXhamster/SearchResult;
+()LXhamster/StandardSources;
+()LXhamster/SubtitleUrls;
+()LXhamster/Subtitles;
+()LXhamster/VideoEntity;
+()LXhamster/VideoListProps;
+()LXhamster/VideoSources;
+ ()LXhamster/VideoTabInitialData;
+()LXhamster/VideoTagsComponent;
+()LXhamster/XPlayerSettings;
+()Ljava/lang/String;
+()Ljava/util/List;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(LXhamster/HlsSource;)V
+2(LXhamster/HlsSources;LXhamster/StandardSources;)V
+(LXhamster/VideoListProps;)V
+?(LXhamster/VideoSources;LXhamster/Poster;LXhamster/Subtitles;)V
+!(LXhamster/VideoTabInitialData;)V
+(LXhamster/XPlayerSettings;LXhamster/VideoEntity;LXhamster/VideoTagsComponent;LXhamster/RelatedVideos;LXhamster/LayoutPage;LXhamster/SearchResult;)V
+(Ljava/lang/String;)V
+'(Ljava/lang/String;Ljava/lang/String;)V
+>(Ljava/lang/String;Ljava/lang/String;LXhamster/SubtitleUrls;)V
+9(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/util/List;)V
+*>;)
+, URL=
+, description=
+, lang=
+, layoutPage=
+, pageURL=
+	, poster=
+, relatedVideos=
+, searchResult=
+, standard=
+, subtitles=
+, thumbBig=
+, thumbUrl=
+, url=
+, urls=
+, videoEntity=
+, videoTagsComponent=
+/search/
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+<anonymous>
+<init>
+<set-?>
+>;)V
+>;>;
+>;>;)
+	Companion
+Could not find title for 
+D8$$SyntheticClass
+)Error parsing recommendations from HTML: 
+Extensions.kt
+Failed to fetch main page: 
+Failed to fetch search page: 
+&Failed to get document for loadLinks: 
+Failed to load URL 
+#Failed to parse JSON for loadLinks.
+9Final recommendations count being added to LoadResponse: 
+Found 
+Found HLS url: 
+Found MP4 link: 
+Found subtitle: Lang=
+HlsSource(url=
+HlsSources(h264=
+INSTANCE
+InitialsJson(xplayerSettings=
+L$10
+L$11
+L$12
+L$13
+L$14
+L$15
+LILL
+LLLIL
+LLLL
+LLLLIL
+LLLLLIL
+LLLLLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLLIL
+LLLLLLLLLIL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLZLLL
+LXhamster/HlsSource;
+LXhamster/HlsSources;
+LXhamster/InitialsJson;
+LXhamster/LayoutPage;
+LXhamster/Poster;
+LXhamster/RelatedVideos;
+LXhamster/SearchResult;
+ LXhamster/StandardSourceQuality;
+LXhamster/StandardSources;
+LXhamster/SubtitleTrack;
+LXhamster/SubtitleUrls;
+LXhamster/Subtitles;
+LXhamster/Tag;
+LXhamster/VideoEntity;
+LXhamster/VideoListProps;
+LXhamster/VideoSources;
+LXhamster/VideoTabInitialData;
+LXhamster/VideoTagsComponent;
+LXhamster/VideoThumbProps;
+LXhamster/XPlayerSettings;
+-LXhamster/Xhamster$$ExternalSyntheticLambda0;
+-LXhamster/Xhamster$$ExternalSyntheticLambda1;
+-LXhamster/Xhamster$$ExternalSyntheticLambda2;
+8LXhamster/Xhamster$getInitialsJson$$inlined$parseJson$1;
+!LXhamster/Xhamster$getMainPage$1;
+LXhamster/Xhamster$load$1;
+LXhamster/Xhamster$load$7;
+LXhamster/Xhamster$loadLinks$1;
+!LXhamster/Xhamster$loadLinks$2$2;
+!LXhamster/Xhamster$loadLinks$3$1;
+LXhamster/Xhamster$search$1;
+LXhamster/Xhamster;
+LXhamster/XhamsterProvider;
+Landroid/content/Context;
+Landroid/util/Log;
+LayoutPage(videoListProps=
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/utils/AppUtils;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+7Lcom/lagradost/cloudstream3/utils/M3u8Helper$Companion;
+-Lcom/lagradost/cloudstream3/utils/M3u8Helper;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Integer;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/util/ArrayList;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/ResultKt;
+Lkotlin/Unit;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+.Lkotlin/jvm/internal/DefaultConstructorMarker;
+ Lkotlin/jvm/internal/Intrinsics;
+$Lkotlin/jvm/internal/Ref$BooleanRef;
+#Lkotlin/jvm/internal/Ref$ObjectRef;
+#Lkotlin/jvm/internal/Ref$ObjectRef<
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/text/StringsKt;
+LoadLinks started for: 
+Loading URL: 
+Lokhttp3/Interceptor;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/jsoup/Jsoup;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+M3U8
+M3u8Helper failed: 
+(MP4 source item missing quality or url: 
+NSFW
+No HLS source found in JSON.
+'No Standard H264 sources found in JSON.
+!No subtitle tracks found in JSON.
+(No video links (M3U8 or MP4) were found.
+Poster(url=
+JPrimary HTML selector for recommendations failed, trying broader selector.
+"RelatedVideos(videoTabInitialData=
+SMAP
+Extensions.kt
+Kotlin
+*S Kotlin
++ 1 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+1#1,129:1
+SMAP
+Xhamster.kt
+Kotlin
+*S Kotlin
++ 1 Xhamster.kt
+Xhamster/Xhamster
++ 2 AppUtils.kt
+com/lagradost/cloudstream3/utils/AppUtils
++ 3 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
++ 4 fake.kt
+kotlin/jvm/internal/FakeKt
++ 5 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
+1#1,382:1
+15#2:383
+50#3:384
+43#3:385
+1#4:386
+1#4:398
+1#4:412
+1#4:426
+1#4:440
+1#4:454
+1#4:468
+1#4:482
+1#4:496
+1642#5,10:387
+1915#5:397
+1916#5:399
+1652#5:400
+1642#5,10:401
+1915#5:411
+1916#5:413
+1652#5:414
+1642#5,10:415
+1915#5:425
+1916#5:427
+1652#5:428
+1642#5,10:429
+1915#5:439
+1916#5:441
+1652#5:442
+1642#5,10:443
+1915#5:453
+1916#5:455
+1652#5:456
+1642#5,10:457
+1915#5:467
+1916#5:469
+1652#5:470
+1642#5,10:471
+1915#5:481
+1916#5:483
+1652#5:484
+1642#5,10:485
+1915#5:495
+1916#5:497
+1652#5:498
+777#5:499
+873#5,2:500
+1915#5,2:502
+1915#5,2:504
+1915#5,2:506
+*S KotlinDebug
++ 1 Xhamster.kt
+Xhamster/Xhamster
+132#1:383
+132#1:384
+132#1:385
+173#1:398
+191#1:412
+234#1:426
+250#1:440
+287#1:454
+288#1:468
+296#1:482
+306#1:496
+173#1:387,10
+173#1:397
+173#1:399
+173#1:400
+191#1:401,10
+191#1:411
+191#1:413
+191#1:414
+234#1:415,10
+234#1:425
+234#1:427
+234#1:428
+250#1:429,10
+250#1:439
+250#1:441
+250#1:442
+287#1:443,10
+287#1:453
+287#1:455
+287#1:456
+288#1:457,10
+288#1:467
+288#1:469
+288#1:470
+296#1:471,10
+296#1:481
+296#1:483
+296#1:484
+306#1:485,10
+306#1:495
+306#1:497
+306#1:498
+307#1:499
+307#1:500,2
+349#1:502,2
+356#1:504,2
+367#1:506,2
+Search started for query '
+)Search: Failed to parse initialData JSON.
+Search: Found 
+ISearch: JSON results list is null or empty. Falling back to HTML parsing.
+Search: Mapped 
+$Search: No results found for query '
+ Search: Parsed initialData JSON.
+SearchResult(videoThumbProps=
+StandardSourceQuality(quality=
+StandardSources(h264=
+ Subtitle track missing VTT url: 
+SubtitleTrack(label=
+SubtitleUrls(vtt=
+Subtitles(tracks=
+	Tag(name=
+Unknown
+VIDEO
+VLIL
+VLLIL
+VLLL
+VLLLIL
+VLLLLL
+VLLLLLL
+	VLLLLLLIL
+Video Trang Ch
+VideoEntity(title=
+VideoListProps(videoThumbProps=
+VideoSources(hls=
+#VideoTabInitialData(videoListProps=
+VideoTagsComponent(tags=
+VideoThumbProps(title=
+XPlayerSettings(sources=
+Xhamster
+Xhamster.Xhamster
+Xhamster.Xhamster$load$7
+Xhamster.Xhamster$loadLinks$2$2
+Xhamster.Xhamster$loadLinks$3$1
+Xhamster.kt
+XhamsterProvider.kt
+a.mobile-video-thumb__name
+a.thumb-image-container
+a.thumb-image-container img
+accessFlags
+apiLevel
+append
+areEqual
+attr
+boxBoolean
+boxInt
+/call to 'resume' before 'invoke' with coroutine
+callback
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+Hcom/lagradost/cloudstream3/utils/AppUtils$parseJson$$inlined$readValue$1
+component1
+component2
+component3
+component4
+component5
+component6
+content
+content$iv$iv
+context
+copy
+copy$default
+create
+data
+description
+destination$iv$iv
+div.mobile-video-thumb
+-div.video-description p[itemprop=description]
+3div[data-role=video-related] div.mobile-video-thumb
+document
+element
+element$iv
+element$iv$iv
+element$iv$iv$iv
+equals
+fixUrl
+fixUrlNull
+	fixedHref
+fixedM3u8Url
+fixedPoster
+fixedSubUrl
+fixedVideoUrl
+foundLinks
+generateM3u8$default
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getDescription
+getDocument
+getH264
+getHasMainPage
+getHls
+getInitialsJson
+getInitialsJson failed: 
+getLabel
+getLang
+getLayoutPage
+getMainPage
+getMainPage started for page 
+getMainPage$lambda$0$0
+.getMainPage: Failed to parse initialData JSON.
+*getMainPage: Falling back to HTML parsing.
+1getMainPage: HTML fallback also yielded no items.
+<getMainPage: JSON items list is null or empty after mapping.
+getMainPage: Mapped 
+.getMainPage: No items found from JSON or HTML.
+%getMainPage: Parsed initialData JSON.
+!getMainPage: Successfully loaded 
+getMainUrl
+	getMapper
+getMessage
+getName
+getPageURL
+	getPoster
+getQuality
+getRelatedVideos
+getSearchResult
+getSources
+getStandard
+getSubtitles
+getSupportedTypes
+getTags
+getThumbBig
+getThumbUrl
+getTitle
+	getTracks
+getUrl
+getUrls
+getValue
+getVideoEntity
+getVideoListProps
+getVideoTabInitialData
+getVideoTagsComponent
+getVideoThumbProps
+getVtt
+getXplayerSettings
+h264
+hasMainPage
+hasNext
+hashCode
+href
+html
+htmlContent
+https://vi.xhspot.com/gay
+imageElement
+initialData
+intValue
+invoke
+invokeSuspend
+isBlank
+	isCasting
+isEmpty
+it$iv$iv
+item
+items
+iterator
+jackson-module-kotlin
+jsonString
+kind
+label
+lang
+layoutPage
+link
+	listTitle
+load
+	loadLinks
+m3u8Url
+mainUrl
+meta[property=og:image]
+meta[property=og:title]
+name
+newExtractorLink$default
+newHomePageResponse$default
+newMovieLoadResponse
+newMovieSearchResponse$default
+next
+nullOutSpilledVariable
+other
+page
+pageURL
+parse
+parseVideoItem
+parseVideoItem$lambda$1
+plot
+poster
+	posterUrl
+printStackTrace
+quality
+qualityLabel
+qualitySource
+query
+	readValue
+recommendations
+registerMainAPI
+relatedItemsSelector
+relatedVideos
+removePrefix
+removeSuffix
+replace$default
+request
+result
+results
+script
+script#initials-script
+search
+search$lambda$0$0
+searchResult
+	searchUrl
+$section[data-role=video-tags] a.item
+select
+selectFirst
+setLang
+setMainUrl
+setName
+setOf
+setPlot
+setPosterUrl
+setQuality
+setRecommendations
+setReferer
+setTags
+setType
+size
+sourceName
+sources
+srcset
+standard
+subUrl
+substringBefore$default
+subtitleCallback
+	subtitles
+supportedTypes
+tags
+text
+this
+this$0
+this_$iv
+throwOnFailure
+thumbBig
+thumbURL
+thumbUrl
+title
+titleElement
+toIntOrNull
+toString
+track
+tracks
+trim
+$ul.thumb-list div.mobile-video-thumb
+urls
+value
+value$iv
+versionHash
+videoEntity
+videoListProps
+videoTabInitialData
+videoTagsComponent
+videoThumbProps
+videoUrl
+window.initials=
+xplayerSettings
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"LXhamster/HlsSource;":"94f0b3bf","LXhamster/HlsSources;":"27b4028a","LXhamster/InitialsJson;":"443700a9","LXhamster/LayoutPage;":"a5852b3f","LXhamster/Poster;":"77de285c","LXhamster/RelatedVideos;":"e2c9e549","LXhamster/SearchResult;":"28f5cf50","LXhamster/StandardSourceQuality;":"7770c066","LXhamster/StandardSources;":"d24c787e","LXhamster/SubtitleTrack;":"e574e4ae","LXhamster/SubtitleUrls;":"4a63b059","LXhamster/Subtitles;":"6d5f1aa4","LXhamster/Tag;":"542b681b","LXhamster/VideoEntity;":"a4b91485","LXhamster/VideoListProps;":"f2941698","LXhamster/VideoSources;":"576bc17d","LXhamster/VideoTabInitialData;":"971ec7d4","LXhamster/VideoTagsComponent;":"c28c4f3f","LXhamster/VideoThumbProps;":"8d624fcf","LXhamster/XPlayerSettings;":"5a225ef8","LXhamster/Xhamster$$ExternalSyntheticLambda0;":"43988a91a","LXhamster/Xhamster$$ExternalSyntheticLambda1;":"3d7a87c2d","LXhamster/Xhamster$$ExternalSyntheticLambda2;":"-7c409e941","LXhamster/Xhamster$getInitialsJson$$inlined$parseJson$1;":"ea93993b","LXhamster/Xhamster$getMainPage$1;":"bf117491","LXhamster/Xhamster$load$1;":"fca161b5","LXhamster/Xhamster$load$7;":"b9b907","LXhamster/Xhamster$loadLinks$1;":"5f027ef8","LXhamster/Xhamster$loadLinks$2$2;":"9df83834","LXhamster/Xhamster$loadLinks$3$1;":"33b4a3bb","LXhamster/Xhamster$search$1;":"6b6f9040","LXhamster/Xhamster;":"3187da66","LXhamster/XhamsterProvider;":"5fb52f75"}

@@ -1,0 +1,479 @@
+# STRING OBFUSCATION - Security Hardening
+STRING_ENCRYPTION_KEY = b'reaver_v1_hardened'
+STRING_HASH_VERIFICATION = True
+STRING_SANITIZATION = True
+ p0c
+ p0c
+#(Cq
+(qVj
+	[I$
+!YQ3
+5Yu3
+CY#=
+	3.&
+<KK<-K
+09072
+0907H
+$actors
+$completion
+$continuation
+$data
+$description
+$headers
+'$i$a$-filter-topHDgayporn$load$actors$1
+0$i$a$-filter-topHDgayporn$loadLinks$candidates$2
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+&$i$a$-forEach-topHDgayporn$loadLinks$2
+($i$a$-forEach-topHDgayporn$loadLinks$2$1
+&$i$a$-forEach-topHDgayporn$loadLinks$3
+&$i$a$-forEach-topHDgayporn$loadLinks$5
+($i$a$-forEach-topHDgayporn$loadLinks$5$1
+($i$a$-forEach-topHDgayporn$loadLinks$5$2
+&$i$a$-forEach-topHDgayporn$loadLinks$6
+-$i$a$-forEachIndexed-topHDgayporn$loadLinks$7
+*$i$a$-ifEmpty-topHDgayporn$loadLinks$3$v$1
+,$i$a$-ifEmpty-topHDgayporn$loadLinks$5$2$v$1
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+-$i$a$-map-topHDgayporn$loadLinks$candidates$1
+0$i$a$-mapNotNull-topHDgayporn$getMainPage$home$1
+4$i$a$-mapNotNull-topHDgayporn$load$recommendations$1
+)$i$a$-mapNotNull-topHDgayporn$loadLinks$4
+&$i$a$-mapNotNull-topHDgayporn$search$2
+'$i$a$-takeIf-topHDgayporn$loadLinks$4$1
+$i$f$filter
+$i$f$filterTo
+$i$f$forEach
+$i$f$forEachIndexed
+$i$f$map
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$mapTo
+$poster
+$posterUrl
+$recommendations
+$result
+$this$filter$iv
+$this$filterTo$iv$iv
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$forEachIndexed$iv
+$this$map$iv
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$mapTo$iv$iv
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$newMovieSearchResponse
+$this$toRecommendResult
+$this$toSearchResult
+$url
+&amp;
+(()Lcom/lagradost/cloudstream3/VPNStatus;
+()Ljava/lang/String;
+()Ljava/util/List;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;)V
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+*>;)
+.aiovg-link-title
+/?s=
+/video-tag/bareback-gay-porn/
+/video-tag/big-black-dick/
+/video-tag/bro-network/
+/video-tag/chaos-men/
+/video-tag/falcon-studios/
+/video-tag/helix-studios/
+/video-tag/latin-leche/
+/video-tag/latino/
+/video-tag/nakedsword/
+/video-tag/onlyfans/
+/video-tag/voyr/
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+<anonymous>
+<init>
+<set-?>
+>;)V
+>;>;)
+Bareback
+Big Black Dick
+Bro Network
+	Chaos Men
+	Companion
+D8$$SyntheticClass
+ DEBUG: No video links found for 
+Direct
+Falcon Studios
+Flynn Fenix
+Helix Studio
+IGNORE_CASE
+INSTANCE
+L$10
+L$11
+L$12
+L$13
+L$14
+LILL
+LLLIIL
+LLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLZLLL
+Landroid/content/Context;
+Latest
+Latin Leche
+Latino
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+3Lcom/lagradost/cloudstream3/LoadResponse$Companion;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+&Lcom/lagradost/cloudstream3/VPNStatus;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+9Lcom/topHDgayporn/topHDgayporn$$ExternalSyntheticLambda0;
+9Lcom/topHDgayporn/topHDgayporn$$ExternalSyntheticLambda1;
+-Lcom/topHDgayporn/topHDgayporn$getMainPage$1;
+&Lcom/topHDgayporn/topHDgayporn$load$1;
+&Lcom/topHDgayporn/topHDgayporn$load$2;
++Lcom/topHDgayporn/topHDgayporn$loadLinks$1;
+-Lcom/topHDgayporn/topHDgayporn$loadLinks$7$1;
+(Lcom/topHDgayporn/topHDgayporn$search$1;
+Lcom/topHDgayporn/topHDgayporn;
+'Lcom/topHDgayporn/topHDgaypornProvider;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Ljava/io/PrintStream;
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/lang/System;
+Ljava/util/ArrayList;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Map<
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/Pair;
+Lkotlin/ResultKt;
+Lkotlin/TuplesKt;
+Lkotlin/Unit;
+"Lkotlin/collections/CollectionsKt;
+Lkotlin/collections/MapsKt;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/sequences/Sequence;
+Lkotlin/text/MatchResult;
+Lkotlin/text/Regex;
+Lkotlin/text/RegexOption;
+Lkotlin/text/StringsKt;
+Lokhttp3/Interceptor;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+MightBeNeeded
+Mozilla/5.0
+PMozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0
+NSFW
+Naked Sword
+Nicholas Ryder
+No Title
+Onlyfans
+Origin
+Referer
+	SMAP
+topHDgayporn.kt
+Kotlin
+*S Kotlin
++ 1 topHDgayporn.kt
+com/topHDgayporn/topHDgayporn
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,190:1
+1642#2,10:191
+1915#2:201
+1916#2:203
+1652#2:204
+1642#2,10:205
+1915#2:215
+1916#2:217
+1652#2:218
+777#2:219
+873#2,2:220
+1642#2,10:222
+1915#2:232
+1916#2:234
+1652#2:235
+1915#2:236
+1916#2:239
+1915#2:240
+1916#2:242
+1642#2,10:243
+1915#2:253
+1916#2:255
+1652#2:256
+1915#2:257
+1915#2,2:260
+1916#2:262
+1586#2:265
+1661#2,3:266
+777#2:269
+873#2,2:270
+1924#2,3:272
+1#3:202
+1#3:216
+1#3:233
+1#3:241
+1#3:254
+1342#4,2:237
+1342#4,2:258
+1342#4,2:263
+*S KotlinDebug
++ 1 topHDgayporn.kt
+com/topHDgayporn/topHDgayporn
+50#1:191,10
+50#1:201
+50#1:203
+50#1:204
+88#1:205,10
+88#1:215
+88#1:217
+88#1:218
+101#1:219
+101#1:220,2
+103#1:222,10
+103#1:232
+103#1:234
+103#1:235
+129#1:236
+129#1:239
+134#1:240
+134#1:242
+140#1:243,10
+140#1:253
+140#1:255
+140#1:256
+140#1:257
+144#1:260,2
+140#1:262
+157#1:265
+157#1:266,3
+158#1:269
+158#1:270,2
+167#1:272,3
+50#1:202
+88#1:216
+103#1:233
+140#1:254
+130#1:237,2
+143#1:258,2
+154#1:263,2
+User-Agent
+VLLLL
+VLLLLL
+VLLZ
+Voyr
+ZLLZ
+ZLLZIL
+[Ljava/lang/Object;
+[Ljava/lang/String;
+[Lkotlin/Pair;
+aTag
+abs:data-src
+abs:src
+accessAgeDisclaimerPH
+accessFlags
+actors
+addActorNames
+apiLevel
+append
+attr
+	aucdn.net
+besthdgayporn.com
+boxBoolean
+/call to 'resume' before 'invoke' with coroutine
+callback
+candidates
+collectionSizeOrDefault
+com.topHDgayporn.topHDgayporn
+$com.topHDgayporn.topHDgayporn$load$2
++com.topHDgayporn.topHDgayporn$loadLinks$7$1
+contains
+contains$default
+content
+context
+cookies
+create
+data
+description
+destination$iv$iv
+distinct
+div.aiovg-item-tag
+div.aiovg-item-video
+document
+element$iv
+element$iv$iv
+element$iv$iv$iv
+findAll$default
+fixUrlNull
+found
+friendlyName
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getData
+getDocument
+getHasDownloadSupport
+getHasMainPage
+getMainPage
+getMainUrl
+getName
+getQualityFromName
+getSupportedTypes
+getValue
+getVpnStatus
+hasDownloadSupport
+hasMainPage
+hasNext
+hasVisited
+headers
+home
+href
+html
+https://tophdgayporn.com
+4https?://[^\s'"]+?\.(?:mp4|m3u8|webm)(\?[^'"\s<>]*)?
+	iframeDoc
+	iframeUrl
+iframe[src]
+index$iv
+invoke
+invokeSuspend
+isBlank
+	isCasting
+isEmpty
+it$iv$iv
+item$iv
+item$iv$iv
+items
+iterator
+kind
+label
+length
+listOf
+load
+	loadLinks
+mainPage
+mainPageOf
+mainUrl
+mapOf
+meta[property='og:description']
+meta[property='og:image']
+meta[property='og:title']
+name
+newExtractorLink$default
+newHomePageResponse
+newMovieLoadResponse
+newMovieSearchResponse$default
+next
+nullOutSpilledVariable
+page
+page/
+poster
+	posterUrl
+println
+query
+recommendations
+registerMainAPI
+replace$default
+request
+result
+ script[type=application/ld+json]
+search
+	searchUrl
+select
+selectFirst
+setHeaders
+setMainUrl
+setName
+setOf
+setPlot
+setPosterUrl
+setQuality
+setRecommendations
+setReferer
+subtitleCallback
+supportedTypes
+text
+this
+this$0
+throwIndexOverflow
+throwOnFailure
+title
+toRecommendResult
+toRecommendResult$lambda$0
+toSearchResult
+toSearchResult$lambda$0
+toString
+topHDgayporn
+topHDgayporn.kt
+topHDgaypornProvider.kt
+trim
+urlRegex
+value
+versionHash
+video[src], source[src]
+Ovideo[src], video > source[src], source[src], video[data-src], source[data-src]
+	vpnStatus
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"Lcom/topHDgayporn/topHDgayporn$$ExternalSyntheticLambda0;":"2851c40f3","Lcom/topHDgayporn/topHDgayporn$$ExternalSyntheticLambda1;":"6963278cd","Lcom/topHDgayporn/topHDgayporn$getMainPage$1;":"8410f3e9","Lcom/topHDgayporn/topHDgayporn$load$1;":"1ef2cb48","Lcom/topHDgayporn/topHDgayporn$load$2;":"7d004cc6","Lcom/topHDgayporn/topHDgayporn$loadLinks$1;":"1561980c","Lcom/topHDgayporn/topHDgayporn$loadLinks$7$1;":"680f4ab3","Lcom/topHDgayporn/topHDgayporn$search$1;":"bbf60647","Lcom/topHDgayporn/topHDgayporn;":"9e0cdd50","Lcom/topHDgayporn/topHDgaypornProvider;":"ac714681"}

@@ -1,0 +1,460 @@
+ p0i
+ p0i
+)qSr
+	r ]
+	n T
+#qT{
+	qYu
+	qYr
+	8		
+'qTs
+3r ]
+$r ]
+(<T@B
+)qWr
+or j
+CY#7
+	6/&
+<KK<K
+05032
+0503H
+$completion
+$continuation
+$data
+$description
+$durationMinutes
+$i$a$-filter-XvideosGay$load$4
+$i$a$-filter-XvideosGay$load$7
+*$i$a$-find-XvideosGay$load$scriptContent$1
+0$i$a$-find-XvideosGay$load$scriptTagWithConfig$1
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+$i$a$-forEach-XvideosGay$load$9
+$$i$a$-forEach-XvideosGay$loadLinks$2
+1$i$a$-ifBlank-XvideosGay$toSearchResponse$title$1
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+$i$a$-let-XvideosGay$load$10$1
+$i$a$-let-XvideosGay$load$2
++$i$a$-let-XvideosGay$load$durationMinutes$1
+"$i$a$-let-XvideosGay$loadLinks$2$1
+ $i$a$-let-XvideosGay$loadLinks$3
+$$i$a$-let-XvideosGay$parseDuration$1
+$$i$a$-let-XvideosGay$parseDuration$2
+'$i$a$-let-XvideosGay$toSearchResponse$1
+$i$a$-map-XvideosGay$load$3
+$i$a$-map-XvideosGay$load$6
+/$i$a$-mapNotNull-XvideosGay$getMainPage$items$1
+$$i$a$-mapNotNull-XvideosGay$search$2
+$i$a$-takeIf-XvideosGay$load$8
+$i$f$filter
+$i$f$filterTo
+$i$f$forEach
+$i$f$map
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$mapTo
+$poster
+$posterUrl
+$quality
+&$r8$lambda$CjqcXGkxiTeYINONrbLn0tJRufo
+	$recImage
+$recommendations
+$result
+$tags
+$this$filter$iv
+$this$filterTo$iv$iv
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$map$iv
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$mapTo$iv$iv
+$this$newAnimeSearchResponse
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$toSearchResponse
+$uploaderName
+()Ljava/lang/String;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+'(Ljava/lang/String;)Ljava/lang/Integer;
+(Ljava/lang/String;)V
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	(\d+)\s*h
+(\d+)\s*min
+(\d+)\s*sec
+*>;)
+/?k=
+/best-of-gay/2026-03/
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+<anonymous>
+<init>
+<set-?>
+>;)V
+>;>;
+>;>;)
+D8$$SyntheticClass
+INSTANCE
+L$10
+L$11
+LILL
+LLLIIL
+LLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLLZIIL
+LLZLLL
+1LXvideosGay/XvideosGay$$ExternalSyntheticLambda0;
+1LXvideosGay/XvideosGay$$ExternalSyntheticLambda1;
+1LXvideosGay/XvideosGay$$ExternalSyntheticLambda2;
+%LXvideosGay/XvideosGay$getMainPage$1;
+LXvideosGay/XvideosGay$load$10;
+LXvideosGay/XvideosGay$load$1;
+#LXvideosGay/XvideosGay$loadLinks$1;
+%LXvideosGay/XvideosGay$loadLinks$3$1;
+ LXvideosGay/XvideosGay$search$1;
+LXvideosGay/XvideosGay;
+LXvideosGay/XvideosGayPlugin;
+Landroid/content/Context;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+"Lcom/lagradost/cloudstream3/Actor;
+&Lcom/lagradost/cloudstream3/ActorData;
+&Lcom/lagradost/cloudstream3/ActorRole;
+0Lcom/lagradost/cloudstream3/AnimeSearchResponse;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Integer;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/util/ArrayList;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/Pair;
+Lkotlin/ResultKt;
+Lkotlin/TuplesKt;
+Lkotlin/Unit;
+"Lkotlin/collections/CollectionsKt;
+Lkotlin/collections/MapsKt;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+.Lkotlin/jvm/internal/DefaultConstructorMarker;
+$Lkotlin/jvm/internal/Ref$BooleanRef;
+#Lkotlin/jvm/internal/Ref$ObjectRef;
+#Lkotlin/jvm/internal/Ref$ObjectRef<
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/sequences/Sequence;
+Lkotlin/text/CharsKt;
+Lkotlin/text/MatchResult;
+Lkotlin/text/Regex;
+Lkotlin/text/StringsKt;
+Lokhttp3/Interceptor;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+NSFW
+Referer
+SMAP
+XvideosGay.kt
+Kotlin
+*S Kotlin
++ 1 XvideosGay.kt
+XvideosGay/XvideosGay
++ 2 fake.kt
+kotlin/jvm/internal/FakeKt
++ 3 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,253:1
+1#2:254
+1#2:266
+1#2:280
+1642#3,10:255
+1915#3:265
+1916#3:267
+1652#3:268
+1642#3,10:269
+1915#3:279
+1916#3:281
+1652#3:282
+1586#3:283
+1661#3,3:284
+777#3:287
+873#3,2:288
+1586#3:290
+1661#3,3:291
+777#3:294
+873#3,2:295
+1915#3,2:299
+1342#4,2:297
+*S KotlinDebug
++ 1 XvideosGay.kt
+XvideosGay/XvideosGay
+69#1:266
+82#1:280
+69#1:255,10
+69#1:265
+69#1:267
+69#1:268
+82#1:269,10
+82#1:279
+82#1:281
+82#1:282
+115#1:283
+115#1:284,3
+116#1:287
+116#1:288,2
+123#1:290
+123#1:291,3
+124#1:294
+124#1:295,2
+228#1:299,2
+141#1:297,2
+VLLIL
+VLLL
+VLLLLIL
+	VLLLLLLLL
+VLLZIL
+Videos
+XvideosGay
+XvideosGay.XvideosGay
+XvideosGay.XvideosGay$load$10
+#XvideosGay.XvideosGay$loadLinks$3$1
+XvideosGay.kt
+XvideosGayPlugin.kt
+ZLLZIL
+/['"]https?://[^\s'"]+\.(mp4|mkv|m3u8)[^'"]*['"]
+[Ljava/lang/String;
+\\u([0-9a-fA-F]{4})
+l\{\s*"id":\s*\d+.*?,"u"\s*:\s*"(.*?)",\s*"i"\s*:\s*"(.*?)",.*?tf"\s*:\s*"(.*?)",.*?d"\s*:\s*"(.*?)"(?:.*?)\}
+"^(/video\.[^/]+)/[^/]+/[^/]+/(.+)$
+accessFlags
+actor
+apiLevel
+append
+attr
+boxBoolean
+/call to 'resume' before 'invoke' with coroutine
+callback
+checkRadix
+cleanedHref
+collectionSizeOrDefault
+contains$default
+content
+context
+create
+data
+data-src
+dataSrc
+description
+destination$iv$iv
+div.mozaique div.thumb-block
+div.pagination a.next-page
+div.thumb a img
+div.video-description-text
+div.video-hd-mark
+#div.video-tags-list li a.is-keyword
+=div.video-tags-list li.main-uploader a.uploader-tag span.name
+document
+durationMinutes
+durationString
+element
+element$iv
+element$iv$iv
+element$iv$iv$iv
+find$default
+findAll$default
+foundHlsUrl
+fullUrl
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getDocument
+getGroupValues
+getHasMainPage
+getLang
+getMainPage
+getMainUrl
+getName
+getPosterUrl
+getQualityFromName
+getSupportedTypes
+getValue
+h2.page-title
+h2.page-title span.duration
+hasMainPage
+hasNext
+hasNextPage
+	hourMatch
+href
+html
+http
+https:
+https://www.xvv1deos.com
+imgTag
+intValue
+invoke
+invokeSuspend
+isBlank
+	isCasting
+isEmpty
+it$iv$iv
+item$iv$iv
+	itemMatch
+	itemRegex
+items
+iterator
+jsonArrayString
+kind
+label
+lang
+lightbox-blank.gif
+linksFound
+listOf
+load
+load$lambda$9$0
+	loadLinks
+mainUrl
+mapOf
+matchResult
+meta[name=description]
+meta[property=og:image]
+meta[property=og:title]
+minMatch
+name
+newAnimeSearchResponse$default
+newExtractorLink$default
+newHomePageResponse
+newMovieLoadResponse
+next
+nullOutSpilledVariable
+originalHref
+ownText
+	p.title a
+page
+pageNumber
+parseDuration
+parseInt
+poster
+	posterUrl
+quality
+query
+recHref
+recImage
+recTitle
+recommendations
+registerMainAPI
+removeSurrounding
+replace
+replace$default
+request
+result
+script
+scriptContent
+scriptTagWithConfig
+scripts
+search
+secMatch
+select
+selectFirst
+	setActors
+setDuration
+setLang
+setMainUrl
+setName
+setOf
+setPlot
+setPosterHeaders
+setPosterUrl
+setQuality
+setRecommendations
+setReferer
+setTags
+size
+slug
+split$default
+startsWith$default
+subtitleCallback
+supportedTypes
+tags
+tagsJsonArrayString
+	tagsMatch
+	tagsRegex
+text
+this$0
+throwOnFailure
+title
+titleElement
+toIntOrNull
+toSearchResponse
+toSearchResponse$lambda$2
+toString
+totalMinutes
+trim
+unescapeUnicode
+unescapeUnicode$lambda$0
+uploaderName
+urlCleanRegex
+value
+valueOf
+var video_related
+var video_related=\[(.*?)\];
+versionHash
+videoHlsRegex
+videoIdPath
+videoRelatedRegex
+video_tags"\s*:\s*(\[.*?\])
+xv.conf
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"LXvideosGay/XvideosGay$$ExternalSyntheticLambda0;":"-ea0c3377","LXvideosGay/XvideosGay$$ExternalSyntheticLambda1;":"-109e535bb","LXvideosGay/XvideosGay$$ExternalSyntheticLambda2;":"-5ac9fc982","LXvideosGay/XvideosGay$getMainPage$1;":"19db088a","LXvideosGay/XvideosGay$load$10;":"8d420904","LXvideosGay/XvideosGay$load$1;":"a4acc695","LXvideosGay/XvideosGay$loadLinks$1;":"65de5869","LXvideosGay/XvideosGay$loadLinks$3$1;":"8eed78fd","LXvideosGay/XvideosGay$search$1;":"1f597b9f","LXvideosGay/XvideosGay;":"e25f8cf5","LXvideosGay/XvideosGayPlugin;":"42fdc9d8"}

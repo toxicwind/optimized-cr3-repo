@@ -1,0 +1,617 @@
+# STRING OBFUSCATION - Security Hardening
+STRING_ENCRYPTION_KEY = b'reaver_v1_hardened'
+STRING_HASH_VERIFICATION = True
+STRING_SANITIZATION = True
+1(	8
+TY4&
+CY#.
+#(eq
+'Y7>
+CY#D
+	[)A
+	[)B
+	[)C
+CY#]
+#(Oq
+CY#x
+#(=q
+iK) e"
+$RL-L
+	)Q&
+=KK<K
+08062
+0806H
+$completion
+$continuation
+$description
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+($i$a$-forEach-Gaypornvidsxxx$loadLinks$5
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+$$i$a$-let-Gaypornvidsxxx$loadLinks$3
+$i$a$-let-VoeExtractor$getUrl$2
+!$i$a$-let-VoeExtractor$getUrl$2$1
+5$i$a$-mapNotNull-Gaypornvidsxxx$getMainPage$results$1
++$i$a$-mapNotNull-Gaypornvidsxxx$loadLinks$4
+($i$a$-mapNotNull-Gaypornvidsxxx$search$2
+'$i$a$-takeIf-Gaypornvidsxxx$loadLinks$2
+3$i$a$-takeIf-Gaypornvidsxxx$toSearchResult$poster$1
+$i$f$forEach
+$i$f$jacksonTypeRef
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$parseJson
+$i$f$readValue
+$i$f$tryParseJson
+$poster
+$quality
+$result
+$this
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$newMovieSearchResponse
+$this$readValue$iv$iv$iv
+$this$toSearchResult
+$url
+&f=video.m3u8
+'([^']+)',
+()Ljava/lang/Integer;
+()Ljava/lang/String;
+()Ljava/util/List;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;)V
+T(Ljava/lang/String;Ljava/lang/Integer;)Lcom/Gaypornvidsxxx/VoeExtractor$VideoSource;
+((Ljava/lang/String;Ljava/lang/Integer;)V
+X(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+*>;)
+	, height=
++//script[contains(text(),'let vpage_data')]
+/?page=
+/?s=
+/home/tag/Cambodian
+/home/tag/Chinese
+/home/tag/Western
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+<anonymous>
+<init>
+<set-?>
+<unused var>$iv
+>;)V
+>;>;)
+?page=
+Accept
+Accept-Encoding
+Accept-Language
+Base64
+Base64Extractor
+	Cambodian
+Chinese
+D8$$SyntheticClass
+Decoded video URL = 
+Extensions.kt
+Extractors.kt
+FileMoon
+Gaypornvidsxxx
+Gaypornvidsxxx.kt
+GaypornvidsxxxPlugin.kt
+ILCIZIL
+ILLIZIL
+INSTANCE
+L$10
+L$11
+L$12
+L$13
+L$14
+L$15
+L$16
+LILL
+LLIIL
+LLLIIL
+LLLL
+LLLLIL
+LLLLL
+LLLLLL
+LLLLLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLZLLL
+Landroid/content/Context;
+Latxest
+-Lcom/Gaypornvidsxxx/Base64Extractor$getUrl$1;
+-Lcom/Gaypornvidsxxx/Base64Extractor$getUrl$2;
+$Lcom/Gaypornvidsxxx/Base64Extractor;
+"Lcom/Gaypornvidsxxx/DoodstreamCom;
+!Lcom/Gaypornvidsxxx/ExtractorsKt;
+Lcom/Gaypornvidsxxx/FileMoon;
+=Lcom/Gaypornvidsxxx/Gaypornvidsxxx$$ExternalSyntheticLambda0;
+1Lcom/Gaypornvidsxxx/Gaypornvidsxxx$getMainPage$1;
+*Lcom/Gaypornvidsxxx/Gaypornvidsxxx$load$1;
+*Lcom/Gaypornvidsxxx/Gaypornvidsxxx$load$2;
+/Lcom/Gaypornvidsxxx/Gaypornvidsxxx$loadLinks$1;
+,Lcom/Gaypornvidsxxx/Gaypornvidsxxx$search$1;
+#Lcom/Gaypornvidsxxx/Gaypornvidsxxx;
+)Lcom/Gaypornvidsxxx/GaypornvidsxxxPlugin;
+Lcom/Gaypornvidsxxx/JP;
+Lcom/Gaypornvidsxxx/Voe;
+-Lcom/Gaypornvidsxxx/VoeExtractor$VideoSource;
+*Lcom/Gaypornvidsxxx/VoeExtractor$getUrl$1;
+LLcom/Gaypornvidsxxx/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;
+!Lcom/Gaypornvidsxxx/VoeExtractor;
+Lcom/Gaypornvidsxxx/do7go;
+Lcom/Gaypornvidsxxx/doodli;
+Lcom/Gaypornvidsxxx/dsio;
+Lcom/Gaypornvidsxxx/hqq;
+Lcom/Gaypornvidsxxx/hypeboy;
+Lcom/Gaypornvidsxxx/jaygo;
+Lcom/Gaypornvidsxxx/myvidplay;
+Lcom/Gaypornvidsxxx/tapepops;
+Lcom/Gaypornvidsxxx/vide0;
+*Lcom/Gaypornvidsxxx/yi069website$getUrl$1;
+*Lcom/Gaypornvidsxxx/yi069website$getUrl$2;
+!Lcom/Gaypornvidsxxx/yi069website;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+Lcom/lagradost/api/Log;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+7Lcom/lagradost/cloudstream3/extractors/DoodLaExtractor;
+2Lcom/lagradost/cloudstream3/extractors/FilemoonV2;
+2Lcom/lagradost/cloudstream3/extractors/StreamTape;
++Lcom/lagradost/cloudstream3/extractors/Voe;
+5Lcom/lagradost/cloudstream3/network/CloudflareKiller;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/utils/AppUtils;
+/Lcom/lagradost/cloudstream3/utils/ExtractorApi;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+"Ldalvik/annotation/EnclosingClass;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+!Ldalvik/annotation/MemberClasses;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Character;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Integer;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/net/URLDecoder;
+Ljava/net/URLEncoder;
+Ljava/util/ArrayList;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/LinkedHashSet;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Map<
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/Pair;
+Lkotlin/ResultKt;
+Lkotlin/TuplesKt;
+Lkotlin/Unit;
+"Lkotlin/collections/CollectionsKt;
+Lkotlin/collections/MapsKt;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+ Lkotlin/jvm/internal/Intrinsics;
+ Lkotlin/jvm/internal/Ref$IntRef;
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/text/CharsKt;
+Lkotlin/text/MatchGroup;
+"Lkotlin/text/MatchGroupCollection;
+Lkotlin/text/MatchResult;
+Lkotlin/text/Regex;
+Lkotlin/text/StringsKt;
+Lokhttp3/Interceptor;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/json/JSONArray;
+Lorg/json/JSONObject;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+M3U8
+oMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+oMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+NSFW
+P480
+P720
+SMAP
+Extensions.kt
+Kotlin
+*S Kotlin
++ 1 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+1#1,129:1
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/Gaypornvidsxxx/VoeExtractor
++ 2 AppUtils.kt
+com/lagradost/cloudstream3/utils/AppUtils
++ 3 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+1#1,297:1
+23#2,2:298
+15#2:300
+25#2,2:303
+50#3:301
+43#3:302
+*S KotlinDebug
++ 1 Extractors.kt
+com/Gaypornvidsxxx/VoeExtractor
+86#1:298,2
+86#1:300
+86#1:303,2
+86#1:301
+86#1:302
+SMAP
+Gaypornvidsxxx.kt
+Kotlin
+*S Kotlin
++ 1 Gaypornvidsxxx.kt
+com/Gaypornvidsxxx/Gaypornvidsxxx
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
+1#1,213:1
+1642#2,10:214
+1915#2:224
+1916#2:226
+1652#2:227
+1642#2,10:229
+1915#2:239
+1916#2:241
+1652#2:242
+1642#2,10:244
+1915#2:254
+1916#2:256
+1652#2:257
+1915#2,2:258
+1#3:225
+1#3:228
+1#3:240
+1#3:243
+1#3:255
+*S KotlinDebug
++ 1 Gaypornvidsxxx.kt
+com/Gaypornvidsxxx/Gaypornvidsxxx
+66#1:214,10
+66#1:224
+66#1:226
+66#1:227
+111#1:229,10
+111#1:239
+111#1:241
+111#1:242
+180#1:244,10
+180#1:254
+180#1:256
+180#1:257
+186#1:258,2
+66#1:225
+111#1:240
+180#1:255
+UTF-8
+Unknown
+User-Agent
+VIDEO
+VLLL
+VLLZ
+VideoSource
+VideoSource(url=
+Western
+ZLLZ
+ZLLZIL
+[Lkotlin/Pair;
+A-Za-z0-9.,~]
+[property='og:image']
+accessFlags
+apiLevel
+append
+areEqual
+article.blog-item
+attr
+base64
+base64,
+base64CharacterSet
+	baseStart
+booleanValue
+boxBoolean
+button[onclick]
+/call to 'resume' before 'invoke' with coroutine
+callback
+cfkiller
+2changeServer\([^,]+,\s*['"](https?://[^'"]+)['"]\)
+charAt
+checkNotNullExpressionValue
+	collected
+"com.Gaypornvidsxxx.Base64Extractor
++com.Gaypornvidsxxx.Base64Extractor$getUrl$2
+!com.Gaypornvidsxxx.Gaypornvidsxxx
+(com.Gaypornvidsxxx.Gaypornvidsxxx$load$2
+com.Gaypornvidsxxx.VoeExtractor
+com.Gaypornvidsxxx.yi069website
+(com.Gaypornvidsxxx.yi069website$getUrl$2
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+Hcom/lagradost/cloudstream3/utils/AppUtils$parseJson$$inlined$readValue$1
+Kcom/lagradost/cloudstream3/utils/AppUtils$tryParseJson$$inlined$parseJson$1
+component1
+component2
+ const\s+sources\s*=\s*(\{.*?\});
+contains
+contains$default
+content
+content$iv$iv$iv
+context
+cookies
+copy
+copy$default
+create
+currentIndex
+customBase64Decoder
+data
+data-src
+data:video/
+decode
+decodedString
+description
+destination$iv$iv
+)div.download-button-wrapper a:first-child
+@div.entry-content, article .blog-content, article .entry-content
+div.item, div.video-item
+document
+domain
+element
+element$iv
+element$iv$iv
+element$iv$iv$iv
+	emptyList
+emptyMap
+encode
+encodedString
+equals
+externalLinkList
+	finalLink
+find$default
+first
+firstCharIndex
+firstDownloadLink
+fixUrl
+fixUrlNull
+format
+found
+fourthCharIndex
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getCode
+getData
+getDocument
+getEncodedString
+getGroupValues
+	getGroups
+getHasMainPage
+	getHeight
+getINFER_TYPE
+getJSONArray
+getJSONObject
+getLang
+getMainPage
+getMainUrl
+	getMapper
+getName
+getRequiresReferer
+	getString
+getSupportedTypes
+getText
+getUrl
+getUrl$suspendImpl
+getValue
+gzip, deflate, br, zstd
+h1.blog-title a
+hasMainPage
+hasNext
+hashCode
+height
+href
+html
+http
+https:
+https://1069.website
+https://1069jp.com
+https://d-s.io
+https://do7go.com
+https://domain.com/bkg
+https://dood.li
+https://doodstream.com
+https://filemoon.to
+https://hqq.tv
+https://hypeboy.link
+https://jaygo.link
+"https://jilliandescribecompany.com
+https://myvidplay.com
+https://tapepops.com
+https://vide0.net
+https://voe.sx
+https://www.gaypornvidsxxx.com
+iframe#video-frame[src]
+indexOf$default
+invoke
+invokeSuspend
+isBlank
+	isCasting
+isLetterOrDigit
+isM3u8
+isVHQ
+isWhitespace
+it$iv$iv
+iterator
+jackson-module-kotlin
+json
+	jsonArray
+	jsonMatch
+kind
+label
+lang
+lastPart
+length
+linkEl
+listOf
+load
+loadExtractor
+	loadLinks
+mainPage
+mainPageOf
+mainUrl
+mapOf
+matchResult
+maxCollect
+meta[property=og:title]
+name
+newExtractorLink
+newExtractorLink$default
+newHomePageResponse
+newMovieLoadResponse
+newMovieSearchResponse$default
+next
+nextFrom
+nullOutSpilledVariable
+onclick
+	optString
+other
+page
+pattern
+poster
+prefix
+quality
+query
+	readValue
+reconstructDataUris
+reconstructDataUris$default
+reconstructedFirstChar
+reconstructedSecondChar
+referer
+registerExtractorAPI
+registerMainAPI
+replace
+replace$default
+request
+requiresReferer
+response
+result
+results
+sanitizedString
+script
+search
+secondCharIndex
+select
+selectFirst
+selectXpath
+setLang
+setMainUrl
+setName
+setOf
+setPlot
+setPosterUrl
+setQuality
+setReferer
+source
+startsWith$default
+stringPattern
+	substring
+substring(...)
+substringAfterLast$default
+subtitleCallback
+supportedTypes
+tapepops
+text
+	text/html
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+thirdCharIndex
+this
+this$0
+this_$iv
+this_$iv$iv
+throwOnFailure
+title
+toSearchResult
+toSearchResult$lambda$1
+toString
+trim
+value
+value$iv
+value$iv$iv
+valueOf
+versionHash
+8vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5
+video
+videoId
+videoUrl
+	videoUrls
+video_height
+	video_url
+videos
+window\.initPlayer\((.*])\);
+yi069video
+yi069website
+	{ videos:
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"Lcom/Gaypornvidsxxx/Base64Extractor$getUrl$1;":"b9d7fe36","Lcom/Gaypornvidsxxx/Base64Extractor$getUrl$2;":"a751772f","Lcom/Gaypornvidsxxx/Base64Extractor;":"2481","Lcom/Gaypornvidsxxx/DoodstreamCom;":"2cfacffe","Lcom/Gaypornvidsxxx/ExtractorsKt;":"90d365b9","Lcom/Gaypornvidsxxx/FileMoon;":"ee6d5b12","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$$ExternalSyntheticLambda0;":"1b7b23b0c","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$getMainPage$1;":"9a37b5fa","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$load$1;":"9fe3e4fd","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$load$2;":"b4b43241","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$loadLinks$1;":"da628627","Lcom/Gaypornvidsxxx/Gaypornvidsxxx$search$1;":"a2e9fe8b","Lcom/Gaypornvidsxxx/Gaypornvidsxxx;":"6aef7c79","Lcom/Gaypornvidsxxx/GaypornvidsxxxPlugin;":"9484119f","Lcom/Gaypornvidsxxx/JP;":"76e4a2f2","Lcom/Gaypornvidsxxx/Voe;":"5321495","Lcom/Gaypornvidsxxx/VoeExtractor$VideoSource;":"9e8820c5","Lcom/Gaypornvidsxxx/VoeExtractor$getUrl$1;":"b0803ffd","Lcom/Gaypornvidsxxx/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;":"7f8c4939","Lcom/Gaypornvidsxxx/VoeExtractor;":"8d0b2bec","Lcom/Gaypornvidsxxx/do7go;":"b93601fb","Lcom/Gaypornvidsxxx/doodli;":"33da852a","Lcom/Gaypornvidsxxx/dsio;":"abca0a1","Lcom/Gaypornvidsxxx/hqq;":"806da3df","Lcom/Gaypornvidsxxx/hypeboy;":"18eae2d7","Lcom/Gaypornvidsxxx/jaygo;":"9ebc13bc","Lcom/Gaypornvidsxxx/myvidplay;":"9815a04f","Lcom/Gaypornvidsxxx/tapepops;":"7c7669d9","Lcom/Gaypornvidsxxx/vide0;":"be28aa2a","Lcom/Gaypornvidsxxx/yi069website$getUrl$1;":"937668cc","Lcom/Gaypornvidsxxx/yi069website$getUrl$2;":"9f15bc33","Lcom/Gaypornvidsxxx/yi069website;":"e5cbac7a"}
+FGHIJKL
+NOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,~

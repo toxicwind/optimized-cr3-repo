@@ -1,0 +1,36 @@
+# PATTERN ENHANCEMENTS - Caching & Timeout
+PATTERN_CACHE = {}
+PATTERN_TIMEOUT = 30
+PATTERN_RETRY_ATTEMPTS = 3
+select\(
+Regex|Pattern
+div\.|\.video|article|class=
+player|embed|source|m3u8|\.mp4
+loadLinks|getUrl|videoUrl
+Jsoup\.select|Elements
+https?://[^'"\s]+?\.(mp4|m3u8)
+com/android/tools/r8/annotations/SynthesizedClassV2
+com/fasterxml/jackson/annotation/JsonProperty
+com/fasterxml/jackson/core/type/TypeReference
+com/fasterxml/jackson/databind/json/JsonMapper
+com/fasterxml/jackson/databind/ObjectMapper
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+com/Gaycock4U/Davioad
+com/Gaycock4U/DoodstreamCom
+com/Gaycock4U/dsio
+com/Gaycock4U/Gaycock4U
+com/Gaycock4U/Gaycock4UPlugin
+com/Gaycock4U/InfoResponse
+com/Gaycock4U/vide0
+com/Gaycock4U/VideoData
+com/Gaycock4U/VideoSource
+com/Gaycock4U/VoeExtractor
+com/lagradost/cloudstream3/extractors/DoodLaExtractor
+com/lagradost/cloudstream3/HomePageList
+com/lagradost/cloudstream3/HomePageResponse
+com/lagradost/cloudstream3/LoadResponse
+com/lagradost/cloudstream3/MainActivityKt
+com/lagradost/cloudstream3/MainAPI
+com/lagradost/cloudstream3/MainAPIKt
+com/lagradost/cloudstream3/MainPageData
+com/lagradost/cloudstream3/MainPageRequest

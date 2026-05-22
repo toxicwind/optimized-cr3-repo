@@ -1,0 +1,862 @@
+# STRING OBFUSCATION - Security Hardening
+STRING_ENCRYPTION_KEY = b'reaver_v1_hardened'
+STRING_HASH_VERIFICATION = True
+STRING_SANITIZATION = True
+ p0'
+ p0'
+ p0'
+CY#'
+TY4/
+CY#8
+#(6q
+CY#S
+ p0'
+ p0'
+CY#l
+TY4t
+CY#}
+#(6q
+#(Oq
+ p0'
+#(=q
+%qT@
+iK) e"
+VeKZ.(
+{h"%
+<KK<K---
+VeKZ.(
+{h"%
+<KK<K---
+060)2
+0E0C2
+0E0CH
+0*0)X
+	$callback
+$completion
+$continuation
+$data
+$description
+$found
+.$i$a$-filter-Jayboys1$loadLinks$filteredUrls$2
+.$i$a$-filter-Jayboys2$loadLinks$filteredUrls$2
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+"$i$a$-forEach-Jayboys1$loadLinks$2
+"$i$a$-forEach-Jayboys1$loadLinks$5
+"$i$a$-forEach-Jayboys1$loadLinks$6
+"$i$a$-forEach-Jayboys1$loadLinks$7
+"$i$a$-forEach-Jayboys1$loadLinks$8
+"$i$a$-forEach-Jayboys1$loadLinks$9
+"$i$a$-forEach-Jayboys2$loadLinks$2
+"$i$a$-forEach-Jayboys2$loadLinks$5
+"$i$a$-forEach-Jayboys2$loadLinks$6
+"$i$a$-forEach-Jayboys2$loadLinks$7
+"$i$a$-forEach-Jayboys2$loadLinks$8
+"$i$a$-forEach-Jayboys2$loadLinks$9
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+ $i$a$-let-Jayboys1$loadLinks$2$2
+$i$a$-let-Jayboys1$loadLinks$3
+$i$a$-let-Jayboys1$loadLinks$4
+ $i$a$-let-Jayboys1$loadLinks$5$2
+ $i$a$-let-Jayboys1$loadLinks$6$2
+ $i$a$-let-Jayboys1$loadLinks$7$2
+ $i$a$-let-Jayboys1$loadLinks$9$2
+ $i$a$-let-Jayboys2$loadLinks$2$2
+$i$a$-let-Jayboys2$loadLinks$3
+$i$a$-let-Jayboys2$loadLinks$4
+ $i$a$-let-Jayboys2$loadLinks$5$2
+ $i$a$-let-Jayboys2$loadLinks$6$2
+ $i$a$-let-Jayboys2$loadLinks$7$2
+ $i$a$-let-Jayboys2$loadLinks$9$2
+$i$a$-let-VoeExtractor$getUrl$2
+!$i$a$-let-VoeExtractor$getUrl$2$1
++$i$a$-map-Jayboys1$loadLinks$filteredUrls$1
++$i$a$-map-Jayboys2$loadLinks$filteredUrls$1
+,$i$a$-mapNotNull-Jayboys1$getMainPage$home$1
+0$i$a$-mapNotNull-Jayboys1$load$recommendations$1
+*$i$a$-mapNotNull-Jayboys1$search$results$1
+,$i$a$-mapNotNull-Jayboys2$getMainPage$home$1
+0$i$a$-mapNotNull-Jayboys2$load$recommendations$1
+*$i$a$-mapNotNull-Jayboys2$search$results$1
+#$i$a$-takeIf-Jayboys1$loadLinks$2$1
+#$i$a$-takeIf-Jayboys1$loadLinks$5$1
+#$i$a$-takeIf-Jayboys1$loadLinks$6$1
+#$i$a$-takeIf-Jayboys1$loadLinks$7$1
+#$i$a$-takeIf-Jayboys1$loadLinks$9$1
+#$i$a$-takeIf-Jayboys2$loadLinks$2$1
+#$i$a$-takeIf-Jayboys2$loadLinks$5$1
+#$i$a$-takeIf-Jayboys2$loadLinks$6$1
+#$i$a$-takeIf-Jayboys2$loadLinks$7$1
+#$i$a$-takeIf-Jayboys2$loadLinks$9$1
+$i$f$filter
+$i$f$filterTo
+$i$f$forEach
+$i$f$jacksonTypeRef
+$i$f$map
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$mapTo
+$i$f$parseJson
+$i$f$readValue
+$i$f$tryParseJson
+$poster
+$posterUrl
+$quality
+$recommendations
+$result
+$subtitleCallback
+$this
+$this$filter$iv
+$this$filterTo$iv$iv
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$map$iv
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$mapTo$iv$iv
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$newMovieSearchResponse
+$this$readValue$iv$iv$iv
+$this$toRecommendResult
+$this$toSearchResult
+$url
+&f=video.m3u8
+'([^']+)',
+(()Lcom/lagradost/cloudstream3/VPNStatus;
+()Ljava/lang/Integer;
+()Ljava/lang/String;
+()Ljava/util/List;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;)V
+M(Ljava/lang/String;Ljava/lang/Integer;)Lcom/Jayboys/VoeExtractor$VideoSource;
+((Ljava/lang/String;Ljava/lang/Integer;)V
+X(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+4(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+*>;)
+	, height=
++//script[contains(text(),'let vpage_data')]
+	/2025/08/
+	/2025/09/
+	/2025/10/
+	/2025/11/
+	/2025/12/
+	/2026/01/
+	/2026/02/
+	/2026/03/
+/?s=
+/category/
+/category/onlyfans/
+/page/
+25Aug
+25Dec
+25Nov
+25Oct
+25Sep
+26Feb
+26Jan
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+9MRd26N84fSy3NwprhoXtg==
+<anonymous>
+<init>
+<set-?>
+<unused var>$iv
+>;)V
+>;>;)
+Accept
+Accept-Language
+Base64
+Base64Extractor
+Connection
+D8$$SyntheticClass
+Decoded video URL = 
+Extensions.kt
+Extractors.kt
+FileMoon
+ILCIZIL
+ILLIZIL
+INSTANCE
+Javboys
+Javboys1.kt
+Javboys2.kt
+JavboysPlugin.kt
+	Javboys
+Jayboys
+L$10
+L$11
+L$12
+L$13
+L$14
+L$15
+L$16
+LILL
+LLIIL
+LLLIIL
+LLLL
+LLLLIL
+LLLLL
+LLLLLL
+LLLLLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLLLLLZILJLZLLIL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLZLLL
+Landroid/content/Context;
+Latest Updates
+&Lcom/Jayboys/Base64Extractor$getUrl$1;
+&Lcom/Jayboys/Base64Extractor$getUrl$2;
+Lcom/Jayboys/Base64Extractor;
+Lcom/Jayboys/DoodstreamCom;
+Lcom/Jayboys/ExtractorsKt;
+Lcom/Jayboys/FileMoon;
+Lcom/Jayboys/JP;
+0Lcom/Jayboys/Jayboys1$$ExternalSyntheticLambda0;
+0Lcom/Jayboys/Jayboys1$$ExternalSyntheticLambda1;
+/Lcom/Jayboys/Jayboys1$getCookiesAfterAgeGate$1;
+$Lcom/Jayboys/Jayboys1$getMainPage$1;
+Lcom/Jayboys/Jayboys1$load$1;
+Lcom/Jayboys/Jayboys1$load$2;
+=Lcom/Jayboys/Jayboys1$loadLinks$10$$ExternalSyntheticLambda0;
+#Lcom/Jayboys/Jayboys1$loadLinks$10;
+"Lcom/Jayboys/Jayboys1$loadLinks$1;
+Lcom/Jayboys/Jayboys1$search$1;
+Lcom/Jayboys/Jayboys1;
+0Lcom/Jayboys/Jayboys2$$ExternalSyntheticLambda0;
+0Lcom/Jayboys/Jayboys2$$ExternalSyntheticLambda1;
+/Lcom/Jayboys/Jayboys2$getCookiesAfterAgeGate$1;
+$Lcom/Jayboys/Jayboys2$getMainPage$1;
+Lcom/Jayboys/Jayboys2$load$1;
+Lcom/Jayboys/Jayboys2$load$2;
+=Lcom/Jayboys/Jayboys2$loadLinks$10$$ExternalSyntheticLambda0;
+#Lcom/Jayboys/Jayboys2$loadLinks$10;
+"Lcom/Jayboys/Jayboys2$loadLinks$1;
+Lcom/Jayboys/Jayboys2$search$1;
+Lcom/Jayboys/Jayboys2;
+Lcom/Jayboys/JayboysPlugin;
+Lcom/Jayboys/Voe;
+&Lcom/Jayboys/VoeExtractor$VideoSource;
+#Lcom/Jayboys/VoeExtractor$getUrl$1;
+ELcom/Jayboys/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;
+Lcom/Jayboys/VoeExtractor;
+Lcom/Jayboys/boynextdoor;
+Lcom/Jayboys/crystal;
+Lcom/Jayboys/do7go;
+Lcom/Jayboys/doodli;
+Lcom/Jayboys/dsio;
+Lcom/Jayboys/hqq;
+Lcom/Jayboys/hypeboy;
+Lcom/Jayboys/jaygo;
+Lcom/Jayboys/myvidplay;
+Lcom/Jayboys/tapepops;
+Lcom/Jayboys/vide0;
+#Lcom/Jayboys/yi069website$getUrl$1;
+#Lcom/Jayboys/yi069website$getUrl$2;
+Lcom/Jayboys/yi069website;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+Lcom/lagradost/api/Log;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
+-Lcom/lagradost/cloudstream3/ParCollectionsKt;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+#Lcom/lagradost/cloudstream3/TvType;
+&Lcom/lagradost/cloudstream3/VPNStatus;
+7Lcom/lagradost/cloudstream3/extractors/DoodLaExtractor;
+2Lcom/lagradost/cloudstream3/extractors/FilemoonV2;
+2Lcom/lagradost/cloudstream3/extractors/StreamTape;
++Lcom/lagradost/cloudstream3/extractors/Voe;
+5Lcom/lagradost/cloudstream3/network/CloudflareKiller;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/utils/AppUtils;
+/Lcom/lagradost/cloudstream3/utils/ExtractorApi;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+"Ldalvik/annotation/EnclosingClass;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+!Ldalvik/annotation/MemberClasses;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Character;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Integer;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/net/URLDecoder;
+Ljava/util/ArrayList;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/LinkedHashSet;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Map<
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/Pair;
+Lkotlin/ResultKt;
+Lkotlin/TuplesKt;
+Lkotlin/Unit;
+"Lkotlin/collections/CollectionsKt;
+Lkotlin/collections/MapsKt;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+ Lkotlin/jvm/internal/Intrinsics;
+$Lkotlin/jvm/internal/Ref$BooleanRef;
+ Lkotlin/jvm/internal/Ref$IntRef;
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/sequences/Sequence;
+Lkotlin/text/CharsKt;
+Lkotlin/text/MatchGroup;
+"Lkotlin/text/MatchGroupCollection;
+Lkotlin/text/MatchResult;
+Lkotlin/text/Regex;
+Lkotlin/text/StringsKt;
+Lokhttp3/Interceptor;
+Lokhttp3/RequestBody;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/json/JSONArray;
+Lorg/json/JSONObject;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+M3U8
+MightBeNeeded
+PMozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0
+NSFW
+Onlyfans
+P480
+P720
+Referer
+SMAP
+Extensions.kt
+Kotlin
+*S Kotlin
++ 1 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+1#1,129:1
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/Jayboys/VoeExtractor
++ 2 AppUtils.kt
+com/lagradost/cloudstream3/utils/AppUtils
++ 3 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+1#1,306:1
+23#2,2:307
+15#2:309
+25#2,2:312
+50#3:310
+43#3:311
+*S KotlinDebug
++ 1 Extractors.kt
+com/Jayboys/VoeExtractor
+94#1:307,2
+94#1:309
+94#1:312,2
+94#1:310
+94#1:311
+SMAP
+Javboys1.kt
+Kotlin
+*S Kotlin
++ 1 Javboys1.kt
+com/Jayboys/Jayboys1
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,242:1
+1642#2,10:243
+1915#2:253
+1916#2:255
+1652#2:256
+1642#2,10:257
+1915#2:267
+1916#2:269
+1652#2:270
+1642#2,10:271
+1915#2:281
+1916#2:283
+1652#2:284
+1915#2:285
+1916#2:287
+1915#2,2:288
+1915#2,2:290
+1915#2,2:292
+1915#2,2:296
+1586#2:298
+1661#2,3:299
+777#2:302
+873#2,2:303
+1#3:254
+1#3:268
+1#3:282
+1#3:286
+1342#4,2:294
+*S KotlinDebug
++ 1 Javboys1.kt
+com/Jayboys/Jayboys1
+83#1:243,10
+83#1:253
+83#1:255
+83#1:256
+125#1:257,10
+125#1:267
+125#1:269
+125#1:270
+147#1:271,10
+147#1:281
+147#1:283
+147#1:284
+175#1:285
+175#1:287
+188#1:288,2
+193#1:290,2
+198#1:292,2
+209#1:296,2
+218#1:298
+218#1:299,3
+219#1:302
+219#1:303,2
+83#1:254
+125#1:268
+147#1:282
+204#1:294,2
+SMAP
+Javboys2.kt
+Kotlin
+*S Kotlin
++ 1 Javboys2.kt
+com/Jayboys/Jayboys2
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,241:1
+1642#2,10:242
+1915#2:252
+1916#2:254
+1652#2:255
+1642#2,10:256
+1915#2:266
+1916#2:268
+1652#2:269
+1642#2,10:270
+1915#2:280
+1916#2:282
+1652#2:283
+1915#2:284
+1916#2:286
+1915#2,2:287
+1915#2,2:289
+1915#2,2:291
+1915#2,2:295
+1586#2:297
+1661#2,3:298
+777#2:301
+873#2,2:302
+1#3:253
+1#3:267
+1#3:281
+1#3:285
+1342#4,2:293
+*S KotlinDebug
++ 1 Javboys2.kt
+com/Jayboys/Jayboys2
+82#1:242,10
+82#1:252
+82#1:254
+82#1:255
+124#1:256,10
+124#1:266
+124#1:268
+124#1:269
+146#1:270,10
+146#1:280
+146#1:282
+146#1:283
+174#1:284
+174#1:286
+187#1:287,2
+192#1:289,2
+197#1:291,2
+208#1:295,2
+217#1:297
+217#1:298,3
+218#1:301
+218#1:302,2
+82#1:253
+124#1:267
+146#1:281
+203#1:293,2
+UTF-8
+Unknown
+User-Agent
+VIDEO
+VLLL
+VLLLL
+VLLLLL
+VLLZ
+VideoSource
+VideoSource(url=
+ZLLZ
+ZLLZIL
+[Lkotlin/Pair;
+A-Za-z0-9.,~]
+[data-src]
+[property='og:image']
+[src]
+a.denomination span.title
+a.next.page-numbers
+a.thumb-video
+a.thumb-video img
+access$getCookiesAfterAgeGate
+accessFlags
+addAll
+age_gate[age]
+age_gate[confirm]
+age_gate[lang]
+age_gate[remember]
+amap
+apiLevel
+append
+areEqual
+attr
+base64
+base64,
+base64CharacterSet
+	baseStart
+booleanValue
+boxBoolean
+/call to 'resume' before 'invoke' with coroutine
+callback
+cfKiller
+charAt
+checkNotNullExpressionValue
+	collected
+collectionSizeOrDefault
+com.Jayboys.Base64Extractor
+$com.Jayboys.Base64Extractor$getUrl$2
+com.Jayboys.Jayboys1
+com.Jayboys.Jayboys1$load$2
+!com.Jayboys.Jayboys1$loadLinks$10
+com.Jayboys.Jayboys2
+com.Jayboys.Jayboys2$load$2
+!com.Jayboys.Jayboys2$loadLinks$10
+com.Jayboys.VoeExtractor
+com.Jayboys.yi069website
+!com.Jayboys.yi069website$getUrl$2
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+Hcom/lagradost/cloudstream3/utils/AppUtils$parseJson$$inlined$readValue$1
+Kcom/lagradost/cloudstream3/utils/AppUtils$tryParseJson$$inlined$parseJson$1
+component1
+component2
+ const\s+sources\s*=\s*(\{.*?\});
+contains
+contains$default
+containsAll
+content
+content$iv$iv$iv
+context
+cookies
+copy
+copy$default
+create
+currentIndex
+customBase64Decoder
+data
+data-src
+data:
+data:video/
+2data:video\/[A-Za-z0-9.+-]+;base64,[A-Za-z0-9+/=]+
+dataVideoRegex
+decode
+decodedString
+description
+destination$iv$iv
+div#player, div.video-player
+)div.download-button-wrapper a:first-child
+#div.download-button-wrapper a[href]
+div.list-item div.video.col-2
+document
+domain
+element
+element$iv
+element$iv$iv
+element$iv$iv$iv
+	emptyList
+en-US,en;q=0.5
+encodedString
+equals
+externalLinkList
+filteredUrls
+	finalLink
+find$default
+findAll$default
+first
+firstCharIndex
+firstDownloadLink
+fixUrl
+fixUrlNull
+formData
+format
+found
+fourthCharIndex
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getCode
+getCookies
+getCookiesAfterAgeGate
+getData
+getDocument
+getEncodedString
+getGroupValues
+	getGroups
+getHasChromecastSupport
+getHasDownloadSupport
+getHasMainPage
+getHasQuickSearch
+	getHeight
+getINFER_TYPE
+getJSONArray
+getJSONObject
+getLang
+getMainPage
+getMainUrl
+	getMapper
+getName
+getRequiresReferer
+	getString
+getSupportedTypes
+getText
+getUrl
+getUrl$suspendImpl
+getValue
+getVpnStatus
+hasChromecastSupport
+hasDownloadSupport
+hasMainPage
+hasNext
+hasQuickSearch
+hashCode
+headers
+height
+home
+href
+html
+https://1069.website
+https://1069jp.com
+https://boynextdoors.link
+ https://crystaltreatmenteast.com
+https://d-s.io
+https://do7go.com
+https://domain.com/bkg
+https://dood.li
+https://doodstream.com
+https://filemoon.to
+https://hqq.tv
+https://hypeboy.link
+https://jaygo.link
+"https://jilliandescribecompany.com
+https://myvidplay.com
+https://tapepops.com
+https://vide0.net
+https://voe.sx
+https://www.javboys.tv
+	iframeSrc
+iframe[src]
+indexOf$default
+invoke
+invokeSuspend
+invokeSuspend$lambda$0
+isBlank
+	isCasting
+isEmpty
+isLetterOrDigit
+isM3u8
+isVHQ
+isWhitespace
+it$iv$iv
+item$iv$iv
+iterator
+jackson-module-kotlin
+json
+	jsonArray
+	jsonMatch
+keep-alive
+kind
+label
+lang
+lastPart
+length
+link
+listOf
+load
+loadExtractor
+	loadLinks
+mainPage
+mainPageOf
+mainUrl
+mapOf
+match
+matchResult
+maxCollect
+meta[property=og:description]
+meta[property=og:title]
+name
+newExtractorLink
+newExtractorLink$default
+newHomePageResponse
+newMovieLoadResponse
+newMovieSearchResponse$default
+next
+nextFrom
+nullOutSpilledVariable
+	optString
+other
+page
+page/
+pageText
+pattern
+post$default
+poster
+	posterUrl
+prefix
+quality
+query
+	readValue
+recommendations
+reconstructDataUris
+reconstructDataUris$default
+reconstructedFirstChar
+reconstructedSecondChar
+referer
+registerExtractorAPI
+registerMainAPI
+replace
+replace$default
+request
+requiresReferer
+response
+result
+results
+sanitizedString
+script
+search
+searchResponse
+secondCharIndex
+select
+selectFirst
+selectXpath
+setLang
+setMainUrl
+setName
+setOf
+setPlot
+setPosterUrl
+setQuality
+setRecommendations
+setReferer
+source
+startsWith
+startsWith$default
+stringPattern
+	substring
+substring(...)
+substringAfterLast$default
+subtitleCallback
+supportedTypes
+tapepops
+text
+Jtext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+thirdCharIndex
+this
+this$0
+this_$iv
+this_$iv$iv
+throwOnFailure
+title
+toList
+toRecommendResult
+toRecommendResult$lambda$0
+toSearchResult
+toSearchResult$lambda$0
+toString
+trim
+value
+value$iv
+value$iv$iv
+valueOf
+versionHash
+video
+video source[src], source[src]
+videoId
+videoUrl
+	videoUrls
+Jvideo[src^=data:], source[src^=data:], div[src^=data:], iframe[src^=data:]
+video_height
+	video_url
+videos
+	vpnStatus
+window\.initPlayer\((.*])\);
+yi069video
+yi069website
+	{ videos:
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"Lcom/Jayboys/Base64Extractor$getUrl$1;":"3838e5b6","Lcom/Jayboys/Base64Extractor$getUrl$2;":"923400f1","Lcom/Jayboys/Base64Extractor;":"ece91e55","Lcom/Jayboys/DoodstreamCom;":"d910f3ab","Lcom/Jayboys/ExtractorsKt;":"e352acb0","Lcom/Jayboys/FileMoon;":"80b0252d","Lcom/Jayboys/JP;":"29a59ba7","Lcom/Jayboys/Jayboys1$$ExternalSyntheticLambda0;":"-8f66c21","Lcom/Jayboys/Jayboys1$$ExternalSyntheticLambda1;":"51040b2c0","Lcom/Jayboys/Jayboys1$getCookiesAfterAgeGate$1;":"3097034","Lcom/Jayboys/Jayboys1$getMainPage$1;":"fa338f90","Lcom/Jayboys/Jayboys1$load$1;":"30240baa","Lcom/Jayboys/Jayboys1$load$2;":"f8279c08","Lcom/Jayboys/Jayboys1$loadLinks$10$$ExternalSyntheticLambda0;":"-172295144","Lcom/Jayboys/Jayboys1$loadLinks$10;":"e7976085","Lcom/Jayboys/Jayboys1$loadLinks$1;":"b409fdce","Lcom/Jayboys/Jayboys1$search$1;":"172a0d0f","Lcom/Jayboys/Jayboys1;":"1b106db3","Lcom/Jayboys/Jayboys2$$ExternalSyntheticLambda0;":"20c1e6656","Lcom/Jayboys/Jayboys2$$ExternalSyntheticLambda1;":"-58bba8bb4","Lcom/Jayboys/Jayboys2$getCookiesAfterAgeGate$1;":"bbe7d7d6","Lcom/Jayboys/Jayboys2$getMainPage$1;":"e2dda6ff","Lcom/Jayboys/Jayboys2$load$1;":"1f99444a","Lcom/Jayboys/Jayboys2$load$2;":"77de3968","Lcom/Jayboys/Jayboys2$loadLinks$10$$ExternalSyntheticLambda0;":"3d04e9b23","Lcom/Jayboys/Jayboys2$loadLinks$10;":"c0ad4bf4","Lcom/Jayboys/Jayboys2$loadLinks$1;":"fca57e0c","Lcom/Jayboys/Jayboys2$search$1;":"8c31c922","Lcom/Jayboys/Jayboys2;":"eadba5fb","Lcom/Jayboys/JayboysPlugin;":"b6409c8","Lcom/Jayboys/Voe;":"1f753e02","Lcom/Jayboys/VoeExtractor$VideoSource;":"a136d2a","Lcom/Jayboys/VoeExtractor$getUrl$1;":"9e139cc6","Lcom/Jayboys/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;":"d60aff23","Lcom/Jayboys/VoeExtractor;":"62e532e5","Lcom/Jayboys/boynextdoor;":"b6d3e5c7","Lcom/Jayboys/crystal;":"b2ba3fbe","Lcom/Jayboys/do7go;":"1de57488","Lcom/Jayboys/doodli;":"d5a57f43","Lcom/Jayboys/dsio;":"913f27de","Lcom/Jayboys/hqq;":"5f53a61a","Lcom/Jayboys/hypeboy;":"abc0f05b","Lcom/Jayboys/jaygo;":"24906bcc","Lcom/Jayboys/myvidplay;":"f8095fcd","Lcom/Jayboys/tapepops;":"c883cd9d","Lcom/Jayboys/vide0;":"6d09b0b7","Lcom/Jayboys/yi069website$getUrl$1;":"8860c319","Lcom/Jayboys/yi069website$getUrl$2;":"dc82d3ea","Lcom/Jayboys/yi069website;":"9d1d8498"}
+FGHIJKL
+NOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,~

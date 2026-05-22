@@ -1,0 +1,1005 @@
+# STRING OBFUSCATION - Security Hardening
+STRING_ENCRYPTION_KEY = b'reaver_v1_hardened'
+STRING_HASH_VERIFICATION = True
+STRING_SANITIZATION = True
+ p0T
+!(\q
+CY#)
+ p0T
+CY#8
+#(Nq
+'qTd
+CY#P
+#(Oq
+ p0T
+	8	7
+ p0T
+"(Tq
+	n (
+ p0T
+ p0T
+	n (
+	n (
+	n (
+cr 0
+/qXh
+	n (
+-qRe
+	n (
+<KK8
+<KK8
+<KK8
+<KK8
+<KK<K---
+0/0$2
+0>0<2
+0>0<H
+0%0$X
+ -> 
+ -> chosen link for ep 
+ ; episode index = 
+ ===
+ has no anchor
+ has no anchor for ep 
+$attrs
+	$callback
+$completion
+$continuation
+$description
+$doc
+$epIndex
+#$i$a$-filter-iGay69$load$panels$1$2
+)$i$a$-filter-iGay69$loadLinks$2$anchors$3
+@$i$a$-forEach-CollectionsKt___CollectionsKt$mapNotNullTo$1$iv$iv
+$$i$a$-forEach-WaawExtractor$getUrl$2
+$$i$a$-forEach-WaawExtractor$getUrl$3
+&$i$a$-forEach-WaawExtractor$getUrl$3$1
+$$i$a$-forEach-WaawExtractor$getUrl$4
+($i$a$-forEach-WaawExtractor$getUrl$4$1$1
+($i$a$-forEach-WaawExtractor$getUrl$4$1$2
+($i$a$-forEach-WaawExtractor$getUrl$4$1$3
+*$i$a$-forEach-WaawExtractor$getUrl$4$1$3$1
+&$i$a$-forEach-WaawExtractor$getUrl$4$2
+&$i$a$-forEach-WaawExtractor$getUrl$4$3
+$$i$a$-forEach-WaawExtractor$getUrl$5
+$$i$a$-forEach-WaawExtractor$getUrl$6
+ $i$a$-forEach-iGay69$loadLinks$6
+'$i$a$-forEachIndexed-iGay69$loadLinks$2
+'$i$a$-forEachIndexed-iGay69$loadLinks$3
+'$i$a$-forEachIndexed-iGay69$loadLinks$4
+&$i$a$-ifBlank-iGay69$load$panels$1$1$1
+,$i$a$-ifBlank-iGay69$loadLinks$2$anchors$1$1
+*$i$a$-ifBlank-iGay69$loadLinks$3$first$1$1
+*$i$a$-ifBlank-iGay69$loadLinks$4$first$1$1
+>$i$a$-let-CollectionsKt___CollectionsKt$mapNotNullTo$1$1$iv$iv
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$1
+&$i$a$-let-FilemoonV2$getUrl$videoUrl$2
+$i$a$-let-Lulustream$getUrl$2
+$i$a$-let-Lulustream$getUrl$2$1
+$i$a$-let-VoeExtractor$getUrl$2
+!$i$a$-let-VoeExtractor$getUrl$2$1
+"$i$a$-let-WaawExtractor$getUrl$2$2
+$$i$a$-let-WaawExtractor$getUrl$3$1$2
+"$i$a$-let-WaawExtractor$getUrl$3$3
+"$i$a$-let-WaawExtractor$getUrl$4$1
++$i$a$-let-iGay69$load$poster$1$fromImgs$1$1
+$$i$a$-let-iGay69$loadLinks$3$first$1
+$$i$a$-let-iGay69$loadLinks$3$first$2
+$$i$a$-let-iGay69$loadLinks$4$first$1
+$$i$a$-let-iGay69$loadLinks$4$first$2
+ $i$a$-map-WaawExtractor$getUrl$7
+!$i$a$-map-dsio$getUrl$randomStr$1
+ $i$a$-map-iGay69$load$episodes$1
+$i$a$-map-iGay69$load$panels$1
+ $i$a$-map-iGay69$load$panels$1$1
+ $i$a$-map-iGay69$load$panels$1$3
+&$i$a$-map-iGay69$loadLinks$2$anchors$1
+&$i$a$-map-iGay69$loadLinks$2$anchors$2
+*$i$a$-mapNotNull-iGay69$getMainPage$home$1
+4$i$a$-mapNotNull-iGay69$load$poster$1$fromImgs$1$1$1
+($i$a$-mapNotNull-iGay69$search$results$1
+,$i$a$-maxOfOrNull-iGay69$load$episodeCount$1
+$i$a$-run-iGay69$load$poster$1
+%$i$a$-takeIf-WaawExtractor$getUrl$2$1
+'$i$a$-takeIf-WaawExtractor$getUrl$3$1$1
+%$i$a$-takeIf-WaawExtractor$getUrl$3$2
+2$i$a$-takeIf-iGay69$load$poster$1$fromImgs$1$1$1$1
++$i$a$-takeIf-iGay69$load$poster$1$linkImg$1
+*$i$a$-takeIf-iGay69$load$poster$1$metaOg$1
+$i$f$filter
+$i$f$filterTo
+$i$f$forEach
+$i$f$forEachIndexed
+$i$f$jacksonTypeRef
+$i$f$map
+$i$f$mapNotNull
+$i$f$mapNotNullTo
+$i$f$mapTo
+$i$f$parseJson
+$i$f$readValue
+$i$f$tryParseJson
+$idx
+$poster
+$posterUrl
+$quality
+&$r8$lambda$-cL0jrsxzkO66UVNNePzT3OlDkk
+&$r8$lambda$NnBBsX-0lqj2rfvLuzNlcIiCus0
+&$r8$lambda$VgUVGyCpNkNrxjurTtxCiPMYca8
+&$r8$lambda$WDNPcC-ZMScDpZCzmrobEZujYLY
+&$r8$lambda$cJwVMVAhjXWLPS4vweNaFA_Zano
+&$r8$lambda$lZu-VXQEF1q002NSByE7X4AgbNk
+$referer
+$result
+$this
+$this$filter$iv
+$this$filterTo$iv$iv
+$this$forEach$iv
+$this$forEach$iv$iv$iv
+$this$forEachIndexed$iv
+$this$load_u24lambda_u240
+$this$map$iv
+$this$mapNotNull$iv
+$this$mapNotNullTo$iv$iv
+$this$mapTo$iv$iv
+$this$newEpisode
+$this$newExtractorLink
+$this$newMovieLoadResponse
+$this$newMovieSearchResponse
+$this$newTvSeriesLoadResponse
+$this$readValue$iv$iv$iv
+$this$toRecommendResult
+$this$toSearchResult
+$url
+&expiry=
+(()Lcom/lagradost/cloudstream3/VPNStatus;
+()Ljava/lang/Integer;
+()Ljava/lang/String;
+()Ljava/util/List;
+()Ljava/util/Set;
+a(ILcom/lagradost/cloudstream3/MainPageRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;)V
+L(Ljava/lang/String;Ljava/lang/Integer;)Lcom/iGay69/VoeExtractor$VideoSource;
+((Ljava/lang/String;Ljava/lang/Integer;)V
+X(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+F(Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+(\d{3,4})[pP]
+5(https?://[^\s'"<>]+?\.(?:m3u8|mp4)(?:\?[^\s'"<>]*)?)
+(m3u8|master\.txt)
+*>;)
+	, height=
+", trying first anchors as fallback
+.entry-thumb img
+.post-thumbnail img
+.single-post img
+.site-logo img
+.wp-block-image img
+.wp-post-image
+/?s=
+/page/
+/pass_md5/[^'"]+
+@7bbc1d7254613ffaa026de47d975f73968361ef3e5d7b818ce0a83a33039c6b8
+</title>
+<anonymous>
+<init>
+<set-?>
+<title>
+<unused var>
+<unused var>$iv
+=== finished loadLinks; found=
+%=== finished series loadLinks; found=
+=== loadLinks called with data=
+>;)V
+>;>;)
+?token=
+Accept-Language
+Bigwarp
+Collection
+	Companion
+D8$$SyntheticClass
+Default
+Extensions.kt
+Extractor error for 
+!Extractor returned for series ep 
+%Extractor returned for single video: 
+Extractors.kt
+Failed to fetch page 
+Failed to fetch series page 
+Fallback extractor error for 
+Fallback extractor returned: 
+FileMoon
+FileMoonSx
+Filemoon
+FilemoonV2
+Gaydar
+IGNORE_CASE
+INSTANCE
+L$10
+L$11
+L$12
+L$13
+L$14
+LILL
+LLLIIL
+LLLL
+LLLLIL
+LLLLL
+LLLLLILLIL
+LLLLLL
+LLLLLLL
+	LLLLLLLIL
+LLLLLLLL
+LLLLLLLLIL
+LLLLLLLLLIL
+LLLLLLLZILJLZLLIL
+	LLLLLZLIL
+LLLLZIL
+LLZLLL
+Landroid/content/Context;
+5Lcom/android/tools/r8/annotations/SynthesizedClassV2;
+/Lcom/fasterxml/jackson/annotation/JsonProperty;
+/Lcom/fasterxml/jackson/core/type/TypeReference;
+/Lcom/fasterxml/jackson/core/type/TypeReference<
+-Lcom/fasterxml/jackson/databind/ObjectMapper;
+0Lcom/fasterxml/jackson/databind/json/JsonMapper;
+Lcom/iGay69/Bgwp;
+Lcom/iGay69/Bigwarp$getUrl$1;
+Lcom/iGay69/Bigwarp$getUrl$2;
+Lcom/iGay69/Bigwarp;
+Lcom/iGay69/Bigwarpcc;
+Lcom/iGay69/DoodstreamCom;
+Lcom/iGay69/FileMoon;
+Lcom/iGay69/FileMoonSx;
+ Lcom/iGay69/FilemoonV2$getUrl$1;
+Lcom/iGay69/FilemoonV2;
+ Lcom/iGay69/Lulustream$getUrl$1;
+$Lcom/iGay69/Lulustream$getUrl$2$1$1;
+Lcom/iGay69/Lulustream;
+Lcom/iGay69/MixDropCv;
+Lcom/iGay69/MixDropIs;
+Lcom/iGay69/MixDropSn;
+Lcom/iGay69/MxDrop;
+%Lcom/iGay69/VoeExtractor$VideoSource;
+"Lcom/iGay69/VoeExtractor$getUrl$1;
+DLcom/iGay69/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;
+Lcom/iGay69/VoeExtractor;
+#Lcom/iGay69/WaawExtractor$getUrl$1;
+%Lcom/iGay69/WaawExtractor$getUrl$7$1;
+Lcom/iGay69/WaawExtractor;
+Lcom/iGay69/doodpm;
+Lcom/iGay69/doodre;
+Lcom/iGay69/doodspro;
+Lcom/iGay69/doodyt;
+Lcom/iGay69/dsio$getUrl$1;
+Lcom/iGay69/dsio$getUrl$2;
+Lcom/iGay69/dsio;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda0;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda1;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda2;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda3;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda4;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda5;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda6;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda7;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda8;
+-Lcom/iGay69/iGay69$$ExternalSyntheticLambda9;
+!Lcom/iGay69/iGay69$getMainPage$1;
+Lcom/iGay69/iGay69$load$1;
+Lcom/iGay69/iGay69$load$2;
+Lcom/iGay69/iGay69$load$3;
+Lcom/iGay69/iGay69$loadLinks$1;
+Lcom/iGay69/iGay69$search$1;
+Lcom/iGay69/iGay69;
+Lcom/iGay69/iGay69Plugin;
+Lcom/iGay69/luluvid;
+Lcom/iGay69/mdfx9dc8n;
+Lcom/iGay69/tapepops;
+Lcom/iGay69/vide0;
+Lcom/iGay69/watchadsontape;
+Lcom/lagradost/api/Log;
+$Lcom/lagradost/cloudstream3/Episode;
+)Lcom/lagradost/cloudstream3/HomePageList;
+-Lcom/lagradost/cloudstream3/HomePageResponse;
+)Lcom/lagradost/cloudstream3/LoadResponse;
+$Lcom/lagradost/cloudstream3/MainAPI;
+&Lcom/lagradost/cloudstream3/MainAPIKt;
++Lcom/lagradost/cloudstream3/MainActivityKt;
+)Lcom/lagradost/cloudstream3/MainPageData;
+,Lcom/lagradost/cloudstream3/MainPageRequest;
+.Lcom/lagradost/cloudstream3/MovieLoadResponse;
+0Lcom/lagradost/cloudstream3/MovieSearchResponse;
++Lcom/lagradost/cloudstream3/SearchResponse;
+)Lcom/lagradost/cloudstream3/SubtitleFile;
+1Lcom/lagradost/cloudstream3/TvSeriesLoadResponse;
+#Lcom/lagradost/cloudstream3/TvType;
+&Lcom/lagradost/cloudstream3/VPNStatus;
+7Lcom/lagradost/cloudstream3/extractors/DoodLaExtractor;
+2Lcom/lagradost/cloudstream3/extractors/LuluStream;
+3Lcom/lagradost/cloudstream3/extractors/Lulustream1;
+3Lcom/lagradost/cloudstream3/extractors/Lulustream2;
+/Lcom/lagradost/cloudstream3/extractors/MixDrop;
+2Lcom/lagradost/cloudstream3/extractors/StreamTape;
++Lcom/lagradost/cloudstream3/extractors/Voe;
+4Lcom/lagradost/cloudstream3/network/WebViewResolver;
+6Lcom/lagradost/cloudstream3/plugins/CloudstreamPlugin;
++Lcom/lagradost/cloudstream3/plugins/Plugin;
++Lcom/lagradost/cloudstream3/utils/AppUtils;
+/Lcom/lagradost/cloudstream3/utils/ExtractorApi;
+1Lcom/lagradost/cloudstream3/utils/ExtractorApiKt;
+0Lcom/lagradost/cloudstream3/utils/ExtractorLink;
+4Lcom/lagradost/cloudstream3/utils/ExtractorLinkType;
+-Lcom/lagradost/cloudstream3/utils/JsUnpacker;
+7Lcom/lagradost/cloudstream3/utils/M3u8Helper$Companion;
+-Lcom/lagradost/cloudstream3/utils/M3u8Helper;
+,Lcom/lagradost/cloudstream3/utils/Qualities;
+%Lcom/lagradost/nicehttp/NiceResponse;
+!Lcom/lagradost/nicehttp/Requests;
+'Lcom/lagradost/nicehttp/ResponseParser;
+"Ldalvik/annotation/EnclosingClass;
+#Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+!Ldalvik/annotation/MemberClasses;
+Ldalvik/annotation/Signature;
+(Ldalvik/annotation/SourceDebugExtension;
+Leak
+Leak10
+Leak11
+Leak13
+Leak16
+Leak4
+Leak7
+Ljava/lang/Boolean;
+Ljava/lang/CharSequence;
+Ljava/lang/Character;
+Ljava/lang/Comparable;
+Ljava/lang/Exception;
+!Ljava/lang/IllegalStateException;
+Ljava/lang/Integer;
+Ljava/lang/Iterable;
+Ljava/lang/Object;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/lang/System;
+Ljava/nio/charset/Charset;
+Ljava/util/ArrayList;
+Ljava/util/Base64$Decoder;
+Ljava/util/Base64;
+Ljava/util/Collection;
+Ljava/util/Iterator;
+Ljava/util/LinkedHashSet;
+Ljava/util/List;
+Ljava/util/List<
+Ljava/util/Map;
+Ljava/util/Set;
+Ljava/util/Set<
+Ljava/util/concurrent/TimeUnit;
+Lkotlin/Function1;
+Lkotlin/Metadata;
+Lkotlin/Pair;
+Lkotlin/ResultKt;
+Lkotlin/TuplesKt;
+Lkotlin/Unit;
+"Lkotlin/collections/CollectionsKt;
+ Lkotlin/collections/IntIterator;
+Lkotlin/collections/MapsKt;
+Lkotlin/collections/SetsKt;
+ Lkotlin/coroutines/Continuation;
+ Lkotlin/coroutines/Continuation<
++Lkotlin/coroutines/intrinsics/IntrinsicsKt;
+'Lkotlin/coroutines/jvm/internal/Boxing;
+1Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.Lkotlin/coroutines/jvm/internal/DebugMetadata;
++Lkotlin/coroutines/jvm/internal/SpillingKt;
+.Lkotlin/coroutines/jvm/internal/SuspendLambda;
+ Lkotlin/jvm/functions/Function1;
+ Lkotlin/jvm/functions/Function1<
+ Lkotlin/jvm/functions/Function2;
+ Lkotlin/jvm/functions/Function2<
+.Lkotlin/jvm/internal/DefaultConstructorMarker;
+ Lkotlin/jvm/internal/Intrinsics;
+$Lkotlin/jvm/internal/Ref$BooleanRef;
+*Lkotlin/jvm/internal/SourceDebugExtension;
+Lkotlin/random/Random$Default;
+Lkotlin/random/Random;
+Lkotlin/ranges/CharRange;
+Lkotlin/ranges/IntRange;
+Lkotlin/ranges/RangesKt;
+Lkotlin/sequences/Sequence;
+Lkotlin/sequences/SequencesKt;
+Lkotlin/text/Charsets;
+Lkotlin/text/MatchResult;
+Lkotlin/text/Regex;
+Lkotlin/text/RegexOption;
+Lkotlin/text/StringsKt;
+Lokhttp3/Headers;
+Lokhttp3/Interceptor;
+#Lorg/jetbrains/annotations/NotNull;
+$Lorg/jetbrains/annotations/Nullable;
+Lorg/jsoup/nodes/Document;
+Lorg/jsoup/nodes/Element;
+Lorg/jsoup/select/Elements;
+Lulustream
+Magazine
+MightBeNeeded
+Movie
+FMozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+i nh
+NSFW
+4No iframe and no video URL found in script fallback.
+No server returned link for ep 
+-No video URL intercepted in WebView fallback.
+Panel#
+Referer
+#Regex fallback extractor error for 
+SMAP
+Extensions.kt
+Kotlin
+*S Kotlin
++ 1 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+1#1,129:1
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/iGay69/FilemoonV2
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
+1#1,404:1
+1915#2,2:405
+*S KotlinDebug
++ 1 Extractors.kt
+com/iGay69/FilemoonV2
+239#1:405,2
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/iGay69/VoeExtractor
++ 2 AppUtils.kt
+com/lagradost/cloudstream3/utils/AppUtils
++ 3 Extensions.kt
+com/fasterxml/jackson/module/kotlin/ExtensionsKt
+1#1,404:1
+23#2,2:405
+15#2:407
+25#2,2:410
+50#3:408
+43#3:409
+*S KotlinDebug
++ 1 Extractors.kt
+com/iGay69/VoeExtractor
+101#1:405,2
+101#1:407
+101#1:410,2
+101#1:408
+101#1:409
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/iGay69/WaawExtractor
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,404:1
+1915#2:405
+1916#2:407
+1915#2:408
+1915#2,2:409
+1916#2:411
+1915#2:412
+1916#2:425
+1586#2:430
+1661#2,3:431
+1#3:406
+1342#4,2:413
+1342#4,2:415
+1342#4:417
+1342#4,2:418
+1343#4:420
+1342#4,2:421
+1342#4,2:423
+1342#4,2:426
+1342#4,2:428
+*S KotlinDebug
++ 1 Extractors.kt
+com/iGay69/WaawExtractor
+352#1:405
+352#1:407
+357#1:408
+358#1:409,2
+357#1:411
+365#1:412
+365#1:425
+391#1:430
+391#1:431,3
+370#1:413,2
+371#1:415,2
+373#1:417
+376#1:418,2
+373#1:420
+381#1:421,2
+382#1:423,2
+386#1:426,2
+387#1:428,2
+SMAP
+Extractors.kt
+Kotlin
+*S Kotlin
++ 1 Extractors.kt
+com/iGay69/dsio
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
+1#1,404:1
+1586#2:405
+1661#2,3:406
+*S KotlinDebug
++ 1 Extractors.kt
+com/iGay69/dsio
+132#1:405
+132#1:406,3
+SMAP
+iGay69.kt
+Kotlin
+*S Kotlin
++ 1 iGay69.kt
+com/iGay69/iGay69
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
++ 3 fake.kt
+kotlin/jvm/internal/FakeKt
++ 4 _Sequences.kt
+kotlin/sequences/SequencesKt___SequencesKt
+1#1,304:1
+1642#2,10:305
+1915#2:315
+1916#2:317
+1652#2:318
+1642#2,10:319
+1915#2:329
+1916#2:331
+1652#2:332
+1586#2:334
+1661#2,2:335
+1586#2:337
+1661#2,3:338
+777#2:341
+873#2,2:342
+1586#2:344
+1661#2,3:345
+1663#2:348
+1586#2:349
+1661#2,3:350
+1924#2,2:353
+1586#2:355
+1661#2,3:356
+1586#2:359
+1661#2,3:360
+777#2:363
+873#2,2:364
+1926#2:366
+1924#2,3:367
+1924#2,3:370
+1642#2,10:375
+1915#2:385
+1916#2:387
+1652#2:388
+1#3:316
+1#3:330
+1#3:333
+1#3:386
+1342#4,2:373
+*S KotlinDebug
++ 1 iGay69.kt
+com/iGay69/iGay69
+46#1:305,10
+46#1:315
+46#1:317
+46#1:318
+84#1:319,10
+84#1:329
+84#1:331
+84#1:332
+133#1:334
+133#1:335,2
+135#1:337
+135#1:338,3
+136#1:341
+136#1:342,2
+137#1:344
+137#1:345,3
+133#1:348
+144#1:349
+144#1:350,3
+190#1:353,2
+191#1:355
+191#1:356,3
+193#1:359
+193#1:360,3
+193#1:363
+193#1:364,2
+190#1:366
+215#1:367,3
+247#1:370,3
+120#1:375,10
+120#1:385
+120#1:387
+120#1:388
+46#1:316
+84#1:330
+120#1:386
+288#1:373,2
+Sec-Fetch-Dest
+Sec-Fetch-Mode
+Sec-Fetch-Site
+Series panel#
+Series panels count = 
+Series requested: 
+Single video panels count = 
+Single video: panel#
+TvSeries
+UTF_8
+Unknown
+User-Agent
+VLLL
+VLLLZLLJIL
+VLLZ
+VideoSource
+VideoSource(url=
+Videos
+Waaw
+ZLLZIL
+["']([A-Za-z0-9+/=]{40,})["']
+$[Lcom/lagradost/cloudstream3/TvType;
+[Ljava/lang/Object;
+[Ljava/lang/String;
+[Lkotlin/Pair;
+"[data-src],[data-video],[data-url]
+^(https?://[^#]+)#ep(\d+)$
+a.next.page-numbers
+a[href]
+abs:
+abs:src
+absUrl
+accessFlags
+addAll
+anchors
+apiLevel
+append
+areEqual
+article.blog-entry
+asSequence
+attr
+attrs
+body > script
+booleanValue
+boxBoolean
+boxChar
+boxInt
+/call to 'resume' before 'invoke' with coroutine
+callback
+category/collection
+category/leak
+category/leak/page/10
+category/leak/page/12
+category/leak/page/14
+category/leak/page/4
+category/leak/page/6
+category/leak/page/9
+category/magazine
+category/porn/gayerdar
+category/vid
+	charValue
+chosen
+collectionSizeOrDefault
+com.iGay69.Bigwarp
+com.iGay69.Bigwarp$getUrl$2
+com.iGay69.FilemoonV2
+com.iGay69.Lulustream
+"com.iGay69.Lulustream$getUrl$2$1$1
+com.iGay69.VoeExtractor
+com.iGay69.WaawExtractor
+#com.iGay69.WaawExtractor$getUrl$7$1
+com.iGay69.dsio
+com.iGay69.dsio$getUrl$2
+com.iGay69.iGay69
+com.iGay69.iGay69$load$2
+com.iGay69.iGay69$load$3
+Acom/fasterxml/jackson/module/kotlin/ExtensionsKt$jacksonTypeRef$1
+Tcom/fasterxml/jackson/module/kotlin/ExtensionsKt$readValue$$inlined$jacksonTypeRef$4
+Hcom/lagradost/cloudstream3/utils/AppUtils$parseJson$$inlined$readValue$1
+Kcom/lagradost/cloudstream3/utils/AppUtils$tryParseJson$$inlined$parseJson$1
+	compareTo
+component1
+component2
+ const\s+sources\s*=\s*(\{.*?\});
+containsAll
+content
+content$iv$iv$iv
+context
+copy
+copy$default
+create
+cross-site
+currentTimeMillis
+d-s.io
+data
+data-lazy-src
+data-src
+data-srcset
+data-url
+data-video
+decode
+decoded
+defaultHeaders
+description
+destination$iv$iv
+distinct
+Kdiv.responsive-tabs__panel, .tabcontent.responsive-tabs__panel, .tabcontent
+div.single-blog-content
+div.wpex-card-thumbnail img
+document
+dsio
+element
+element$iv
+element$iv$iv
+element$iv$iv$iv
+	emptyList
+en-US,en;q=0.5
+epIndex
+epUrl
+episodeCount
+episodes
+equals
+extractedpack
+fallbackScriptData
+figure img
+"file:\s*\"((?:https?://|//)[^\"]+)
+find$default
+findAll$default
+first
+firstOrNull
+fixUrl
+fixUrlNull
+found
+fromImgs
+generateM3u8$default
+get$default
+getApp
+getCOROUTINE_SUSPENDED
+getCode
+getData
+getDecoder
+getDocument
+getGroupValues
+getHasChromecastSupport
+getHasDownloadSupport
+getHasMainPage
+getHasQuickSearch
+getHeaders
+	getHeight
+getINFER_TYPE
+getLang
+getMainPage
+getMainUrl
+	getMapper
+getMessage
+getName
+	getOrNull
+getQualityFromName
+getRequiresReferer
+getSupportedTypes
+getText
+getUrl
+getUrl$suspendImpl
+getValue
+getVpnStatus
+h1.single-post-title
+h2.wpex-card-title a
+hasChromecastSupport
+hasDownloadSupport
+hasMainPage
+hasNext
+hasQuickSearch
+hashCode
+height
+home
+href
+https:
+https://bgwp.cc
+https://bigwarp.cc
+https://bigwarp.io
+https://dood.pm
+https://dood.re
+https://dood.yt
+https://doods.pro
+https://doodstream.com
+https://filemoon.sx
+https://filemoon.to
+https://igay69.com
+"https://jilliandescribecompany.com
+https://lulustream.com
+https://luluvid.com
+https://mdfx9dc8n.net
+https://mixdrop.cv
+https://mixdrop.is
+https://mixdrop.sn
+https://mxdrop.to
+https://tapepops.com
+https://vide0.net
+https://waaw.to
+https://watchadsontape.com
+https?://[^\s'"]+
+https?://[^\s'"]+\.m3u8[^\s'"]*
+https?://[^\s'"]+\.mp4[^\s'"]*
+iGay69
+	iGay69.kt
+iGay69Provider.kt
+iframe
+iframe extractor error for 
+iframeHeaders
+iframeResponse
+iframeScriptData
+	iframeSrc
+iframeSrcUrl
+iframe[src]
+igay69
+imgSelectors
+index$iv
+initialResponse
+intValue
+interceptedUrl
+invoke
+invokeSuspend
+isBlank
+	isCasting
+isEmpty
+it$iv$iv
+item$iv
+item$iv$iv
+iterator
+jackson-module-kotlin
+joinToString$default
+	jsonMatch
+kind
+label
+lang
+length
+link
+linkImg
+link[rel=image_src]
+listOf
+load
+load$lambda$0$2
+load$lambda$3$0
+load() fetch failed for 
+loadExtractor
+	loadLinks
+loadLinks$lambda$0$3
+loadLinks$lambda$1$2
+loadLinks$lambda$2$2
+loadLinks$lambda$3
+loadLinks$lambda$4
+loadLinks$lambda$5$0
+location
+mainPage
+mainPageOf
+mainUrl
+mapNotNull
+mapOf
+match
+matchResult
+md5Url
+metaOg
+meta[property=og:description]
+meta[property=og:image]
+meta[property=og:title]
+name
+navigate
+newEpisode
+newExtractorLink
+newExtractorLink$default
+newHomePageResponse
+newMovieLoadResponse
+newMovieLoadResponse$default
+newMovieSearchResponse$default
+newTvSeriesLoadResponse
+next
+nextInt
+nullOutSpilledVariable
+other
+page
+pageHtml
+pageUrl
+panel
+panelIdx
+panels
+passMd5Path
+plus
+poster
+	posterUrl
+quality
+query
+random
+	randomStr
+	readValue
+referer
+regex
+registerExtractorAPI
+registerMainAPI
+replace$default
+request
+requiresReferer
+resolver
+response
+	response0
+result
+results
+script
+*script:containsData(function(p,a,c,k,e,d))
+search
+searchResponse
+select
+selectFirst
+seriesMatch
+	seriesUrl
+setLang
+setMainUrl
+setName
+setOf
+setPlot
+setPosterUrl
+setQuality
+setReferer
+size
+source
+sources:\[\{file:"(.*?)"
+startsWith$default
+substringAfter$default
+substringAfterLast$default
+substringBefore$default
+subtitleCallback
+supportedTypes
+tapepops
+text
+this
+this$0
+this_$iv
+this_$iv$iv
+throwIndexOverflow
+throwOnFailure
+title
+toIntOrNull
+toRecommendResult
+toRecommendResult$lambda$0
+toSearchResult
+toSearchResult$lambda$0
+toString
+token
+trim
+unPacked
+unpack
+unpacked
+unpackedScript
+until
+value
+value$iv
+value$iv$iv
+valueOf
+versionHash
+	videoData
+videoRegex
+videoUrl
+video_height
+	vpnStatus
+watchadsontape
+e~~D8{"backend":"dex","compilation-mode":"debug","has-checksums":true,"min-api":21,"version":"9.1.31"}
+~~~{"Lcom/iGay69/Bgwp;":"6054f861","Lcom/iGay69/Bigwarp$getUrl$1;":"7c69c4","Lcom/iGay69/Bigwarp$getUrl$2;":"9e147658","Lcom/iGay69/Bigwarp;":"1dfcfd88","Lcom/iGay69/Bigwarpcc;":"6cbf1a36","Lcom/iGay69/DoodstreamCom;":"98eb337f","Lcom/iGay69/FileMoon;":"646ae5cc","Lcom/iGay69/FileMoonSx;":"235d5b93","Lcom/iGay69/FilemoonV2$getUrl$1;":"462365c0","Lcom/iGay69/FilemoonV2;":"e05509ef","Lcom/iGay69/Lulustream$getUrl$1;":"448436b0","Lcom/iGay69/Lulustream$getUrl$2$1$1;":"a18a4a0f","Lcom/iGay69/Lulustream;":"c4b53bb0","Lcom/iGay69/MixDropCv;":"c329a6be","Lcom/iGay69/MixDropIs;":"eb517008","Lcom/iGay69/MixDropSn;":"1ae51a4c","Lcom/iGay69/MxDrop;":"88164c2e","Lcom/iGay69/VoeExtractor$VideoSource;":"b7c559d8","Lcom/iGay69/VoeExtractor$getUrl$1;":"3a137f34","Lcom/iGay69/VoeExtractor$getUrl$suspendImpl$$inlined$tryParseJson$1;":"372105c0","Lcom/iGay69/VoeExtractor;":"4a629400","Lcom/iGay69/WaawExtractor$getUrl$1;":"f538d55f","Lcom/iGay69/WaawExtractor$getUrl$7$1;":"4a563565","Lcom/iGay69/WaawExtractor;":"497902e2","Lcom/iGay69/doodpm;":"7581e5c7","Lcom/iGay69/doodre;":"db26727c","Lcom/iGay69/doodspro;":"adaf6b27","Lcom/iGay69/doodyt;":"a4a84238","Lcom/iGay69/dsio$getUrl$1;":"d8e93b66","Lcom/iGay69/dsio$getUrl$2;":"2e171075","Lcom/iGay69/dsio;":"6d5d258f","Lcom/iGay69/iGay69$$ExternalSyntheticLambda0;":"456f08af3","Lcom/iGay69/iGay69$$ExternalSyntheticLambda1;":"-14c292d3a","Lcom/iGay69/iGay69$$ExternalSyntheticLambda2;":"d390694c","Lcom/iGay69/iGay69$$ExternalSyntheticLambda3;":"-665c8e9a4","Lcom/iGay69/iGay69$$ExternalSyntheticLambda4;":"b740afce","Lcom/iGay69/iGay69$$ExternalSyntheticLambda5;":"-870f8b11d","Lcom/iGay69/iGay69$$ExternalSyntheticLambda6;":"12f254c9f","Lcom/iGay69/iGay69$$ExternalSyntheticLambda7;":"-186c8977d","Lcom/iGay69/iGay69$$ExternalSyntheticLambda8;":"1df725667","Lcom/iGay69/iGay69$$ExternalSyntheticLambda9;":"2d3fe89ab","Lcom/iGay69/iGay69$getMainPage$1;":"47a70933","Lcom/iGay69/iGay69$load$1;":"cdc0d278","Lcom/iGay69/iGay69$load$2;":"20536410","Lcom/iGay69/iGay69$load$3;":"a6254609","Lcom/iGay69/iGay69$loadLinks$1;":"d92a645d","Lcom/iGay69/iGay69$search$1;":"3a0e73a8","Lcom/iGay69/iGay69;":"64a0dfb8","Lcom/iGay69/iGay69Plugin;":"c2644cd1","Lcom/iGay69/luluvid;":"f603c91f","Lcom/iGay69/mdfx9dc8n;":"fbdaabe1","Lcom/iGay69/tapepops;":"2e98f799","Lcom/iGay69/vide0;":"12e144ae","Lcom/iGay69/watchadsontape;":"5181734b"}
