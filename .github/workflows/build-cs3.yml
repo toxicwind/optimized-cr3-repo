@@ -1,0 +1,62 @@
+name: CloudStream Reaver - Build + Validate
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Ensure scripts are executable
+        run: |
+          chmod +x analysis/scripts/run_e2e_validation.sh || true
+          chmod +x analysis/scripts/launch_dashboard.sh || true
+
+      - name: Run Reaver build
+        run: python3 scripts/build_all.py
+
+      - name: Run end-to-end validation
+        run: ./analysis/scripts/run_e2e_validation.sh
+
+      - name: Enforce provider quality gate (no FAIL)
+        run: |
+          python3 - <<'PY'
+          import json,sys
+          p='docs/verification/provider_e2e_validation.json'
+          data=json.load(open(p,'r',encoding='utf-8'))
+          fail=data['overall'].get('fail', 0)
+          avg=data['overall'].get('avg_score', 0)
+          print(f"fail={fail} avg_score={avg}")
+          if fail > 0:
+              print("Quality gate failed: FAIL providers present")
+              sys.exit(1)
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cs3-builds
+          path: builds/*.cs3
+          if-no-files-found: warn
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verification-reports
+          path: |
+            docs/verification/provider_e2e_validation.json
+            docs/verification/provider_e2e_validation_summary.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-assets
+          path: docs/dashboard/*

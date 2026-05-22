@@ -1,0 +1,69 @@
+# Environment & Dependencies
+node_modules/
+.env
+.env.local
+*.pem
+*.key
+
+# Build outputs
+/build/
+/dist/
+*.class
+*.dex
+*.apk
+*.jar
+target/
+*.o
+*.so
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Gradle
+.gradle/
+*.gradle.lock
+!gradle/
+
+# Generated & Large Data (extracted at runtime)
+/data/              # Extracted provider analysis data
+/browserless/       # npm dependencies (generated via setup)
+/upstream/          # Reference repository (cloned separately)
+/reaver_patches/    # Generated patch artifacts
+
+# Logs & Temp
+*.log
+*.pid
+.tmp/
+_temp/
+*.tmp
+.vscode-insiders/
+
+# Specific runtime outputs
+/docs/reports/
+/docs/verification/provider_e2e_validation.json
+/docs/verification/
+analysis/logs/
+
+# Node/npm
+package-lock.json
+.npmrc
+
+# Telemetry & monitoring
+telemetry.log
+telemetry.json
+
+# IDE-generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+
+# CI artifacts (store locally but not in git)
+/artifacts/
+.github/cache/

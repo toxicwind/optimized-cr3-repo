@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Provider Validation Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Provider Validation Dashboard</h1>
+    <div class="actions">
+      <button id="reloadBtn">Reload</button>
+      <span id="status" class="status">Loading…</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cards" id="summaryCards"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Provider Scores</h2>
+        <div class="filters">
+          <label>
+            Verdict
+            <select id="verdictFilter">
+              <option value="ALL">ALL</option>
+              <option value="PASS_STRONG">PASS_STRONG</option>
+              <option value="PASS_PARTIAL">PASS_PARTIAL</option>
+              <option value="NEEDS_WORK">NEEDS_WORK</option>
+              <option value="FAIL">FAIL</option>
+            </select>
+          </label>
+          <label>
+            Min Score
+            <input id="minScore" type="number" min="0" max="100" value="0" />
+          </label>
+        </div>
+      </div>
+
+      <div id="bars" class="bars"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Detailed Results</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Provider</th>
+              <th>Score</th>
+              <th>Verdict</th>
+              <th>Methods</th>
+              <th>Signals</th>
+              <th>DNS</th>
+            </tr>
+          </thead>
+          <tbody id="resultsTable"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
