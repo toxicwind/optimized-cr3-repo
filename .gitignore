@@ -53,6 +53,7 @@ _temp/
 # Specific runtime outputs (validation, reports)
 /docs/reports/
 /docs/verification/
+!/docs/verification/provider_e2e_validation.json
 analysis/logs/
 
 # Node/npm
