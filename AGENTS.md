@@ -2,15 +2,15 @@
 
 ## Always Commit Changes Before Completing
 
-After making any file changes, stage, commit, and push before calling task_complete:
+After making any file changes, run the full end-to-end sync one-liner before calling task_complete:
 
 ```bash
-git add -A
-git commit -m "short description of what changed"
-git push origin main
+cd /home/toxic/cr3_forge/optimized-cr3-repo && git add -A && git commit -m "describe what changed" && git push origin main
 ```
 
 Never hand back with uncommitted changes unless the user explicitly says "don't commit" or "don't push".
+
+If the commit step says "nothing to commit", that means the changed files are gitignored — check `.gitignore` before assuming the push succeeded.
 
 ## Repo Layout
 
