@@ -44,8 +44,33 @@ Output goes to `docs/verification/provider_e2e_validation.json` (gitignored — 
 # open http://127.0.0.1:8787/dashboard/index.html
 ```
 
+## Handling Untracked / Modified Files Before Committing
+
+After editing, run `git status` to classify what you see:
+
+**Untracked files you DID create (new files that should be tracked):**
+```bash
+git add path/to/file && git commit -m "..." && git push origin main
+```
+
+**Untracked files you did NOT create (e.g. browserless/, upstream/):**
+- These are gitignored local directories — do NOT add them
+- If git says "adding embedded git repository", stop and run `git rm --cached <path>` immediately
+- Then commit the removal before pushing
+
+**Modified files not staged:**
+```bash
+git add path/to/changed/file && git commit -m "..." && git push origin main
+```
+Never use `git add -A` — it will accidentally pick up `browserless/` and `upstream/cloudstream_repo` as embedded repos (160000 mode), which breaks the index.
+
+**"Nothing to commit" after editing a file:**
+- The file is likely gitignored — check `.gitignore`
+- If it should be tracked, remove the relevant ignore rule, then `git add` it explicitly
+
 ## Git Rules
 
 - Do not `git push --force` or `git reset --hard` without explicit user approval
+- NEVER use `git add -A` — always stage specific paths
 - Do not unignore or commit anything from `data/`, `browserless/`, `upstream/`, `reaver_patches/`
 - Batch related changes into one commit, not one per file
