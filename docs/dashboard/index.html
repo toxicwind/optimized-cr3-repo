@@ -3,64 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Provider Validation Dashboard</title>
+  <title>CloudStream 3 Provider Validation Dashboard</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <h1>Provider Validation Dashboard</h1>
+    <div class="header-left">
+      <h1>CloudStream 3 Provider Validation</h1>
+      <p class="subtitle">Deep analysis of 19 video streaming providers</p>
+    </div>
     <div class="actions">
-      <button id="reloadBtn">Reload</button>
+      <button id="reloadBtn" class="btn-reload">Refresh Data</button>
       <span id="status" class="status">Loading…</span>
     </div>
   </header>
 
   <main class="container">
+    <!-- Summary Cards -->
     <section class="cards" id="summaryCards"></section>
 
-    <section class="panel">
-      <div class="panel-head">
-        <h2>Provider Scores</h2>
-        <div class="filters">
-          <label>
-            Verdict
-            <select id="verdictFilter">
-              <option value="ALL">ALL</option>
-              <option value="PASS_STRONG">PASS_STRONG</option>
-              <option value="PASS_PARTIAL">PASS_PARTIAL</option>
-              <option value="NEEDS_WORK">NEEDS_WORK</option>
-              <option value="FAIL">FAIL</option>
-            </select>
-          </label>
-          <label>
-            Min Score
-            <input id="minScore" type="number" min="0" max="100" value="0" />
-          </label>
-        </div>
+    <!-- Filters -->
+    <section class="filters-panel">
+      <h3>Filter & Search</h3>
+      <div class="filters">
+        <label>
+          <div class="filter-label">Verdict</div>
+          <select id="verdictFilter">
+            <option value="ALL">All Verdicts</option>
+            <option value="PASS_STRONG">✓ PASS_STRONG</option>
+            <option value="PASS_PARTIAL">~ PASS_PARTIAL</option>
+            <option value="NEEDS_WORK">! NEEDS_WORK</option>
+            <option value="FAIL">✗ FAIL</option>
+          </select>
+        </label>
+        <label>
+          <div class="filter-label">Min Score</div>
+          <input id="minScore" type="range" min="0" max="100" value="0" />
+          <span id="scoreDisplay">0%</span>
+        </label>
+        <label>
+          <div class="filter-label">Search</div>
+          <input id="searchFilter" type="text" placeholder="Provider name..." />
+        </label>
       </div>
-
-      <div id="bars" class="bars"></div>
     </section>
 
+    <!-- Expandable Provider Cards -->
     <section class="panel">
-      <h2>Detailed Results</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Provider</th>
-              <th>Score</th>
-              <th>Verdict</th>
-              <th>Methods</th>
-              <th>Signals</th>
-              <th>DNS</th>
-            </tr>
-          </thead>
-          <tbody id="resultsTable"></tbody>
-        </table>
-      </div>
+      <h2>Provider Details</h2>
+      <div id="providerCards" class="provider-cards"></div>
     </section>
   </main>
+
+  <!-- Modal for detailed view -->
+  <div id="detailModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle"></h2>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
 
   <script src="./app.js"></script>
 </body>

@@ -4,11 +4,8 @@ node_modules/
 .env.local
 *.pem
 *.key
-.gradle/gradle.properties
 
 # Build outputs (Gradle, Android, Maven)
-/build/
-/dist/
 build/
 dist/
 *.class
