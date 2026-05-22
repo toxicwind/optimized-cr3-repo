@@ -4,10 +4,13 @@ node_modules/
 .env.local
 *.pem
 *.key
+.gradle/gradle.properties
 
-# Build outputs
+# Build outputs (Gradle, Android, Maven)
 /build/
 /dist/
+build/
+dist/
 *.class
 *.dex
 *.apk
@@ -15,19 +18,27 @@ node_modules/
 target/
 *.o
 *.so
+*.cs3~
+.buildCache
 
-# IDEs
+# Gradle cache & artifacts
+.gradle/
+gradle.lock
+.buildscache
+.buildConfig
+local.properties
+
+# IDEs (JetBrains IntelliJ + VSCode)
 .idea/
+*.iml
+*.iws
+*.ipr
 .vscode/
+.vscode-insiders/
 *.swp
 *.swo
 *~
 .DS_Store
-
-# Gradle
-.gradle/
-*.gradle.lock
-!gradle/
 
 # Generated & Large Data (extracted at runtime)
 /data/              # Extracted provider analysis data
@@ -41,11 +52,9 @@ target/
 .tmp/
 _temp/
 *.tmp
-.vscode-insiders/
 
-# Specific runtime outputs
+# Specific runtime outputs (validation, reports)
 /docs/reports/
-/docs/verification/provider_e2e_validation.json
 /docs/verification/
 analysis/logs/
 
@@ -56,13 +65,6 @@ package-lock.json
 # Telemetry & monitoring
 telemetry.log
 telemetry.json
-
-# IDE-generated
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans
 
 # CI artifacts (store locally but not in git)
 /artifacts/
