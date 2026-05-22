@@ -1,29 +1,5 @@
 {
   "name": "GayXXX Optimized",
-  "description": "Optimized CloudStream repo for gay/NSFW plugins (BestHDgayporn, iGay69, XvideosGay, Justthe
-toxic@awrawr-pc:~/cr3_forge/optimized-cr3-repo$ #!/bin/bash
-set -xv
-# 1. Surgical Matrix Correction
-# Correct ownership to current user and enforce read/execute permissions
-# Avoiding nested subshells to prevent token parsing errors
-USER_ID=$(whoami)
-GROUP_ID=$(whoami)
-REPO_DIR="/home/toxic/cr3_forge/optimized-cr3-repo"
-cd "${REPO_DIR}"
-# Apply sudo chown and chmod sequentially without subshell interpolation
-sudo chown -R "${USER_ID}:${GROUP_ID}" .
-sudo chmod -R 755 .
-# 2. Re-Forge the Mandatory Manifest Structure
-# CloudStream 3 requires a repo.json index file containing a "pluginLists" array.
-# This prevents the "Repository not found" error by conforming to the expected schema.
-mkdir -p builds
-# Flatten the directory: plugins.json must be
-the raw plugin list
-# repo.json must be the repository index pointing to that list
-cp repo.json builds/plugins.json
-cat <<EOF > repo.json
-{
-  "name": "GayXXX Optimized",
   "description": "Optimized CloudStream repo for gay/NSFW plugins",
   "manifestVersion": 1,
   "pluginLists": [
