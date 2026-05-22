@@ -233,7 +233,7 @@ function renderTable(filtered) {
           <td class="py-2 pr-4">${r.cacheSignals}</td>
           <td class="py-2 pr-4">${r.decryptSignals}</td>
           <td class="py-2 pr-4"><div class="flex gap-1 flex-wrap">${methods}</div></td>
-          <td class="py-2 pr-4"><button class="text-primary-600 hover:text-primary-700 text-xs font-medium" onclick="showDetail('${r.name.replace(/'/g, "\\'")}')">Inspect</button></td>
+          <td class="py-2 pr-4"><button class="inspect-btn text-primary-600 hover:text-primary-700 text-xs font-medium" data-provider="${encodeURIComponent(r.name)}">Inspect</button></td>
         </tr>
       `;
     })
@@ -453,6 +453,15 @@ els.minScore.addEventListener("input", () => {
 });
 els.searchFilter.addEventListener("input", rerender);
 els.reloadBtn.addEventListener("click", loadData);
+els.resultsTable.addEventListener("click", (e) => {
+  const btn = e.target.closest("button.inspect-btn");
+  if (!btn) return;
+
+  const provider = decodeURIComponent(btn.dataset.provider || "");
+  if (!provider) return;
+
+  showDetail(provider);
+});
 els.modalClose.addEventListener("click", closeModal);
 els.detailModal.addEventListener("click", (e) => {
   if (e.target === els.detailModal) closeModal();
