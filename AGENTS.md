@@ -1,76 +1,47 @@
 # Agent Instructions
 
-## Always Commit Changes Before Completing
+## Commit Before Completing
 
-After making any file changes, run the full end-to-end sync one-liner before calling task_complete:
+Always commit and push all changes before calling task_complete. Never hand back with dirty working tree unless the user says otherwise.
 
 ```bash
-cd /home/toxic/cr3_forge/optimized-cr3-repo && git add -A && git commit -m "describe what changed" && git push origin main
+git add <specific files> && git commit -m "describe what changed" && git push origin main
 ```
 
-Never hand back with uncommitted changes unless the user explicitly says "don't commit" or "don't push".
-
-If the commit step says "nothing to commit", that means the changed files are gitignored — check `.gitignore` before assuming the push succeeded.
+If "nothing to commit" — the file is probably gitignored. Check `.gitignore` before assuming success.
 
 ## Repo Layout
 
-| Path | Purpose | Committed? |
-|------|---------|------------|
-| `src/` | Kotlin provider source | Yes |
-| `builds/*.cs3` | Compiled plugins | Yes |
-| `docs/dashboard/` | Static HTML dashboard | Yes |
-| `analysis/scripts/` | Validation scripts | Yes |
-| `.github/workflows/` | CI/CD | Yes |
-| `data/` | Extracted artifacts (large) | No - gitignored |
-| `docs/verification/` | Validation JSON output | No - gitignored |
-| `docs/reports/` | Report output | No - gitignored |
-| `browserless/` | npm deps (generated) | No - gitignored |
-| `upstream/` | Reference repo clone | No - gitignored |
+| Path | Purpose | Tracked |
+|------|---------|---------|
+| `src/` | Kotlin provider source | ✅ |
+| `builds/*.cs3` | Compiled plugins | ✅ |
+| `docs/dashboard/` | Static HTML dashboard | ✅ |
+| `docs/verification/provider_e2e_validation.json` | Validation results | ✅ |
+| `analysis/scripts/` | Validation + launch scripts | ✅ |
+| `.github/workflows/` | CI/CD | ✅ |
+| `data/` | Large extracted artifacts | ❌ gitignored |
+| `docs/reports/` | Report output | ❌ gitignored |
+| `browserless/` | npm deps (generated locally) | ❌ gitignored |
+| `upstream/` | Reference repo clone | ❌ gitignored |
+| `reaver_patches/` | Generated patch artifacts | ❌ gitignored |
 
-## Validation
-
-Run before committing provider changes:
+## Common Commands
 
 ```bash
+# Validate providers
 python3 analysis/scripts/provider_e2e_validator.py
-```
 
-Output goes to `docs/verification/provider_e2e_validation.json` (gitignored — not committed).
-
-## Dashboard
-
-```bash
+# Launch dashboard locally
 ./analysis/scripts/launch_dashboard.sh 8787
-# open http://127.0.0.1:8787/dashboard/index.html
+# → http://127.0.0.1:8787/dashboard/index.html
 ```
 
-## Handling Untracked / Modified Files Before Committing
+## Git Safety Rules
 
-After editing, run `git status` to classify what you see:
-
-**Untracked files you DID create (new files that should be tracked):**
-```bash
-git add path/to/file && git commit -m "..." && git push origin main
-```
-
-**Untracked files you did NOT create (e.g. browserless/, upstream/):**
-- These are gitignored local directories — do NOT add them
-- If git says "adding embedded git repository", stop and run `git rm --cached <path>` immediately
-- Then commit the removal before pushing
-
-**Modified files not staged:**
-```bash
-git add path/to/changed/file && git commit -m "..." && git push origin main
-```
-Never use `git add -A` — it will accidentally pick up `browserless/` and `upstream/cloudstream_repo` as embedded repos (160000 mode), which breaks the index.
-
-**"Nothing to commit" after editing a file:**
-- The file is likely gitignored — check `.gitignore`
-- If it should be tracked, remove the relevant ignore rule, then `git add` it explicitly
-
-## Git Rules
-
+- **Always stage specific paths** — never `git add -A` or `git add .`
+  - `browserless/` and `upstream/` contain nested git repos; bulk-adding picks them up as submodules (mode 160000), corrupting the index
+  - If this happens: `git rm --cached browserless upstream` then commit the removal
 - Do not `git push --force` or `git reset --hard` without explicit user approval
-- NEVER use `git add -A` — always stage specific paths
-- Do not unignore or commit anything from `data/`, `browserless/`, `upstream/`, `reaver_patches/`
-- Batch related changes into one commit, not one per file
+- Never commit anything from `data/`, `browserless/`, `upstream/`, or `reaver_patches/`
+- Batch related changes into one commit
