@@ -39,7 +39,6 @@ local.properties
 
 # Generated & Large Data (extracted at runtime)
 /data/              # Extracted provider analysis data
-/browserless/.       # npm dependencies (generated via setup)
 /upstream/.          # Reference repository (cloned separately)
 /reaver_patches/    # Generated patch artifacts
 
@@ -71,7 +70,3 @@ telemetry.json
 # Local tooling/cache
 /.serena/
 /docs/.vite/
-browserless
-upstream/cloudstream_repo
-browserless
-upstream/cloudstream_repo

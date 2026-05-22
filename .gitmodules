@@ -1,0 +1,6 @@
+[submodule "browserless"]
+	path = browserless
+	url = https://github.com/browserless/browserless
+[submodule "upstream/cloudstream_repo"]
+	path = upstream/cloudstream_repo
+	url = https://github.com/recloudstream/cloudstream
