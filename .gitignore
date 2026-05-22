@@ -71,3 +71,5 @@ telemetry.json
 # Local tooling/cache
 /.serena/
 /docs/.vite/
+browserless
+upstream/cloudstream_repo
