@@ -67,3 +67,7 @@ telemetry.json
 # CI artifacts (store locally but not in git)
 /artifacts/
 .github/cache/
+
+# Local tooling/cache
+/.serena/
+/docs/.vite/

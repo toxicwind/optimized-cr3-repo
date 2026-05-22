@@ -1,61 +1,163 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudStream 3 Provider Validation Dashboard</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <title>CloudStream Provider Intelligence Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/tailwind-config.js"></script>
 </head>
-<body>
-  <header class="topbar">
-    <div class="header-left">
-      <h1>CloudStream 3 Provider Validation</h1>
-      <p class="subtitle">Deep analysis of 19 video streaming providers</p>
+
+<body class="bg-gray-50 dark:bg-[#171717]">
+  <div id="sidebar"
+    class="fixed inset-y-0 left-0 z-60 w-64 bg-white shadow-xl sidebar-transition transform -translate-x-full lg:translate-x-0 dark:bg-[#1e1e1e] dark:border-r dark:border-[#2a2a2a] group sidebar-mobile-position"
+    data-collapsible="offcanvas">
+    <div class="flex flex-col h-full sidebar-content-mobile">
+      <div class="logo-container px-4">
+        <div class="flex items-center space-x-3 group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:space-x-0">
+          <div class="w-10 h-10 rounded-xl bg-primary-600 flex items-center justify-center">
+            <i class="ph ph-brackets-curly text-white text-lg"></i>
+          </div>
+          <div class="logo-text-container flex items-end group-data-[collapsible=icon]:hidden">
+            <span class="logo-text-main">CloudStream</span>
+            <span class="logo-text-sub">Intel</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="flex-1 px-4 py-6 space-y-2">
+        <a href="#" class="sidebar-item active flex items-center px-4 py-3 text-sm font-medium rounded-lg tooltip">
+          <i class="ph ph-chart-line-up text-lg"></i>
+          <span class="sidebar-text ml-3">Overview</span>
+          <span class="tooltip-text">Overview</span>
+        </a>
+        <a href="#providerTableWrap" class="sidebar-item flex items-center px-4 py-3 text-sm font-medium text-gray-600 rounded-lg tooltip dark:text-gray-300">
+          <i class="ph ph-table text-lg"></i>
+          <span class="sidebar-text ml-3">Providers</span>
+          <span class="tooltip-text">Providers</span>
+        </a>
+        <a href="#chartsSection" class="sidebar-item flex items-center px-4 py-3 text-sm font-medium text-gray-600 rounded-lg tooltip dark:text-gray-300">
+          <i class="ph ph-chart-bar text-lg"></i>
+          <span class="sidebar-text ml-3">Charts</span>
+          <span class="tooltip-text">Charts</span>
+        </a>
+      </nav>
     </div>
-    <div class="actions">
-      <button id="reloadBtn" class="btn-reload">Refresh Data</button>
-      <span id="status" class="status">Loading…</span>
+  </div>
+
+  <div id="sidebar-overlay" class="fixed inset-0 z-55 bg-black bg-opacity-50 lg:hidden hidden"></div>
+
+  <header class="fixed top-0 right-0 left-0 lg:left-64 z-50 bg-white shadow-sm border-b border-gray-200 sidebar-transition dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+    <div class="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 h-16">
+      <div class="flex items-center">
+        <button id="sidebar-toggle-mobile" class="lg:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-[#2a2a2a] dark:hover:text-gray-100">
+          <i class="ph ph-sidebar-simple w-6 h-6 text-xl"></i>
+        </button>
+        <button id="sidebar-toggle-desktop" class="hidden lg:block p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 mr-4 dark:text-gray-300 dark:hover:bg-[#2a2a2a] dark:hover:text-gray-100">
+          <i class="ph ph-sidebar-simple w-6 h-6 text-xl"></i>
+        </button>
+        <h1 class="ml-4 lg:ml-0 text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100">Provider Intelligence</h1>
+      </div>
+      <div class="flex items-center space-x-3">
+        <button id="reloadBtn" class="px-3 py-2 rounded-lg bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium">
+          Refresh Data
+        </button>
+        <button id="theme-toggle" class="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg dark:text-gray-300 dark:hover:bg-[#2a2a2a] dark:hover:text-gray-100">
+          <i id="theme-toggle-icon" class="ph ph-sun theme-toggle-icon text-lg hidden dark:block"></i>
+          <i id="theme-toggle-icon-dark" class="ph ph-moon theme-toggle-icon text-lg block dark:hidden"></i>
+        </button>
+        <span id="status" class="text-xs md:text-sm text-gray-500 dark:text-gray-400">Loading…</span>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <!-- Summary Cards -->
-    <section class="cards" id="summaryCards"></section>
+  <div id="main-content" class="lg:ml-64 sidebar-transition">
+    <div id="header-spacer"></div>
+    <main class="p-4 sm:p-6 lg:p-8">
+      <section id="summaryCards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 mb-6"></section>
 
-    <!-- Filters -->
-    <section class="filters-panel">
-      <h3>Filter & Search</h3>
-      <div class="filters">
-        <label>
-          <div class="filter-label">Verdict</div>
-          <select id="verdictFilter">
-            <option value="ALL">All Verdicts</option>
-            <option value="PASS_STRONG">✓ PASS_STRONG</option>
-            <option value="PASS_PARTIAL">~ PASS_PARTIAL</option>
-            <option value="NEEDS_WORK">! NEEDS_WORK</option>
-            <option value="FAIL">✗ FAIL</option>
-          </select>
-        </label>
-        <label>
-          <div class="filter-label">Min Score</div>
-          <input id="minScore" type="range" min="0" max="100" value="0" />
-          <span id="scoreDisplay">0%</span>
-        </label>
-        <label>
-          <div class="filter-label">Search</div>
-          <input id="searchFilter" type="text" placeholder="Provider name..." />
-        </label>
-      </div>
-    </section>
+      <section class="bg-white rounded-xl border border-gray-200 p-4 md:p-6 mb-6 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Filter & Search</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <label class="block">
+            <span class="text-sm text-gray-600 dark:text-gray-300">Verdict</span>
+            <select id="verdictFilter" class="mt-1 w-full rounded-lg border border-gray-300 dark:border-[#2a2a2a] bg-white dark:bg-[#232323] px-3 py-2 text-sm">
+              <option value="ALL">All Verdicts</option>
+              <option value="PASS_STRONG">PASS_STRONG</option>
+              <option value="PASS_PARTIAL">PASS_PARTIAL</option>
+              <option value="NEEDS_WORK">NEEDS_WORK</option>
+              <option value="FAIL">FAIL</option>
+            </select>
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-600 dark:text-gray-300">Min Score (<span id="scoreDisplay">0%</span>)</span>
+            <input id="minScore" type="range" min="0" max="100" value="0" class="mt-2 w-full" />
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-600 dark:text-gray-300">Search Provider</span>
+            <input id="searchFilter" type="text" placeholder="Provider name..." class="mt-1 w-full rounded-lg border border-gray-300 dark:border-[#2a2a2a] bg-white dark:bg-[#232323] px-3 py-2 text-sm" />
+          </label>
+        </div>
+      </section>
 
-    <!-- Expandable Provider Cards -->
-    <section class="panel">
-      <h2>Provider Details</h2>
-      <div id="providerCards" class="provider-cards"></div>
-    </section>
-  </main>
+      <section class="bg-white rounded-xl border border-gray-200 p-4 md:p-6 mb-6 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">Auto-Derived Insights</h3>
+        <div id="insightBadges" class="flex flex-wrap gap-2 mb-4"></div>
+        <div id="insightNotes" class="grid grid-cols-1 md:grid-cols-3 gap-3"></div>
+      </section>
 
-  <!-- Modal for detailed view -->
+      <section id="chartsSection" class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <div class="bg-white rounded-xl border border-gray-200 p-4 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+          <h4 class="text-base font-semibold mb-3 dark:text-gray-100">Provider Score Ranking</h4>
+          <canvas id="scoreChart" height="140"></canvas>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+          <h4 class="text-base font-semibold mb-3 dark:text-gray-100">Feature Coverage (Search/Load/Links/MainPage)</h4>
+          <canvas id="coverageChart" height="140"></canvas>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+          <h4 class="text-base font-semibold mb-3 dark:text-gray-100">Selectors vs Patterns (bubble=decrypt)</h4>
+          <canvas id="complexityChart" height="140"></canvas>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+          <h4 class="text-base font-semibold mb-3 dark:text-gray-100">Cache vs Decrypt Signals</h4>
+          <canvas id="signalChart" height="140"></canvas>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 lg:col-span-2 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+          <h4 class="text-base font-semibold mb-3 dark:text-gray-100">Category Distribution (Capability / Parsing / Network)</h4>
+          <canvas id="categoryChart" height="120"></canvas>
+        </div>
+      </section>
+
+      <section id="providerTableWrap" class="bg-white rounded-xl border border-gray-200 p-4 md:p-6 mb-6 dark:bg-[#1e1e1e] dark:border-[#2a2a2a]">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Provider Matrix</h3>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-sm">
+            <thead>
+              <tr class="text-left text-gray-500 border-b border-gray-200 dark:border-[#2a2a2a]">
+                <th class="py-2 pr-4">Provider</th>
+                <th class="py-2 pr-4">Score</th>
+                <th class="py-2 pr-4">Verdict</th>
+                <th class="py-2 pr-4">Selectors</th>
+                <th class="py-2 pr-4">Patterns</th>
+                <th class="py-2 pr-4">Cache</th>
+                <th class="py-2 pr-4">Decrypt</th>
+                <th class="py-2 pr-4">Methods</th>
+                <th class="py-2 pr-4">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="resultsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
   <div id="detailModal" class="modal hidden">
     <div class="modal-content">
       <div class="modal-header">
@@ -66,6 +168,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/main.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
