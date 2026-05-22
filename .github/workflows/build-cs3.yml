@@ -1,9 +1,18 @@
-name: CloudStream Reaver - Build + Validate
+name: CloudStream Reaver - Build + Validate + Deploy
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -12,11 +21,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
       - uses: actions/setup-java@v4
         with:
-          java-version: '17'
-          distribution: 'temurin'
+          java-version: "17"
+          distribution: "temurin"
 
       - name: Ensure scripts are executable
         run: |
@@ -56,7 +65,31 @@ jobs:
             docs/verification/provider_e2e_validation.json
             docs/verification/provider_e2e_validation_summary.txt
 
-      - uses: actions/upload-artifact@v4
+      # Build GitHub Pages site
+      # Validation JSON is gitignored but generated above — include it in the deploy
+      - name: Prepare Pages site
+        run: |
+          mkdir -p _site/dashboard _site/verification
+          cp docs/dashboard/index.html _site/dashboard/
+          cp docs/dashboard/app.js _site/dashboard/
+          cp docs/dashboard/styles.css _site/dashboard/
+          cp docs/verification/provider_e2e_validation.json _site/verification/
+          # Root redirect → dashboard
+          printf '<meta http-equiv="refresh" content="0; url=dashboard/">' > _site/index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
         with:
-          name: dashboard-assets
-          path: docs/dashboard/*
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

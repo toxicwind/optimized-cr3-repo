@@ -77,7 +77,8 @@ function renderProviderCards(results) {
       const score = Number(r.score);
       
       return `
-      <div class="provider-card" onclick="showDetail('${r.name.replace(/'/g, "\\'")}')">n        <div class="provider-header">
+      <div class="provider-card" onclick="showDetail('${r.name.replace(/'/g, "\\'")}')">
+        <div class="provider-header">
           <h3 class="provider-name">${r.name}</h3>
           <div>
             <div class="provider-score">${score.toFixed(1)}%</div>
