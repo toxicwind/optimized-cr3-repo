@@ -39,8 +39,8 @@ local.properties
 
 # Generated & Large Data (extracted at runtime)
 /data/              # Extracted provider analysis data
-/browserless/       # npm dependencies (generated via setup)
-/upstream/          # Reference repository (cloned separately)
+/browserless/.       # npm dependencies (generated via setup)
+/upstream/.          # Reference repository (cloned separately)
 /reaver_patches/    # Generated patch artifacts
 
 # Logs & Temp
