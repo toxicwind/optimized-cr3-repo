@@ -1,8 +1,8 @@
 {
-  "name": "GayXXX Optimized",
-  "description": "Optimized CloudStream repo for gay/NSFW plugins",
+  "name": "Optimized CR3 Repository (Self-Hosted)",
+  "description": "ForgeScript V2 generated. All .cs3 hosted in this repo. Enable NSFW in CloudStream.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/toxicwind/optimized-cr3-repo/refs/heads/main/plugins.json"
+    "https://raw.githubusercontent.com/toxicwind/optimized-cr3-repo/main/plugins.json"
   ]
 }
